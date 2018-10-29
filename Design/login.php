@@ -11,11 +11,19 @@
 </head>
 <body class="body">
 <div class="row">
-	<div class="col-lg-4"></div>
-	<div class="col-lg-4 kotak">
+	<div class="col-lg-4">
 		<p class="judul">GoBook</p>
 	</div>
 	<div class="col-lg-4"></div>
+	<div class="col-lg-4 kotak">
+		<button class="btn button1">Continue Your Registration</button>
+		<button class="btn button1 help">Help</button>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-6">
+		<p class="title">Find Your Book Easily With GoBook</p>
+	</div>
 </div>
 </body>
 </html>
