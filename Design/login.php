@@ -12,17 +12,47 @@
 <body class="body">
 <div class="row">
 	<div class="col-lg-4">
-		<p class="judul">GoBook</p>
+		<div class="row">
+			<div class="col-lg-3 kotak-logo">
+				<img src="../asset/images/search.png" class="logo">
+			</div>
+			<div class="col-lg-5">
+				<p class="judul">GoBook</p>
+			</div>
+		</div>
 	</div>
 	<div class="col-lg-4"></div>
 	<div class="col-lg-4 kotak">
-		<button class="btn button1">Continue Your Registration</button>
+		<button class="btn button1 login">Login</button>
 		<button class="btn button1 help">Help</button>
 	</div>
 </div>
 <div class="row">
 	<div class="col-lg-6">
 		<p class="title">Find Your Book Easily With GoBook</p>
+	</div>
+	<div class="col-lg-6">
+		<div class="row" style="padding:50px;">
+			<div class="col-lg-12 kotak1">
+				<p class="create">Create Your Account</p>
+				<form>
+					<div class="form-group">
+						<label class="label">Your Full Name :</label><br>
+						<input type="text" name="name" id="name" value="Feliciano Surya Marcello" class="form-control text-input">
+					</div>
+					<div class="form-group">
+						<label class="label">Your Email :</label><br>
+						<input type="text" name="email" id="email" value="suryamarcello@gmail.com" class="form-control text-input">
+					</div>
+					<div class="form-group">
+						<label class="label">Your Password :</label><br>
+						<input type="password" name="password" id="password" value="lalalala" class="form-control text-input">
+					</div>
+					<button class="btn form-control btn-info">Register</button>
+				</form>
+			</div>
+				<p class="info">By continuing, you agree if GoBook sends an email regarding your registration</p>
+		</div>
 	</div>
 </div>
 </body>
