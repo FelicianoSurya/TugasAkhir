@@ -1,0 +1,13 @@
+.body{
+	background-image: url('../images/latar.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.kotak{
+	border:1px solid black;
+	margin-top:100px;
+}
+.judul{
+	text-align: center;
+	font-size:50px;
+}
