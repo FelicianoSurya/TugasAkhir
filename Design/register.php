@@ -62,7 +62,7 @@
 						<label class="label">Your Password :</label><br>
 						<input type="password" name="password" id="password" value="lalalala" class="form-control text-input">
 					</div>
-					<a href="login.php"></a><input type="button" class="btn form-control btn-info" value="Register">
+					<a href="login.php"><input type="button" class="btn form-control btn-info" value="Register"></a>
 				</form>
 			</div>
 				<p class="info">By continuing, you agree if GoBook sends an email regarding your registration</p>
