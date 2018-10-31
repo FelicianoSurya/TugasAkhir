@@ -7,70 +7,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../Asset/css/home.css">
 </head>
-<style type="text/css">
-	.center{
-		text-align: center;
-	}
-	.header{
-		font-weight: bold;
-		font-size: 35px;
-	}
-	.head{
-		font-size: 25px;
-	}
-	.font1{
-		font-weight: bold;
-		font-size: 22px;
-	}
-	.font2{
-		color: grey;
-		font-size: 20px;
-	}
-	.top{
-		margin-top: 15px;
-	}
-	.background{
-		margin-top: 10px;
-		background-image: url('../asset/images/background.jpg');
-		height: 350px;
-		width: 100%;
-	}
-	.background1{ 
-		padding: 0px 25px 20px 25px;
-		background-image: linear-gradient(to right, darkgrey, #4f575f);
-	}
-	.content{
-		font-size: 45px;
-		color: white;
-		margin-top: 50px;
-	}
-	.button{
-		color: white;
-		background-color: #d83b3b;
-		width: 100%;
-		font-size: 25px;
-		margin-top: 40px;
-	}
-	.button1{
-		color: yellow;
-		background-color: #d83b3b;
-		border: none;
-		font-size: 20px;
-		width: 120px;
-	}
-	.text{
-		color: black;
-		font-size: 30px;
-	}
-	.border{
-		border : 1px solid black;
-		background-image: linear-gradient(to bottom, white, grey, darkgrey, black);
-	}
-	.jarak{
-		margin: 15px 0px;
-	}
-</style>
 <body>
 	<div class="container-fluid">
 		<div class="row">
