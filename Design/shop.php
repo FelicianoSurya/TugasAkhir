@@ -19,7 +19,7 @@
 		</div>
 		<div class="row text-center top">
 			<div class="col-lg-3 font2"><a href="homeweb.php">Home</a></div>
-			<div class="col-lg-3 font2"><a href="download.php">Download</a></div>
+			<div class="col-lg-3 font2"><a href="down.php">Download</a></div>
 			<div class="col-lg-3 font1"><a href="shop.php"><u>Shop</u></a></div>
 			<div class="col-lg-3 font2"><a href="profileweb.php">Profile</a></div>
 		</div>
