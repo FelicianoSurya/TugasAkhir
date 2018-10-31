@@ -10,28 +10,28 @@
 	<link rel="stylesheet" type="text/css" href="../Asset/css/home.css">
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid-fullscreen">
 		<div class="row">
-			<div class="col-lg-12 header center">Go Book</div>
+			<div class="col-lg-12 header text-center">Go Book</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 head center">Easily To Find Book</div>
+			<div class="col-lg-12 head text-center">Find Your Book Easily</div>
 		</div>
-		<div class="row center top">
-			<div class="col-lg-3 font1"><u>Home</u></div>
-			<div class="col-lg-3 font2">Download</div>
-			<div class="col-lg-3 font2">Shop</div>
-			<div class="col-lg-3 font2">Profile</div>
+		<div class="row text-center top">
+			<div class="col-lg-3 font1"><a href="homeweb.php"><u>Home</u></a></div>
+			<div class="col-lg-3 font2"><a href="download.php">Download</a></div>
+			<div class="col-lg-3 font2"><a href="shop.php">Shop</a></div>
+			<div class="col-lg-3 font2"><a href="profileweb.php">Profile</a></div>
 		</div>
 		<div class="background">
 			<div class="row">
 				<div class="col-lg-2"></div>
-				<div class="col-lg-8 center content">Discover great book to read<br>find in goBook</div>
+				<div class="col-lg-8 text-center content">Discover great book to read<br>Find in goBook</div>
 				<div class="col-lg-2"></div>
 			</div>
 			<div class="row">
 				<div class="col-lg-4"></div>
-				<div class="col-lg-4"><button class="button center">Find Out</button></div>
+				<div class="col-lg-4"><button class="button text-center">Find Out</button></div>
 				<div class="col-lg-4"></div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 				<div class="col-lg-12 text">Favourite</div>
 			</div>
 			<div class="border">
-				<div class="row jarak center">
+				<div class="row jarak text-center">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
 					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>

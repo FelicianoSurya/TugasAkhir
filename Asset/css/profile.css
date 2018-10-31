@@ -1,0 +1,62 @@
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	font-weight: bold;
+	font-size: 35px;
+}
+.head{
+	font-size: 25px;
+}
+.font1{
+	font-weight: bold;
+	font-size: 22px;
+}
+.font2{
+	color: grey;
+	font-size: 20px;
+}
+.top{
+	margin-top: 15px;
+}
+.background{
+	margin-top: 10px;
+	background-color: lightblue;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.img{
+	width: 150px;
+	background-color: white;
+	border-radius: 50%;
+}
+.button{
+	color: white;
+	background-color: #d83b3b;
+	width: 100%;
+	font-size: 23px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+}
+.background1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: linear-gradient(to bottom, white, lightblue);
+}
+.kanan{
+	margin-left: -25px;
+}
+.kanan1{
+	margin-left: -100px;
+}
+.wid{
+	font-size: 25px;
+}
+div a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
