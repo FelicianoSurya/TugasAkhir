@@ -50,3 +50,12 @@ a:hover{
 	border: 1px solid black;
 	padding: 10px;
 }
+.img{
+	width: 100%;
+}
+.bintang{
+	color: yellow;
+}
+.tulisan{
+	font-size: 12px;
+}
