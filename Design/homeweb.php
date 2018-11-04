@@ -31,7 +31,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4"></div>
-				<div class="col-lg-4"><button class="button text-center">Find Out</button></div>
+				<div class="col-lg-4"><button class="btn button text-center">Find Out</button></div>
 				<div class="col-lg-4"></div>
 			</div>
 		</div>
