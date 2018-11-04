@@ -1,0 +1,61 @@
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	font-weight: bold;
+	font-size: 35px;
+}
+.head{
+	font-size: 25px;
+}
+.font1{
+	font-weight: bold;
+	font-size: 22px;
+}
+.font2{
+	color: grey;
+	font-size: 20px;
+}
+.top{
+	margin-top: 15px;
+}
+div a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
+.background{
+	background-color: skyblue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.input{
+	width: 100%;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 15px;
+	outline: none;
+}
+.background1{
+	padding-top: 20px;
+}
+.border{
+	width: 150px;
+	border: 1px solid black;
+}
+.border1{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+}
+.img{
+	width: 100%;
+}
+.bintang{
+	color: yellow;
+}
+.tulisan{
+	font-size: 12px;
+}
