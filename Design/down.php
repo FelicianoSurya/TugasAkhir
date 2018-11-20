@@ -53,7 +53,7 @@
 									</div>
 									<div class="text-center">
 										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+										<a href="read.php"><button class="btn col-lg-12" style="margin-top: 10px;">Read</button></a>
 									</div>
 								</div>
 								<div class="col-lg-3">
