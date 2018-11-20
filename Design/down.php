@@ -41,7 +41,7 @@
 					<div class="row border1">
 						<div class="col-lg-12">
 							<div class="row">
-								<div class="col-lg-3 border1">
+								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah1.jpg" class="img">
 									<p class="text-center">Sejarah Nasional Indonesia</p>
 									<div class="text-center">
@@ -50,6 +50,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
+									</div>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
 									</div>
 								</div>
 								<div class="col-lg-3">
@@ -62,6 +66,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah1.jpg" class="img">
@@ -72,6 +80,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
+									</div>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
 									</div>
 								</div>
 								<div class="col-lg-3">
@@ -84,47 +96,9 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-3">
-									<div class="row">
-										<div>
-											<button class="btn-default tulisan">Download</button>
-										</div>
-										<div>
-											<button class="btn-default tulisan">Read</button>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="row">
-										<div>
-											<button class="btn-default tulisan">Download</button>
-										</div>
-										<div>
-											<button class="btn-default tulisan">Read</button>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="row">
-										<div>
-											<button class="btn-default tulisan">Download</button>
-										</div>
-										<div>
-											<button class="btn-default tulisan">Read</button>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="row">
-										<div>
-											<button class="btn-default tulisan">Download</button>
-										</div>
-										<div>
-											<button class="btn-default tulisan">Read</button>
-										</div>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
 									</div>
 								</div>
 							</div>
@@ -141,8 +115,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -154,8 +130,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah1.jpg" class="img">
@@ -167,8 +145,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -180,8 +160,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -206,8 +188,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -219,8 +203,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah1.jpg" class="img">
@@ -232,8 +218,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -245,8 +233,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -262,8 +252,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -275,8 +267,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah1.jpg" class="img">
@@ -288,8 +282,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 								<div class="col-lg-3">
 									<img src="../Asset/images/sejarah2.jpg" class="img">
@@ -301,8 +297,10 @@
 										<p class="fa fa-star bintang"></p>
 										<p class="fa fa-star bintang"></p>
 									</div>
-									<button class="btn">Download</button>
-									<button class="btn">Read</button>
+									<div class="text-center">
+										<button class="btn col-lg-12">Download</button>
+										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
+									</div>
 								</div>
 							</div>
 						</div>
