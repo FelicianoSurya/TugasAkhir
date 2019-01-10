@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="../Asset/css/down.css">
 </head>
 <body>
-	<div class="container-fluid-fullscreen">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 header text-center">Go Book</div>
 		</div>
@@ -30,283 +30,310 @@
 				<div class="col-lg-1"></div>
 			</div>
 		</div>
-		<div class="background1">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="left border text-center">
-							<h4>Sejarah</h4>
-						</div>
-					</div>
-					<div class="row border1">
-						<div class="col-lg-12">
-							<div class="row">
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<a href="read.php"><button class="btn col-lg-12" style="margin-top: 10px;">Read</button></a>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-12 top">
-							<div class="row">
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+		<div class="container">
+			<div class="matpel">
+				<div class="topic">
+					<p>Sejarah</p>
 				</div>
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="left border text-center">
-							<h4>Sejarah</h4>
+				<div class="list-book">
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
 						</div>
 					</div>
-					<div class="row border1">
-						<div class="col-lg-12">
-							<div class="row">
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-							</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
 						</div>
-						<div class="col-lg-12 top">
-							<div class="row">
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah1.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<img src="../Asset/images/sejarah2.jpg" class="img">
-									<p class="text-center">Sejarah Nasional Indonesia</p>
-									<div class="text-center">
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-										<p class="fa fa-star bintang"></p>
-									</div>
-									<div class="text-center">
-										<button class="btn col-lg-12">Download</button>
-										<button class="btn col-lg-12" style="margin-top: 10px;">Read</button>
-									</div>
-								</div>
-							</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="matpel">
+				<div class="topic">
+					<p>Matematika</p>
+				</div>
+				<div class="list-book">
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/book1.jpg" alt="book1">
+						</div>
+						<div class="topic-book">
+							<p>SpaceMan of BOHEMA</p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info">Download</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </body>
