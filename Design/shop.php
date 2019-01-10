@@ -18,14 +18,14 @@
 			<div class="col-lg-12 head text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
 		</div>
 		<div class="row text-center top1">
-			<div class="col-lg-3 font1">
-				<a href="homeweb.php"><u>HOME</u></a>
+			<div class="col-lg-3 font2">
+				<a href="homeweb.php">HOME</a>
 			</div>
 			<div class="col-lg-3 font2">
 				<a href="down.php">DOWNLOAD</a>
 			</div>
-			<div class="col-lg-3 font2">
-				<a href="shop.php">SHOP</a>
+			<div class="col-lg-3 font1">
+				<a href="shop.php"><u>SHOP</u></a>
 			</div>
 			<div class="col-lg-3 font2">
 				<a href="profileweb.php">PROFILE</a>

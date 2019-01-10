@@ -15,13 +15,21 @@
 			<div class="col-lg-12 header text-center top">GoBook</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 headd text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
+			<div class="col-lg-12 head text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
 		</div>
-		<div class="row text-center top">
-			<div class="col-lg-3 font2"><a href="homeweb.php">HOME</a></div>
-			<div class="col-lg-3 font2"><a href="down.php">DOWNLOAD</a></div>
-			<div class="col-lg-3 font2"><a href="shop.php">SHOP</a></div>
-			<div class="col-lg-3 font1"><a href="profileweb.php"><u>PROFILE</u></a></div>
+		<div class="row text-center top1">
+			<div class="col-lg-3 font2">
+				<a href="homeweb.php">HOME</a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="down.php">DOWNLOAD</a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="shop.php">SHOP</a>
+			</div>
+			<div class="col-lg-3 font1">
+				<a href="profileweb.php"><u>PROFILE</u></a>
+			</div>
 		</div>
 		<div class="background">
 			<div class="row">
