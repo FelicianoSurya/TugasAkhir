@@ -139,4 +139,11 @@ a:hover{
 	.gambar{
 		width: 200px;
 	}
+	.background1{
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.last{
+		margin: 0 auto;
+	}
 }
