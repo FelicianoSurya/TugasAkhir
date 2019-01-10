@@ -72,7 +72,7 @@
 							<p>The River<br>and the Book</p>
 							<button class="button1">See More</button>
 						</div>
-						<div class="col-lg-2 gambar jarak">
+						<div class="col-lg-2 gambar jarak last">
 							<img src="../asset/images/book5.jpg" style="width: 85%;"><br><br>
 							<p>Freedom is Space for the Spirit</p>
 							<button class="button1">See More</button>
