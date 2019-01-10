@@ -1,3 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
 .row{
 	padding: 0px;
 	margin: 0px;
@@ -38,32 +50,77 @@ a:hover{
 	padding-left: 15px;
 	outline: none;
 }
-.background1{
-	padding-top: 20px;
-}
-.border{
-	width: 150px;
-	border: 1px solid black;
-}
-.border1{
+.container{
+	display: flex;
+	flex-direction: column;
+	margin-top:20px;
 	width: 100%;
-	border: 1px solid black;
-	padding: 10px;
+	padding-bottom: 30px;
 }
-.img{
+.container .matpel{
+	width: 1200px;
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	margin-top:20px;
+}
+.container .matpel .topic{
+	width:20%;
+	height:10%;
+	border:1px solid;
+	border-bottom: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .matpel .topic p{
+	margin:0;
+	font-size: 25px;
+
+}
+.matpel .list-book{
+	display: flex;
+	border:1px solid;
+	width: 100%;
+	height: 90%;
+	padding:10px;
+	overflow-x: scroll;
+}
+.list-book .box-book{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+	width: 14%;
+	height: 100%;
+}
+.box-book .image-book{
+	display: flex;
+	justify-content: center;
+}
+.box-book .image-book img{
+	width: 120px;
+	height: 80%;
+}
+.box-book .topic-book{
+	font-size: 18px;
+	text-align: center;
+	margin-top:10px;
+}
+.box-book .button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
 }
-.bintang{
-	color: yellow;
+.box-book .button button{
+	width: 80%;
 }
-.tulisan{
-	font-size: 12px;
-}
-@media screen and (max-width: 480px){
-	.jarak{
-		margin-top: 30px;
+@media(max-width:480px){
+	.matpel .list-book{
+		width: 400px;
 	}
-	.kecil{
-		width: 20%;
+	.list-book .box-book{
+		width: 100%;
 	}
 }
