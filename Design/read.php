@@ -7,7 +7,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../Asset/css/read.css">
+	<link rel="stylesheet" type="text/css" href="../Asset/css/read1.css">
 </head>
 <body>
 	<div class="container-fluid-fullscreen">
@@ -30,7 +30,7 @@
 						<div class="col-lg-4 text-center">
 							<img src="../Asset/images/novel.jpg" class="col-lg-12 img">
 						</div>
-						<div class="col-lg-4 text-center">
+						<div class="col-lg-4 text-center top1">
 							<div class="text-left">
 								<div class="border">
 									<p>Judul Buku : The Book Of Alice</p>
@@ -42,7 +42,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 text-center" style="padding-top: 200px;">
+						<div class="col-lg-4 text-center top2" style="padding-top: 200px;">
 							<button class="btn col-lg-8">Start Reading</button>
 						</div>
 					</div>

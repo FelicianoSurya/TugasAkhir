@@ -36,3 +36,16 @@ a:hover{
 .img{
 	width: auto;
 }
+@media screen and (max-width:500px) {
+@media screen and (max-width:500px){
+}
+	.background{
+		padding: 40px;
+	}
+	.top1{
+		margin-top: 25px;
+	}
+	.top2{
+		margin-top: -170px;
+	}
+}
