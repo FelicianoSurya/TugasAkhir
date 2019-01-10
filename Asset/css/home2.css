@@ -92,7 +92,7 @@
 	background-color:transparent;
 }
 .jarak{
-	margin: 15px 0px;
+	margin: 20px 0px;
 }
 div a{
 	color: black;
@@ -113,4 +113,30 @@ a:hover{
 }
 .imgpad{
 	margin-right: 10px;
+}
+@media screen and (max-width:500px) {
+	ul.topnav li:not(:first-child) {display: none;}
+ 	ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+ 	}
+@media screen and (max-width:500px){
+	ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+	.gambar{
+		width: 200px;
+	}
 }
