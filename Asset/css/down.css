@@ -122,12 +122,16 @@ a:hover{
 }
 .box-book .image-book img{
 	width: 120px;
-	height: 80%;
+	height: 180px;
 }
 .box-book .topic-book{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 18px;
 	text-align: center;
 	margin-top:10px;
+	height:70px;
 }
 .box-book .button{
 	display: flex;
