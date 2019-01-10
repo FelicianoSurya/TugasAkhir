@@ -156,3 +156,14 @@ a:hover{
 .buttons{
 	margin-top: 5px;
 }
+@media(max-width: 400px){
+	body{
+		overflow-x: hidden;
+	}	
+	.matpel .list-book{
+		width: 300px;
+	}
+	.list-book .box-book{
+		width: 100%;
+	}	
+}
