@@ -54,22 +54,22 @@
 					<div class="col-lg-1"></div>
 						<div class="col-lg-2">
 							<img src="../asset/images/book1.jpg" style="width: 80%;"><br><br>
-							<p>Jaroslav Kalfar</p>
+							<p>Jaroslav<br>Kalfar</p>
 							<button class="button1">See More</button>
 						</div>
 						<div class="col-lg-2">
 							<img src="../asset/images/book2.jpg" style="width: 80%;"><br><br>
-							<p>Light Shining in the Forest</p>
+							<p>Light Shining<br>in the Forest</p>
 							<button class="button1">See More</button>
 						</div>
 						<div class="col-lg-2">
 							<img src="../asset/images/book3.jpg" style="width: 82%;"><br><br>
-							<p>After Alice</p>
+							<p>After<br>Alice</p>
 							<button class="button1">See More</button>
 						</div>
 						<div class="col-lg-2">
 							<img src="../asset/images/book4.jpg" style="width: 85%;"><br><br>
-							<p>The River and the Book</p>
+							<p>The River<br>and the Book</p>
 							<button class="button1">See More</button>
 						</div>
 						<div class="col-lg-2">
