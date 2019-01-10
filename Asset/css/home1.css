@@ -22,7 +22,7 @@
 }
 .background{
 	margin-top: 10px;
-	background-image: url('../images/blue1.jpg');
+	background-image: url('../images/brown1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -31,7 +31,7 @@
 }
 .background1{ 
 	padding: 0px 25px 20px 25px;
-	background-image: linear-gradient(to right, darkgrey, #4f575f);
+	background-image:url('../images/lata1.png');
 }
 .content{
 	font-size: 45px;
@@ -39,7 +39,7 @@
 }
 .button{
 	color: white;
-	background-color: #d83b3b;
+	background-color:#0F9696;
 	width: 100%;
 	font-size: 23px;
 	padding-top: 10px;
@@ -51,8 +51,8 @@
 	background-color:#992612;
 }
 .button1{
-	color: yellow;
-	background-color: #d83b3b;
+	color:white;
+	background-color:#17a2b8;
 	border: none;
 	font-size: 20px;
 	width: 120px;
@@ -62,8 +62,8 @@
 	font-size: 30px;
 }
 .border{
-	border : 1px solid black;
-	background-image: linear-gradient(to bottom, white, lightblue, skyblue, white);
+	border : 2px solid black;
+	background-color:transparent;
 }
 .jarak{
 	margin: 15px 0px;

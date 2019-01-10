@@ -7,7 +7,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../Asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../Asset/css/home1.css">
 </head>
 <body>
 	<div class="container-fluid-fullscreen">
@@ -37,16 +37,16 @@
 		</div>
 		<div class="background1">
 			<div class="row">
-				<div class="col-lg-12 text">Favourite</div>
+				<div class="col-lg-12 text"><b>Favourite</b></div>
 			</div>
 			<div class="border">
 				<div class="row jarak text-center">
 					<div class="col-lg-1"></div>
-					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
-					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
-					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
-					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
-					<div class="col-lg-2"><img src="../asset/images/buku1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
+					<div class="col-lg-2"><img src="../asset/images/book1.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
+					<div class="col-lg-2"><img src="../asset/images/book2.jpg" style="width: 80%;"><br><br><button class="button1">See More</button></div>
+					<div class="col-lg-2"><img src="../asset/images/book3.jpg" style="width: 82%;"><br><br><button class="button1">See More</button></div>
+					<div class="col-lg-2"><img src="../asset/images/book4.jpg" style="width: 85%;"><br><br><button class="button1">See More</button></div>
+					<div class="col-lg-2"><img src="../asset/images/book5.jpg" style="width: 85%;"><br><br><button class="button1">See More</button></div>
 					<div class="col-lg-1"></div>
 				</div>
 			</div>
