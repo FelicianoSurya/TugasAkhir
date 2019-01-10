@@ -12,16 +12,24 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-12 header text-center">Go Book</div>
+			<div class="col-lg-12 header text-center top">GoBook</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 head text-center">Find Your Book Easily</div>
+			<div class="col-lg-12 head text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
 		</div>
-		<div class="row text-center top">
-			<div class="col-lg-3 font2"><a href="homeweb.php">Home</a></div>
-			<div class="col-lg-3 font1"><a href="down.php"><u>Download</u></a></div>
-			<div class="col-lg-3 font2"><a href="shop.php">Shop</a></div>
-			<div class="col-lg-3 font2"><a href="profileweb.php">Profile</a></div>
+		<div class="row text-center top1">
+			<div class="col-lg-3 font1">
+				<a href="homeweb.php"><u>HOME</u></a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="down.php">DOWNLOAD</a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="shop.php">SHOP</a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="profileweb.php">PROFILE</a>
+			</div>
 		</div>
 		<div class="background">
 			<div class="row">

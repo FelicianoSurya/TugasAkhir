@@ -37,6 +37,10 @@
 .top{
 	margin-top: 15px;
 }
+.top1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 .background{
 	margin-top: 10px;
 	background-image: url('../images/library1.jpg');
