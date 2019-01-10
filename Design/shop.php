@@ -12,29 +12,25 @@
 <body>
 	<div class="container-fluid-fullscreen">
 		<div class="row">
-			<div class="col-lg-12 header text-center">Go Book</div>
+			<div class="col-lg-12 header text-center top">GoBook</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 head text-center">Find Your Book Easily</div>
+			<div class="col-lg-12 head text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
 		</div>
-		<ul class="topnav">
-			<div class="row text-center top">
-				<div class="col-lg-3 font2"><li><a href="homeweb.php">Home</a></li></div>
-				<div class="col-lg-3 font2"><li><a href="down.php">Download</a></li></div>
-				<div class="col-lg-3 font1"><li><a href="shop.php"><u>Shop</u></a></li></div>
-				<div class="col-lg-2 font2"><li><a href="profileweb.php">Profile</a></li></div>
-				<div class="col-lg-1">
-					<li class="icon hilang">
-  						<a href="javascript:void(0);" onclick="myFunction()">☰</a>
- 					</li>
-				</div>
+		<div class="row text-center top1">
+			<div class="col-lg-3 font2">
+				<a href="homeweb.php">HOME</a>
 			</div>
-		</ul>
-		<script>
-			function myFunction() {
- 				document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
-			}
-		</script>
+			<div class="col-lg-3 font2">
+				<a href="down.php">DOWNLOAD</a>
+			</div>
+			<div class="col-lg-3 font1">
+				<a href="shop.php"><u>SHOP</u></a>
+			</div>
+			<div class="col-lg-3 font2">
+				<a href="profileweb.php">PROFILE</a>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-lg-12 tabel">
 				<div class="row">

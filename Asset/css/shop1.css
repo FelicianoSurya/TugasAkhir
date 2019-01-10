@@ -1,3 +1,18 @@
+@font-face{
+	font-family: amaranth;
+	src:url(../Font/Amaranth-Regular.ttf);
+	color: blue;
+}
+@font-face{
+	font-family: roboto;
+	src:url(../Font/Roboto-Thin.ttf);
+}
+@font-face{
+	font-family: amaranth;
+}
+@font-face{
+	font-family: roboto;
+}
 .row{
 	padding: 0px;
 	margin: 0px;
@@ -7,21 +22,24 @@
 	font-size: 35px;
 }
 .head{
-	font-size: 25px;
+	font-size: 22px;
 }
 .font1{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
+	font-family: amaranth;
 }
 .font2{
 	color: grey;
-	font-size: 20px;
+	font-size: 18px;
+	font-family: amaranth;
 }
 .top{
 	margin-top: 15px;
 }
 .top1{
-	margin-top: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 div a{
 	color: black;
