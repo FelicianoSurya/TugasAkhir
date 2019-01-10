@@ -26,7 +26,7 @@
 		<div class="background">
 			<div class="row">
 				<div class="col-lg-2"></div>
-				<div class="col-lg-8 text-center content">Discover great book to read<br>Find in goBook</div>
+				<div class="col-lg-8 text-center content"><b>Discover great book to read<br>Find in GoBook</b></div>
 				<div class="col-lg-2"></div>
 			</div>
 			<div class="row">
