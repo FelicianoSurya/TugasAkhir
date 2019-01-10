@@ -34,177 +34,297 @@
 		<div class="background">
 			<div class="row">
 				<div class="col-lg-1"></div>
-				<div class="col-lg-10"><input type="text" name="search" id="search" placeholder="Search for the book you want to find" class="input"></div>
+				<div class="col-lg-10"><input type="text" name="search" id="search" placeholder="Search the title or name of the author" class="input"></div>
 				<div class="col-lg-1"></div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="matpel">
 				<div class="topic">
-					<p>Sejarah</p>
+					<p><b>Fantasy</b></p>
 				</div>
 				<div class="list-book">
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy1.jpg" alt="fantasy1">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Flurries</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy2.jpg" alt="fantasy2">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>The Diary of a Bookseller</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy3.jpg" alt="fantasy3">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Witching Tree</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy4.jpg" alt="fantasy4">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Peter Pan</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy5.jpg" alt="fantasy5">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Beware the Night</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy6.jpg" alt="fantasy6">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Tess of the Road</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy7.jpg" alt="fantasy7">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Abracadabra</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy8.jpg" alt="fantasy8">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Fire and Blood</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy9.jpg" alt="fantasy9">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>The Red Hunter</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy10.jpg" alt="fantasy10">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>The Hobbit</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy11.jpg" alt="fantasy11">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Impervious</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/fantasy12.jpg" alt="fantasy12">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Frost Blood</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="matpel">
 				<div class="topic">
-					<p>Matematika</p>
+					<p><b>Biography</b></p>
 				</div>
 				<div class="list-book">
 					<div class="box-book">
 						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
+							<img src="../Asset/images/bio1.jpg" alt="bio1">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>Frida</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio2.jpg" alt="bio2">
+						</div>
+						<div class="topic-book">
+							<p><b>Peter Cook Biography</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio3.jpg" alt="bio3">
+						</div>
+						<div class="topic-book">
+							<p><b>Charles Dickens</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio4.jpg" alt="bio4">
+						</div>
+						<div class="topic-book">
+							<p><b>Red Rosa</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio5.jpg" alt="bio5">
+						</div>
+						<div class="topic-book">
+							<p><b>Chicago</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio6.jpg" alt="bio6">
+						</div>
+						<div class="topic-book">
+							<p><b>Shirley Jackson</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio7.jpg" alt="bio7">
+						</div>
+						<div class="topic-book">
+							<p><b>Ridder Hagard</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio9.jpg" alt="bio9">
+						</div>
+						<div class="topic-book">
+							<p><b>James Bond</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio10.jpg" alt="bio10">
+						</div>
+						<div class="topic-book">
+							<p><b>The Beatles</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio11.jpg" alt="bio11">
+						</div>
+						<div class="topic-book">
+							<p><b>Small Fry</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
+						</div>
+					</div>
+					<div class="box-book">
+						<div class="image-book">
+							<img src="../Asset/images/bio12.jpg" alt="bio12">
+						</div>
+						<div class="topic-book">
+							<p><b>A Way Out</b></p>
+						</div>
+						<div class="button">
+							<button class="btn btn-danger">Read</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 					<div class="box-book">
@@ -212,131 +332,11 @@
 							<img src="../Asset/images/book1.jpg" alt="book1">
 						</div>
 						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
+							<p><b>SpaceMan of Bohemia</b></p>
 						</div>
 						<div class="button">
 							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
-						</div>
-					</div>
-					<div class="box-book">
-						<div class="image-book">
-							<img src="../Asset/images/book1.jpg" alt="book1">
-						</div>
-						<div class="topic-book">
-							<p>SpaceMan of BOHEMA</p>
-						</div>
-						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info">Download</button>
+							<button class="btn btn-info buttons">Download</button>
 						</div>
 					</div>
 				</div>
