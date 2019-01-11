@@ -48,7 +48,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -63,7 +63,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -78,7 +78,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -93,7 +93,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -108,7 +108,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -123,7 +123,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -138,7 +138,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -153,7 +153,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -168,7 +168,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -183,7 +183,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -198,7 +198,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -213,7 +213,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -228,7 +228,7 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 							<div class="box jarak text-center">
@@ -243,40 +243,10 @@
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
+								<button class="bbtn  buton">Buy</button>
 								</div>
 							</div>
-							<div class="box jarak text-center">
-								<div class="image-box">
-								<img src="../Asset/images/fantasy10.jpg" class="gambar">
-								</div>
-								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
-								</div>
-								<div class="book-prize">
-								<p>50
-								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
-								</div>
-								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
-								</div>
-							</div>
-							<div class="box jarak text-center">
-								<div class="image-box">
-								<img src="../Asset/images/fantasy10.jpg" class="gambar">
-								</div>
-								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
-								</div>
-								<div class="book-prize">
-								<p>50
-								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
-								</div>
-								<div class="book-buy">
-								<button class="btn btn-primary buton">Buy</button>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>

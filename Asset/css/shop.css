@@ -98,6 +98,8 @@ a:hover{
 	border-radius: 50px;
 	width: 70px;
 	margin-top: 8px;
+	background-color: #17a2b8;
+	color: white;
 }
 .hilang{
 	display: none;
