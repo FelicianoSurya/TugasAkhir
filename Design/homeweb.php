@@ -40,7 +40,7 @@
 			<div class="row">
 				<div class="col-lg-4"></div>
 				<div class="col-lg-4">
-					<button class="btn button text-center">Search</button>
+					<a href="down.php"><button class="btn button text-center">Search</button></a>
 				</div>
 				<div class="col-lg-4"></div>
 			</div>
@@ -50,34 +50,62 @@
 				<div class="col-lg-12 text fav"><b><img src="../Asset/images/heart.png" width="30px" class="imgpad">Favourite</b></div>
 			</div>
 			<div class="row">
-				<div class="row text-center">
-					<div class="col-lg-1"></div>
-						<div class="col-lg-2 gambar jarak">
-							<img src="../asset/images/book1.jpg" style="width: 80%;"><br><br>
+				<div class="row text-center box-favorite">
+						<div class="gambar jarak">
+							<div class="image-box">
+							<img src="../asset/images/book1.jpg">
+							</div>
+							<div class="box-topic">
 							<p>Jaroslav<br>Kalfar</p>
-							<button class="button1">See More</button>
+							</div>
+							<div class="box-button">
+							<a href="read.php"><button>See More</button></a>
+							</div>
 						</div>
-						<div class="col-lg-2 gambar jarak">
-							<img src="../asset/images/book2.jpg" style="width: 80%;"><br><br>
+						<div class="gambar jarak">
+							<div class="image-box">
+							<img src="../asset/images/book2.jpg">
+							</div>
+							<div class="box-topic">
 							<p>Light Shining<br>in the Forest</p>
-							<button class="button1">See More</button>
+							</div>
+							<div class="box-button">
+							<a href="read.php"><button>See More</button></a>
+							</div>
 						</div>
-						<div class="col-lg-2 gambar jarak">
-							<img src="../asset/images/book3.jpg" style="width: 82%;"><br><br>
+						<div class="gambar jarak">
+							<div class="image-box">
+							<img src="../asset/images/book3.jpg">
+							</div>
+							<div class="box-topic">
 							<p>After<br>Alice</p>
-							<button class="button1">See More</button>
+							</div>
+							<div class="box-button">
+							<a href="read.php"><button>See More</button></a>
+							</div>
 						</div>
-						<div class="col-lg-2 gambar jarak">
-							<img src="../asset/images/book4.jpg" style="width: 85%;"><br><br>
+						<div class="gambar jarak">
+							<div class="image-box">
+							<img src="../asset/images/book4.jpg">
+							</div>
+							<div class="box-topic">
 							<p>The River<br>and the Book</p>
-							<button class="button1">See More</button>
+							</div>
+							<div class="box-button">
+							<a href="read.php"><button>See More</button></a>
+							</div>
 						</div>
-						<div class="col-lg-2 gambar jarak last">
-							<img src="../asset/images/book5.jpg" style="width: 85%;"><br><br>
+						<div class="gambar jarak">
+							<div class="image-box">
+							<img src="../asset/images/book5.jpg">
+							</div>
+							<div class="box-topic">
 							<p>Freedom is Space for the Spirit</p>
-							<button class="button1">See More</button>
+							</div>
+							<div class="box-button">
+							<a href="read.php"><button>See More</button></a>
+							</div>
 						</div>
-					<div class="col-lg-1"></div>
 				</div>
 			</div>
 		</div>

@@ -72,7 +72,7 @@
 .button:hover{
 	background-color:#336565;
 }
-.button1{
+.box-button button{
 	color:white;
 	background-color:#17a2b8;
 	border: none;
@@ -81,7 +81,8 @@
 	outline: none;
 	border-radius: 3px;
 }
-.button1:hover{
+.box-button button:hover{
+	cursor: pointer;
 	background-color: #0F9696;
 }
 .text{
@@ -92,7 +93,38 @@
 	background-color:transparent;
 }
 .jarak{
+	display: flex;
+	flex-direction: column;
 	margin: 20px 0px;
+	padding:20px;
+	width: 200px;
+}
+.gambar .image-box{
+	height:250px;
+}
+.gambar .box-topic{
+	height:80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gambar .box-topic p{
+	font-size: 18px;
+	margin:0;
+}
+.gambar .box-button{
+	height:30px;
+}
+.box-favorite{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gambar .image-box img{
+	width: 100%;
+	height: 100%;
 }
 div a{
 	color: black;
@@ -136,14 +168,8 @@ a:hover{
     text-align: left;
   }
 }
-	.gambar{
-		width: 200px;
-	}
 	.background1{
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-	.last{
-		margin: 0 auto;
 	}
 }
