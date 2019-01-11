@@ -13,9 +13,6 @@
 @font-face{
 	font-family: roboto;
 }
-body{
-	overflow-y: hidden;
-}
 .row{
 	padding: 0px;
 	margin: 0px;
@@ -42,9 +39,9 @@ body{
 }
 .top1{
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .background{
-	margin-top: 10px;
 	background-image:url('../images/lata1.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -82,15 +79,4 @@ a:hover{
 }
 .top2{
 	margin-top: 30px;
-}
-@media(max-width: 500px){
-	body{
-		overflow-y: scroll;
-	}	
-	.matpel .list-book{
-		width: 600px;
-	}
-	.list-book .box-book{
-		width: 100%;
-	}	
 }
