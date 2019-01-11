@@ -7,7 +7,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../Asset/css/profile1.css">
+	<link rel="stylesheet" type="text/css" href="../Asset/css/profile2.css">
 </head>
 <body>
 	<div class="container-fluid-fullscreen">
@@ -37,7 +37,7 @@
 				<div class="col-lg-8 text-center"><img src="../Asset/images/boy.png" class="img"></div>
 				<div class="col-lg-2"></div>
 			</div>
-			<div class="row top1">
+			<div class="row top2">
 				<div class="col-lg-4"></div>
 				<div class="col-lg-4 text-center wid"><b>Name : <span style="color:#095a5f;">Feliciano Surya Marcello</span></b></div>
 				<div class="col-lg-4"></div>

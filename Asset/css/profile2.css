@@ -13,7 +13,7 @@
 @font-face{
 	font-family: roboto;
 }
-*{
+body{
 	overflow-y: hidden;
 }
 .row{
@@ -46,6 +46,8 @@
 .background{
 	margin-top: 10px;
 	background-image:url('../images/lata1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 75px;
 	padding-bottom: 220px;
 }
@@ -77,4 +79,18 @@ div a{
 }
 a:hover{
 	color: black;
+}
+.top2{
+	margin-top: 30px;
+}
+@media(max-width: 500px){
+	body{
+		overflow-y: scroll;
+	}	
+	.matpel .list-book{
+		width: 600px;
+	}
+	.list-book .box-book{
+		width: 100%;
+	}	
 }
