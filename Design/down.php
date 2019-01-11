@@ -7,7 +7,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../Asset/css/down.css">
+	<link rel="stylesheet" type="text/css" href="../Asset/css/down1.css">
 </head>
 <body>
 	<div class="container-fluid">
@@ -52,8 +52,8 @@
 							<p><b>Flurries</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -64,8 +64,8 @@
 							<p><b>The Diary of a Bookseller</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -76,8 +76,8 @@
 							<p><b>Witching Tree</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -88,8 +88,8 @@
 							<p><b>Peter Pan</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -100,8 +100,8 @@
 							<p><b>Beware the Night</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -112,8 +112,8 @@
 							<p><b>Tess of the Road</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -124,8 +124,8 @@
 							<p><b>Abracadabra</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -136,8 +136,8 @@
 							<p><b>Fire and Blood</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -148,8 +148,8 @@
 							<p><b>The Red Hunter</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -160,8 +160,8 @@
 							<p><b>The Hobbit</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -172,8 +172,8 @@
 							<p><b>Impervious</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -184,8 +184,8 @@
 							<p><b>Frost Blood</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 				</div>
@@ -203,8 +203,8 @@
 							<p><b>Frida</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -215,8 +215,8 @@
 							<p><b>Peter Cook Biography</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -227,8 +227,8 @@
 							<p><b>Charles Dickens</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -239,8 +239,8 @@
 							<p><b>Red Rosa</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -251,8 +251,8 @@
 							<p><b>Chicago</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -263,8 +263,8 @@
 							<p><b>Shirley Jackson</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -275,8 +275,8 @@
 							<p><b>Ridder Hagard</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -287,8 +287,8 @@
 							<p><b>James Bond</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -299,8 +299,8 @@
 							<p><b>The Beatles</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -311,8 +311,8 @@
 							<p><b>Small Fry</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -323,8 +323,8 @@
 							<p><b>A Way Out</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 					<div class="box-book">
@@ -335,8 +335,8 @@
 							<p><b>SpaceMan of Bohemia</b></p>
 						</div>
 						<div class="button">
-							<button class="btn btn-danger">Read</button>
-							<button class="btn btn-info buttons">Download</button>
+							<a href="read.php"><button class="btn btn-danger">Read</button></a>
+							<a href="download.php"><button class="btn btn-info buttons">Download</button></a>
 						</div>
 					</div>
 				</div>
