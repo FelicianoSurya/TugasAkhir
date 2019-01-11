@@ -12,10 +12,10 @@
 <body>
 	<div class="container-fluid-fullscreen">
 		<div class="row">
-			<div class="col-lg-12 header text-center">Go Book</div>
+			<div class="col-lg-12 header text-center">GoBook</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 head text-center">Find Your Book Easily</div>
+			<div class="col-lg-12 head text-center"><b>Find <span style="color:#095a5f;">Your Book</span> Easily</b></div>
 		</div>
 		<div class="row text-center top">
 			<div class="col-lg-3 font2"><a href="homeweb.php">Home</a></div>
