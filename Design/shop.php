@@ -35,7 +35,7 @@
 			<div class="col-lg-12 tabel">
 				<div class="row">
 					<div class="col-lg-12 tabel1">
-						<div class="row top">
+						<div class="row top3">
 							<div class="box jarak text-center">
 								<div class="image-box">
 								<img src="../Asset/images/fantasy1.jpg" class="gambar">

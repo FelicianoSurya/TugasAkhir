@@ -36,6 +36,9 @@
 }
 .top{
 	margin-top: 15px;
+}
+.top3{
+	margin-top: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
 	display: flex;
@@ -63,7 +66,6 @@ a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20px;
-	margin-top: 10px;
 }
 .tabel1{
 	border: 1px solid black;
