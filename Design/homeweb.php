@@ -56,7 +56,7 @@
 							<img src="../asset/images/book1.jpg">
 							</div>
 							<div class="box-topic">
-							<p>Jaroslav<br>Kalfar</p>
+							<p><b>Jaroslav Kalfar</b></p>
 							</div>
 							<div class="box-button">
 							<a href="read.php"><button>See More</button></a>
@@ -67,7 +67,7 @@
 							<img src="../asset/images/book2.jpg">
 							</div>
 							<div class="box-topic">
-							<p>Light Shining<br>in the Forest</p>
+							<p><b>Light Shining in the Forest</b></p>
 							</div>
 							<div class="box-button">
 							<a href="read.php"><button>See More</button></a>
@@ -78,7 +78,7 @@
 							<img src="../asset/images/book3.jpg">
 							</div>
 							<div class="box-topic">
-							<p>After<br>Alice</p>
+							<p><b>After Alice</b></p>
 							</div>
 							<div class="box-button">
 							<a href="read.php"><button>See More</button></a>
@@ -89,7 +89,7 @@
 							<img src="../asset/images/book4.jpg">
 							</div>
 							<div class="box-topic">
-							<p>The River<br>and the Book</p>
+							<p><b>The River and the Book</b></p>
 							</div>
 							<div class="box-button">
 							<a href="read.php"><button>See More</button></a>
@@ -100,7 +100,7 @@
 							<img src="../asset/images/book5.jpg">
 							</div>
 							<div class="box-topic">
-							<p>Freedom is Space for the Spirit</p>
+							<p><b>Freedom is Space for the Spirit</b></p>
 							</div>
 							<div class="box-button">
 							<a href="read.php"><button>See More</button></a>
