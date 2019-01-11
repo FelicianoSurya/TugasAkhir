@@ -37,42 +37,42 @@
 					<div class="col-lg-12 tabel1">
 						<div class="row top">
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy1.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy2.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy3.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy4.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy5.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy6.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
@@ -81,42 +81,42 @@
 						</div>
 						<div class="row top1">
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy6.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy7.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy8.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy9.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy10.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;" class="koin"></p>
 								<button class="buton">Buy</button>
 							</div>
 							<div class="col-lg-2 box jarak text-center">
-								<img src="../Asset/images/buku2.jpg" class="gambar">
+								<img src="../Asset/images/fantasy11.jpg" class="gambar">
 								<p class="book">Buku Pintar</p>
 								<p style="font-weight: bold; margin: auto; font-size: 20px;">50
 								<img src="../Asset/images/coin.png" width="10%;"></p>
