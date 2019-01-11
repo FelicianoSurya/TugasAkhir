@@ -41,7 +41,7 @@
 								<img src="../Asset/images/fantasy1.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Flurries</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -56,7 +56,7 @@
 								<img src="../Asset/images/fantasy2.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">The Diary of Book Seller</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -71,7 +71,7 @@
 								<img src="../Asset/images/fantasy3.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Witching Tree</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -86,7 +86,7 @@
 								<img src="../Asset/images/fantasy4.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Peter Pan</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -101,7 +101,7 @@
 								<img src="../Asset/images/fantasy5.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Beware the Night</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -116,22 +116,7 @@
 								<img src="../Asset/images/fantasy6.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
-								</div>
-								<div class="book-prize">
-								<p>50
-								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
-								</div>
-								<div class="book-buy">
-								<button class="btn buton">Buy</button>
-								</div>
-							</div>
-							<div class="box jarak text-center">
-								<div class="image-box">
-								<img src="../Asset/images/fantasy6.jpg" class="gambar">
-								</div>
-								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Tess of the Road</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -146,7 +131,7 @@
 								<img src="../Asset/images/fantasy7.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Abracadabra</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -161,7 +146,7 @@
 								<img src="../Asset/images/fantasy8.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Frost and Blood</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -176,7 +161,7 @@
 								<img src="../Asset/images/fantasy9.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">The Red Hunter</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -191,7 +176,7 @@
 								<img src="../Asset/images/fantasy10.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">The Hobbit</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -203,10 +188,10 @@
 							</div>
 							<div class="box jarak text-center">
 								<div class="image-box">
-								<img src="../Asset/images/fantasy10.jpg" class="gambar">
+								<img src="../Asset/images/fantasy11.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Impervious</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -218,10 +203,10 @@
 							</div>
 							<div class="box jarak text-center">
 								<div class="image-box">
-								<img src="../Asset/images/fantasy10.jpg" class="gambar">
+								<img src="../Asset/images/fantasy12.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Frost Blood</p>
 								</div>
 								<div class="book-prize">
 								<p>50
@@ -233,17 +218,32 @@
 							</div>
 							<div class="box jarak text-center">
 								<div class="image-box">
-								<img src="../Asset/images/fantasy10.jpg" class="gambar">
+								<img src="../Asset/images/bio1.jpg" class="gambar">
 								</div>
 								<div class="topic-book">
-								<p class="book">Buku Pintar</p>
+								<p class="book">Frida</p>
 								</div>
 								<div class="book-prize">
 								<p>50
 								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
 								</div>
 								<div class="book-buy">
-								<button class="bbtn  buton">Buy</button>
+								<button class="btn buton">Buy</button>
+								</div>
+							</div>
+							<div class="box jarak text-center">
+								<div class="image-box">
+								<img src="../Asset/images/bio2.jpg" class="gambar">
+								</div>
+								<div class="topic-book">
+								<p class="book">Peter Cook a Biography</p>
+								</div>
+								<div class="book-prize">
+								<p>50
+								<img src="../Asset/images/coin.png" width="14%;" class="koin"></p>
+								</div>
+								<div class="book-buy">
+								<button class="btn buton">Buy</button>
 								</div>
 							</div>
 						
