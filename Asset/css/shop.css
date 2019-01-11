@@ -36,6 +36,16 @@
 }
 .top{
 	margin-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: flex;
+}
+.jarak .topic-book{
+	width: 100%;
+	height:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .top1{
 	margin-top: 15px;
@@ -61,13 +71,31 @@ a:hover{
 	padding-bottom: 20px;
 }
 .book{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-bottom:-5px;
 }
+.jarak .book-prize{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.book-prize p{
+	font-weight: bold;
+	margin: auto;
+	font-size: 20px;
+}
+.jarak .book-buy{
+	width: 100%;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .buton{
 	border-radius: 50px;
-	border: 2px solid black;
 	width: 70px;
 	margin-top: 8px;
 }
@@ -78,30 +106,22 @@ li{
 	list-style-type: none;
 }
 .jarak{
-	margin: 10px 0px;
+	width: 150px;
+	margin: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.jarak .image-box{
+	width: 150px;
+	height:250px;
+}
+.jarak .image-box .gambar{
+	width: 100%;
+	height: 100%;
 }
 @media screen and (max-width:500px) {
-	ul.topnav li:not(:first-child) {display: none;}
- 	ul.topnav li.icon {
-    float: right;
-    display: inline-block;
- 	}
-@media screen and (max-width:500px){
-	ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
 	.box{
 		width: 50%;
 	}
