@@ -53,6 +53,8 @@
 .background1{ 
 	padding: 0px 25px 20px 25px;
 	background-image:url('../images/lata1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .content{
 	font-size: 40px;
@@ -145,31 +147,4 @@ a:hover{
 }
 .imgpad{
 	margin-right: 10px;
-}
-@media screen and (max-width:500px) {
-	ul.topnav li:not(:first-child) {display: none;}
- 	ul.topnav li.icon {
-    float: right;
-    display: inline-block;
- 	}
-@media screen and (max-width:500px){
-	ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-	.background1{
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 }
