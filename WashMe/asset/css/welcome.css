@@ -211,17 +211,15 @@ header .list{
 }
 .content2{
 	width: 100%;
-	height: 400px;
 	background-color: #ebebeb;
 }
 .content2 .container1 .content{
 	width: 100%;
-	height: 100%;
 	display: flex;
 }
 .content2 .container1 .content .left{
 	width:40%;
-	height: 100%;
+	height: 400px;
 }
 .content2 .container1 .content .left img{
 	width: 100%;
@@ -229,7 +227,6 @@ header .list{
 }
 .content2 .container1 .content .right{
 	width: 70%;
-	height: 100%;
 	padding-left:100px;
 	padding-top: 30px;
 	display: flex;
@@ -313,6 +310,9 @@ header .list{
 }
 .content3-content .bot .bot-second{
 	margin-top:30px;
+}
+.bot-second .none{
+	display: none;
 }
 .content3-content .bot .topic .topic1{
 	height: 50px;
@@ -519,6 +519,9 @@ header .list{
 	.header-bot .rigth{
 		width: 20%;
 	}
+	.content2 .container1 .content .right .bot p::before{
+	left: 20;
+}
 }
 @media(max-width: 990px){
 	.container1{
@@ -550,6 +553,51 @@ header .list{
 	}
 	.content1-top1 .paraf{
 		width: 80%;
+	}
+	.content2 .container1 .content .right .bot p::before{
+	left: 0;
+	}
+	.content2 .container1 .content .right .bot p{
+	padding-left: 30px;
+	font-size: 14px;
+	}
+	.content2 .container1 .content .right .top{
+		font-size: 30px;
+	}
+	.content2 .container1 .content .right .middle{
+		font-size: 17px;
+	}
+	.content2 .container1 .content .right{
+		padding-left:50px;
+	}
+	.content2 .container1{
+		width: 100%;
+	}
+	.content3-content .bot .topic .img img{
+		width: 80px;
+		height: 80px;
+	}
+	.content4 .container1{
+		width: 100%;
+	}
+	.content4 .all-content{
+		padding:40px;
+	}
+	.la{
+		padding-bottom: 20px;
+	}
+	.box-bot .desc .desc-bot p{
+		width: 90%;
+		font-size: 17px;
+	}
+	.content3-content .bot .topic .topic1 p{
+		font-size: 16px;
+	}
+	.content3-content .bot .topic .topic2{
+		font-size: 16px;
+	}
+	.content3-content .col-lg-2{
+		margin-left:20px;
 	}
 }
 @media(max-width: 800px){
@@ -602,6 +650,67 @@ header .list{
 	.header .topic-top header .list button{
 		margin-left:10px;
 	}
+	.content2 .container1 .content .left{
+		display: none;
+	}
+	.content2 .container1 .content .right{
+		width: 100%;
+		padding:20;
+	}
+	.content2 .container1 .content .right .top{
+		display: flex;
+		justify-content: center;
+	}
+	.content2 .container1 .content .right .middle{
+		display: flex;
+		justify-content: center;
+	}
+	.content2 .container1 .content .right .bot{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.content5 .content5-bot .bot-top{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.content5 .content5-bot .bot-middle{
+		display: flex;
+		flex-direction: column;
+		margin-top:30px;
+		width: 100%;
+	}
+	.content5-bot .left{
+		width: 100%;
+		margin-top:20px;
+	}
+	.content5-bot input{
+		width: 80%;
+		font-size:15px;
+		font-weight: bold;
+		border:2px solid black;
+	}
+	.content5-bot .right{
+		width: 100%;
+		margin-top:20px;
+	}
+	.content5 .content5-bot .bot-middle{
+		margin-top: 0;
+		display: flex;
+	}
+	.content5 .content5-bot .bot-bot{
+		display: flex;
+		width: 100%;
+	}
+	.content5 .message{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.content5 .message textarea{
+		width: 90%;
+	}
 }
 @media(max-width: 450px){
 	.header-bot .right{
@@ -614,5 +723,28 @@ header .list{
 	}
 	.header-bot .left .instant{
 		width: 100%;
+	}
+	.box-send{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.send{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: rotateZ(90deg);
+		padding: 10px;
+		margin-bottom:20px;
+	}
+	.send img{
+		width: 30%;
+		
+	}
+	.box-send .rotate{
+		margin-top:20px;
+		transform: rotateZ(90deg);
+		padding:10px;
+		margin-bottom:20px;
 	}
 }
