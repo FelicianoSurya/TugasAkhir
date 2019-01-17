@@ -1,3 +1,4 @@
 blue #6dcff6
 abu-abu #605252
 abu-abu muda #ebebeb
+navy #120f2b
