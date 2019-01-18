@@ -717,6 +717,33 @@ header .list{
 	.content5 .message textarea{
 		width: 90%;
 	}
+	.bot .topic{
+		width: 10%;
+	}
+	.bot .topic .topic1{
+		width: 200px;
+	}
+	.bot .topic .topic2 p{
+		font-size: 15px;
+		width: 70%;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-top p{
+		font-size: 20px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot p{
+		font-size: 15px;
+		width: 90%;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot .p1{
+		font-size: 15px;
+		width: 100%;
+	}
+	.content4 .blue-color{
+		height: 470px;
+	}
+	.content4 .image img{
+		height: 470px;
+	}
 }
 @media(max-width: 450px){
 	.header-bot .right{
@@ -754,5 +781,13 @@ header .list{
 		transform: rotateZ(90deg);
 		padding:10px;
 		margin-bottom:20px;
+	}
+	.content3 .container1 .content3-content .bot .topic .topic1 p{
+		width: 100%;
+		font-size: 25px;
+	}
+	.content3 .container1 .content3-content .bot .topic .topic2 p{
+		width: 100%;
+		font-size: 20px;
 	}
 }
