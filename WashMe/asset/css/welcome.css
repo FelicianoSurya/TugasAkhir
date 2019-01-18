@@ -622,6 +622,12 @@ header .list{
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	.content3-content .bot .topic .img img{
+	width: 100%;
+	}
+	.bot .col-lg-2{
+		width: 20%;
+	}
 }
 @media(max-width:650px){
 	.header .topic-top header{
@@ -739,7 +745,9 @@ header .list{
 	}
 	.send img{
 		width: 30%;
-		
+	}
+	.bot .col-lg-2{
+		width: 100%;
 	}
 	.box-send .rotate{
 		margin-top:20px;
