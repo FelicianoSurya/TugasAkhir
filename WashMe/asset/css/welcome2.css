@@ -739,10 +739,10 @@ header .list{
 		width: 100%;
 	}
 	.content4 .blue-color{
-		height: 470px;
+		height: 480px;
 	}
 	.content4 .image img{
-		height: 470px;
+		height: 480px;
 	}
 }
 @media(max-width: 450px){
