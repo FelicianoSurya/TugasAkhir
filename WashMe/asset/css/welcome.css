@@ -728,24 +728,37 @@ header .list{
 		width: 70%;
 	}
 	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-top p{
-		font-size: 20px;
+		font-size: 30px;
+		width: 400px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc{
+		margin-left: 30px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .logo img{
+		width: 60px;
 	}
 	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot p{
-		font-size: 15px;
-		width: 90%;
+		font-size: 20px;
+		width: 400px;
 	}
-	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot .p1{
-		font-size: 15px;
-		width: 100%;
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-one{
+		margin-top: 30px;
 	}
 	.content4 .blue-color{
-		height: 480px;
+		height: 700px;
 	}
 	.content4 .image img{
-		height: 480px;
+		height: 700px;
 	}
 	header .logo{
 		margin-left: -40px;
+	}
+	.content4-bot .box-bot{
+		display: flex;
+		flex-direction: column;
+	}
+	.content5 .container2 .content5-top{
+		margin-top: 250px;
 	}
 }
 @media(max-width: 450px){
