@@ -3,3 +3,5 @@ abu-abu #605252
 abu-abu muda #ebebeb
 navy #120f2b
 border contact us #e1e1e1
+pink #ed145b
+blue washme #0c354f
