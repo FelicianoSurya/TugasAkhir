@@ -793,7 +793,20 @@ header .list{
 		width: 100%;
 		font-size: 22px;
 	}
-
+	.content4 .all-content .container1 .content4-top .topic p{
+		font-size: 25px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .logo img{
+		width: 40px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-top p{
+		font-size: 20px;
+		width: 270px;
+	}
+	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot p{
+		font-size: 18px;
+		width: 270px;
+	}
 }
 @media(max-width: 450px){
 	.header-bot .right{
@@ -841,5 +854,8 @@ header .list{
 	}
 	.bot-second .none{
 		display: inline;
+	}
+	.content5 .container2 .content5-bot .button button{
+		font-size: 15px;
 	}
 }
