@@ -522,9 +522,8 @@ header .list{
 }
 .about_us .container1 .bot{
 	padding-top:10px;
-	width: 90%;
-	margin:auto;
-	font-size: 24px;
+	width: 59%;
+	font-size: 22px;
 }
 @media(max-width: 1200px){
 	.container1{
@@ -760,9 +759,6 @@ header .list{
 	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-bot p{
 		font-size: 20px;
 		width: 400px;
-	}
-	.content4 .all-content .container1 .content4-bot .box-bot .box-bot-left .desc .desc-one{
-		margin-top: 30px;
 	}
 	.content4 .blue-color{
 		height: 700px;
