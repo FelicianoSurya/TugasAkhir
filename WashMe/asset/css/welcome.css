@@ -524,6 +524,7 @@ header .list{
 }
 .about_us{
 	width: 100%;
+	margin-top:-20px;
 	padding-top: 30px;
 	padding-bottom:40px;
 	background-image: url("../images/aboutus.png");
