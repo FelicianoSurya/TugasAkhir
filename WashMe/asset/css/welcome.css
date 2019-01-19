@@ -509,7 +509,8 @@ header .list{
 }
 .about_us{
 	width: 100%;
-	padding-bottom:150px;
+	padding-top: 30px;
+	padding-bottom:20px;
 	background-image: url("../images/aboutus.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -527,6 +528,116 @@ header .list{
 	padding-top:10px;
 	width: 59%;
 	font-size: 22px;
+}
+.contact{
+	width: 100%;
+	padding-top:20px;
+	padding-bottom: 30px;
+}
+.contact .container1{
+	display: flex;
+	flex-direction: column;
+}
+.contact .topic{
+	font-size: 30px;
+	font-weight: bold;
+}
+.contact .top{
+	display: flex;
+	margin:auto;
+	width: 90%;
+	letter-spacing: 1px;
+	margin-top:20px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+.contact .bot{
+	margin-top: 30px;
+}
+.contact .bot .row{
+	display: flex;
+	justify-content: space-between;
+}
+.contact .bot .box .inside{
+	padding:10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	border:2px solid #ebebeb;
+	align-items: center;
+	width: 100%;
+}
+.contact .bot .box .inside-last{
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	border:2px solid #ebebeb;
+	align-items: center;
+	width: 100%;
+}
+.contact .bot .box .inside .img{
+	display: flex;
+	justify-content: center;
+	width: 150px;
+	height: 70px;
+	margin-bottom: 20px;
+}
+.contact .bot .box .inside .img img{
+	width: 50%;
+}
+.contact .bot .box .inside-last .img{
+	display: flex;
+	justify-content: center;
+	width: 150px;
+	height: 70px;
+	margin-bottom: 20px;
+}
+.contact .bot .box .inside-last .img img{
+	width: 50%;
+}
+.contact .bot .box .inside .phone{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contact .bot .box .inside p{
+	margin:0;
+	margin-bottom:10px;
+}
+.contact .bot .box .inside .number{
+	font-size: 18px;
+	color:#605252;
+	font-weight: bold;
+}
+.contact .bot .box .inside-last .desc{
+	font-size: 13px;
+	color:#605252;
+	font-weight: bold;
+}
+.contact .bot .box .inside-last .desc p{
+	margin:0;
+}
+.contact .bot .box .inside-last .social{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+.contact .bot .box .inside-last .social ul{
+	display: flex;
+	padding-bottom:2px;
+	justify-content: center;
+	margin:0;
+	width: 50%;
+}
+.contact .bot .box .inside-last .social li{
+	width: 100%;
+	padding:10px;
+	list-style-type: none;
+	text-align: center;
+}
+.contact .bot .box .inside-last .social li img{
+	width: 100%;
 }
 @media(max-width: 1200px){
 	.container1{
