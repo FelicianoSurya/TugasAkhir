@@ -744,6 +744,9 @@ header .list{
 	.content4 .image img{
 		height: 480px;
 	}
+	header .logo{
+		margin-left: -40px;
+	}
 }
 @media(max-width: 450px){
 	.header-bot .right{
