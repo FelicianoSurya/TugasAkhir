@@ -621,6 +621,12 @@ header .list{
 	.content3-content .col-lg-2{
 		margin-left:20px;
 	}
+
+	.about_us .container1 .bot{
+		padding-top:10px;
+		width: 100%;
+		font-size: 22px;
+	}
 }
 @media(max-width: 800px){
 	.header-bot .right{
@@ -777,8 +783,17 @@ header .list{
 		flex-direction: column;
 	}
 	.content5 .container2 .content5-top{
-		margin-top: 250px;
+		margin-top: 20px;
 	}
+	.about_us{
+		margin-top:280px;
+	}
+	.about_us .container1 .bot .topic{
+		padding-top:10px;
+		width: 100%;
+		font-size: 22px;
+	}
+
 }
 @media(max-width: 450px){
 	.header-bot .right{
