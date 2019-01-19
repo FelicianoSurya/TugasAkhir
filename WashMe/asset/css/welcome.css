@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: arial;
 }
+html{
+	scroll-behavior: smooth;
+}
 .container1{
 	max-width: 1100px;
 	margin:0 auto;
@@ -40,6 +43,9 @@
 	width: 100%;
 	z-index: 1;
 	position: relative;
+}
+header{
+	position: fixed;
 }
 .header .topic-top header{
 	width: 100%;
@@ -78,6 +84,9 @@ header .list{
 	font-weight: bold;
 	font-size: 18px;
 }
+.list ul a {
+	text-decoration: none;
+}
 .list ul li:hover{
 	cursor: pointer;
 	color:#ed145b;
@@ -98,7 +107,7 @@ header .list{
 .header .header-bot{
 	width: 100%;
 	height:240px ;
-	margin-top: 10px;
+	margin-top: 130px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -429,8 +438,14 @@ header .list{
 }
 .content5{
 	width: 100%;
+	padding:50px;
+	background-color: #120f2b;
+}
+.content5 .container2{
+	background-color: white;
 	padding:20px;
-	background-color: whitesmoke;
+	border-radius: 10px;
+	border:20px solid #ebebeb;
 }
 .content5 .content5-top{
 	width: 100%;
@@ -510,10 +525,12 @@ header .list{
 .about_us{
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom:20px;
+	padding-bottom:40px;
 	background-image: url("../images/aboutus.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: right;
+
 }
 .about_us .container1{
 	display: flex;
@@ -551,6 +568,7 @@ header .list{
 	text-align: center;
 	font-size: 22px;
 	font-weight: bold;
+	color:#605252;
 }
 .contact .bot{
 	margin-top: 30px;
@@ -566,6 +584,7 @@ header .list{
 	display: flex;
 	flex-direction: column;
 	border:2px solid #ebebeb;
+	background-color: white;
 	align-items: center;
 	width: 100%;
 }
@@ -574,6 +593,7 @@ header .list{
 	display: flex;
 	flex-direction: column;
 	border:2px solid #ebebeb;
+	background-color: white;
 	align-items: center;
 	width: 100%;
 }
