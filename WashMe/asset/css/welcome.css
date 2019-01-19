@@ -509,7 +509,10 @@ header .list{
 }
 .about_us{
 	width: 100%;
-	padding-bottom:30px;
+	padding-bottom:150px;
+	background-image: url("../images/aboutus.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .about_us .container1{
 	display: flex;
