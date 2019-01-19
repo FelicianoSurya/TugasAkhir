@@ -46,6 +46,7 @@ html{
 }
 header{
 	position: fixed;
+	transition: 0.3s;
 }
 .header .topic-top header{
 	width: 100%;
