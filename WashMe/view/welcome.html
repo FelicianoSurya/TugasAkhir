@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	</head>
 	<body>
-		<div class="header">
+		<div class="header" id="home">
 			<div class="image">
 				<img src="../asset/images/header.jpg" alt="header">
 			</div>
@@ -13,17 +13,17 @@
 				<div class="box"></div>
 			</div>
 			<div class="topic-top">
-				<header>
+				<header id="header">
 					<div class="logo">
 						<img src="../asset/images/logo.png" alt="logo">
 					</div>
 					<div class="list">
 						 <ul>
-						 	<li>Home</li>
-						 	<li>About Wash Me</li>
+						 	<a href="#home"><li>Home</li></a>
+						 	<a href="#about_us"><li>About Wash Me</li></a>
 						 	<li>Our Apps</li>
 						 	<li>Blog</li>
-						 	<li>Contact Us</li>
+						 	<a href="#contact"><li>Contact Us</li></a>
 						 </ul>
 						 <button class="btn">Sign In</button>
 					</div>
@@ -289,6 +289,80 @@
 				</div>
 			</div>
 		</div>
+				<div class="about_us" id="about_us">
+			<div class="container1">
+				<div class="top">
+					<div class="topic">
+						<p>About WashMe</p>
+					</div>
+				</div>
+				<div class="bot">
+					<div class="topic">
+						<p><span style="font-weight: bold;">WashMe</span> is the ultimate solution to get your laundry DONE. Done right and done affordably - whether you're too busy or just in a pinch we'll pick-up, clean, fold, and return your laundry, nice and neat- so you don't have to worry about it!<br>We help you do less laundry so you can do more important things. Place your order online, over the phone and (soon in your mobile app!)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact" id="contact">
+			<div class="container1">
+				<div class="topic">
+					<p>Contact Us</p>
+				</div>
+				<div class="top">
+					<p>Thank you for your interest in WashMe. Please fill out the form below to ask a question, leave a statement or enquiry will get back to you at our earliest convenience.</p>
+				</div>
+				<div class="bot">
+					<div class="row">
+						<div class="col-lg-4 box">
+							<div class="inside">
+							<div class="img">
+								<img src="../asset/images/telephone.png" alt="phone">
+							</div>
+							<div class="phone">
+								<p>Phone</p>
+							</div>
+							<div class="number">
+								<p>+628992959698</p>
+							</div>
+							</div>
+						</div>
+						<div class="col-lg-4 box">
+							<div class="inside">
+							<div class="img">
+								<img src="../asset/images/opened-email-envelope.png" alt="phone">
+							</div>
+							<div class="phone">
+								<p>Email</p>
+							</div>
+							<div class="number">
+								<p>washme@gmail.com</p>
+							</div>
+							</div>
+						</div>
+						<div class="col-lg-4 box">
+							<div class="inside-last">
+							<div class="img">
+								<img src="../asset/images/share.png" alt="phone">
+							</div>
+							<div class="phone">
+								<p>Stay in Touch</p>
+							</div>
+							<div class="desc">
+								<p>Also find us on Social Media</p>
+							</div>
+							<div class="social">
+								<ul>
+									<li><img src="../asset/images/facebook.png" alt="social"></li>
+									<li><img src="../asset/images/google.png" alt="social"></li>
+									<li><img src="../asset/images/youtube.png" alt="social"></li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="content5">
 			<div class="container2">
 				<div class="content5-top">
@@ -322,3 +396,16 @@
 		</div>
 	</body>
 </html>
+<script>
+	window.onscroll = function(){
+		scrollFunction();
+	}
+	function scrollFunction(){
+		if(document.body.scrollTop > 350 || document.documentElement.scrollTop > 50){
+			document.getElementById('header').style.backgroundColor = 'black';	
+		}
+		else{
+			document.getElementById('header').style.backgroundColor = 'transparent';
+		}
+	}
+</script>
