@@ -114,3 +114,53 @@
 .menu .menu-box .menu-text p{
 	margin:0;
 }
+.right{
+	border: 1px solid;
+	width: 80%;
+}
+.right .box{
+	display: flex;
+	padding: 0px 40px;
+}
+.right .box .box-in{
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px 25px;
+	background-color: white;
+	width: 450px;
+	margin: auto;
+	height: 230px;
+}
+.right .top{
+	margin-top: 100px;
+}
+.right .box .box-in .box-top p{
+	font-size: 25px;
+	font-weight: bold;
+}
+.right .box .box-in .box-mid .text p{
+	line-height: 7px;
+}
+.right .box .box-in .box-mid p{
+	font-size: 20px;
+	color: #343a40;
+	text-align: center;
+}
+.right .box .box-in .box-mid{
+	margin-top: 25px;
+}
+.right .box .box-in .box-mid img{
+	width: 30%;
+}
+.top1{
+	margin-top: 20px;
+}
+.right .box .box-in .box-bot button{
+	border-radius: 5px;
+	border: none;
+	padding: 5px 10px;
+	width: 200px;
+	color: white;
+	background-color: #ed145b;
+	font-size: 18px;
+}
