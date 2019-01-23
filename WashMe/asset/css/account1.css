@@ -1,9 +1,17 @@
+@font-face{
+	font-family: coolvetica;
+	src:url(../font/coolvetica rg.ttf);
+	color: blue;
+}
+@font-face{
+	font-family: coolvetica;
+}
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 	outline: none;
-	font-family: arial;
+	font-family: coolvetica;
 }
 .all{
 	width: 100%;
@@ -115,7 +123,6 @@
 	margin:0;
 }
 .right{
-	border: 1px solid;
 	width: 80%;
 }
 .right .box{
