@@ -150,17 +150,43 @@
 	margin-top: 25px;
 }
 .right .box .box-in .box-mid img{
-	width: 30%;
+	width: 20%;
+	height: 30px;
 }
 .top1{
 	margin-top: 20px;
 }
 .right .box .box-in .box-bot button{
-	border-radius: 5px;
+	border-radius: 10px;
 	border: none;
 	padding: 5px 10px;
-	width: 200px;
+	width: 150px;
 	color: white;
 	background-color: #ed145b;
-	font-size: 18px;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+.right .box .box-in .mid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right .box .box-in .mid p{
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.right .box .box-in .mid-p p{
+	margin-top: 40px;
+}
+.right .box .box-in .box-bot .button1{
+	margin-top: 30px;
+}
+.right .box .box-in .box-bot .button2{
+	margin-top: 40px;
+}
+.right .box .box-in .box-bot .button3{
+	margin-top: 25px;
+}
+.right .box .box-in .box-bot .button4{
+	margin-top: 40px;
 }
