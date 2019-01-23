@@ -1,9 +1,17 @@
+@font-face{
+	font-family: coolvetica;
+	src:url(../font/coolvetica rg.ttf);
+	color: blue;
+}
+@font-face{
+	font-family: coolvetica;
+}
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 	outline: none;
-	font-family: arial;
+	font-family: coolvetica;
 }
 .all{
 	width: 100%;
@@ -115,7 +123,6 @@
 	margin:0;
 }
 .right{
-	border: 1px solid;
 	width: 80%;
 }
 .right .box{
@@ -143,7 +150,7 @@
 }
 .right .box .box-in .box-mid p{
 	font-size: 20px;
-	color: #343a40;
+	color: #605252;
 	text-align: center;
 }
 .right .box .box-in .box-mid{
@@ -164,7 +171,11 @@
 	color: white;
 	background-color: #ed145b;
 	margin-bottom: 0;
+	cursor: pointer;
 	font-size: 15px;
+}
+.right .box .box-in .box-bot button:hover{
+	box-shadow:-3px 3px 5px 0px #878080;
 }
 .right .box .box-in .mid{
 	display: flex;
