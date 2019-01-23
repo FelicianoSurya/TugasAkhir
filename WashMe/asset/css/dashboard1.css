@@ -1,7 +1,6 @@
 @font-face{
 	font-family: coolvetica;
-	src:url(../font/coolvetica rg.ttf);
-	color: blue;
+	src:url(../font/coolvetica/coolvetica.ttf);
 }
 @font-face{
 	font-family: coolvetica;
@@ -42,7 +41,6 @@
 	margin:0;
 	width: 65%;
 	font-size: 35px;
-	font-weight: bold;
 	color: #0c354f;
 }
 .navbar1 .information-user{
@@ -50,7 +48,6 @@
 	padding:10px;
 	background-color: rgb(91,169,205);
 	color:white;
-	font-weight: bold;
 	font-size: 20px;
 	margin-top:30px;
 	display: flex;
@@ -73,7 +70,6 @@
 	width: 90%;
 	padding:5px;
 	background-color: white;
-	font-weight: bold;
 	font-size: 18px;
 }
 .button .btn:hover{
@@ -108,8 +104,7 @@
 .menu .menu-box .menu-text{
 	width: 85%;
 	color:white;
-	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 }
 .menu .menu-box .menu-text p{
 	margin:0;
@@ -124,7 +119,6 @@
 	width: 100%;
 	padding: 40px 50px 0px 50px;
 	font-size: 25px;
-	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -168,7 +162,6 @@
 .topic .topic-box .topic-btn .btn{
 	width: 30%;
 	padding:5px;
-	font-weight: bold;
 	font-size: 20px;
 	color: white;
 	border-radius: 13px;
@@ -177,4 +170,113 @@
 .topic .topic-box .topic-btn .btn:hover{
 	cursor: pointer;
 	box-shadow:-5px 5px 10px 0px #878080;
+}
+.right .content{
+	width: 100%;
+	padding: 20px 50px 20px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.right .content{
+	margin: 0;
+}
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.content .content-account{
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.content .content-account p{
+	margin: 0;
+}
+.content-account .content-box{
+	width: 50%;
+	padding: 20px 50px 20px 50px;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid;
+	flex-direction: column;
+	border-radius: 5px;
+}
+.content-account .content-box .content-box-in{
+	width: 100%;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.content-account .content-box .up{
+	padding-top: 0px;
+}
+.content-account .content-box .img img{
+	width: 50px;
+	height: 50px;
+}
+.content .content-box .content-text{
+	width: 85%;
+	font-size: 22px;
+}
+.content .content-box .content-text .info{
+	color: #6dcff6;
+}
+.content .content-box .content-text p{
+	margin:0;
+}
+.content .content-help{
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 40px;
+}
+.content .content-help p{
+	margin: 0;
+}
+.content-help .content-box{
+	width: 50%;
+	padding: 20px 50px 20px 50px;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid;
+	flex-direction: column;
+	border-radius: 5px;
+}
+.content-help .content-box .content-box-in{
+	width: 100%;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.content-help .content-box .up{
+	padding-top: 0px;
+}
+.content-help .content-box .img img{
+	width: 50px;
+	height: 50px;
+}
+.content .content-box .content-text{
+	width: 85%;
+	font-size: 22px;
+}
+.content .content-box .content-text .info{
+	color: #6dcff6;
+}
+.content .content-box .content-text p{
+	margin:0;
 }
