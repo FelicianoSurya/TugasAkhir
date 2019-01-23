@@ -150,7 +150,7 @@
 }
 .right .box .box-in .box-mid p{
 	font-size: 20px;
-	color: #343a40;
+	color: #605252;
 	text-align: center;
 }
 .right .box .box-in .box-mid{
@@ -171,7 +171,11 @@
 	color: white;
 	background-color: #ed145b;
 	margin-bottom: 0;
+	cursor: pointer;
 	font-size: 15px;
+}
+.right .box .box-in .box-bot button:hover{
+	box-shadow:-3px 3px 5px 0px #878080;
 }
 .right .box .box-in .mid{
 	display: flex;
