@@ -1,4 +1,4 @@
-blue #6dcff6
+blue #6dcff6 #88d7f7
 blue questions #21a7dd
 abu-abu #605252
 abu-abu muda #ebebeb
