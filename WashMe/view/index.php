@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>WashMe Mobile</title>
-	<link rel="icon" href="../assets/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+	<link rel="icon" href="../asset/images/logo.png">
+	<link rel="stylesheet" type="text/css" href="../asset/css/index.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -15,7 +15,7 @@
 		<div class="topic-top">
 			<header>
 				<div class="logo">
-					<img src="../assets/images/logo.png" alt="image">
+					<img src="../asset/images/logo.png" alt="image">
 				</div>
 				<div class="list">
 					<div class="geser">
@@ -57,10 +57,10 @@
 				</div>
 				<div class="medsos">
 					<a href="#">
-						<img src="../assets/images/facebook.png" alt="images">
+						<img src="../asset/images/facebook.png" alt="images">
 					</a>
 					<a href="#">
-						<img src="../assets/images/google.png" alt="images">
+						<img src="../asset/images/google.png" alt="images">
 					</a>
 				</div>
 			</div>

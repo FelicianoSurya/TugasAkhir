@@ -14,16 +14,20 @@
 		?>
 			<script>
 				alert("Mohon tunggu sebentar");
-				alert("Maaf, Account anda tidak terdaftar, mohon register terlebih dahulu");
+				alert("Maaf, Akun anda tidak terdaftar, mohon register terlebih dahulu");
 				location.href = "index.php";
 			</script>
 		<?php
 	}else{
 		$username = $result['username'];
 		$_SESSION['username'] = $username;
+		$email = $result['email'];
+		$_SESSION['email'] = $email;
+		$nohp = $result['nohp'];
+		$_SESSION['nohp'] = $nohp;
 		?>
 			<script>
-				window.location.href="home.php";
+				window.location.href="myaccount.php";
 			</script>
 <?php
 	}
