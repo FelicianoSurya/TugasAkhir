@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>WashMe Mobile</title>
-	<link rel="icon" href="../assets/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../assets/css/register.css">
+	<link rel="icon" href="../asset/images/logo.png">
+	<link rel="stylesheet" type="text/css" href="../asset/css/register.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -15,7 +15,7 @@
 		<div class="topic-top">
 			<header>
 				<div class="logo">
-					<img src="../assets/images/logo.png" alt="image">
+					<img src="../asset/images/logo.png" alt="image">
 				</div>
 				<div class="list">
 					<div class="geser">
@@ -38,10 +38,6 @@
 			<div class="login">
 				<form action="registerdb.php" method="GET" class="kotak">
 					<label class="label-besar" style="background-color: white;">Create a new account</label>
-					<div class="form-group" style="background-color: white;">
-						<label class="label" style="background-color: white;">Your Full Name :</label><br>
-						<input type="text" name="fullname" id="fullname" autocomplete="off" required class="input form-control">
-					</div>
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Your Username :</label><br>
 						<input type="text" name="username" id="username" autocomplete="off" required class="input form-control">

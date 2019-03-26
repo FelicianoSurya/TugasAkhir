@@ -2,7 +2,6 @@
 <?php
 	include 'koneksi.php';
 	$kodeuser = $_GET['kodeuser'];
-	$fullname = $_GET['fullname'];
 	$username = $_GET['username'];
 	$email = $_GET['email'];
 	$password = $_GET['password'];
@@ -10,7 +9,7 @@
 	$register = $_GET['register'];
 
 	if($register == 'Register'){
-		$sql = "insert into tbregister values('$kodeuser','$fullname','$username','$email','$password','$nohp')";
+		$sql = "insert into tbregister values('$kodeuser','$username','$email','$password','$nohp')";
 	}
 	$query = mysqli_query($conn,$sql);
 
