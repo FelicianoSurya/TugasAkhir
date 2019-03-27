@@ -99,7 +99,7 @@ header .list{
 }
 .content-in .login{
 	width: 100%;
-	padding: 0px 20px 20px 20px;
+	padding: 0px 20px 10px 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -111,20 +111,15 @@ header .list{
 	padding-bottom: 0px;
 	background-color: white;
 }
-.content-in .login .kotak .label-besar{
-	font-size: 20px;
-	margin-bottom: -10px;
-}
 .content-in .login .kotak .label{
-	font-size: 15px;
+	font-size: 20px;
 }
 .content-in .login .kotak .input{
 	font-size: 15px;
-	margin-bottom: -10px;
 	height: 30px;
 }
 .content-in .login .kotak .button2{
-	margin-top: 25px;
+	margin: 0 auto;
 	font-size: 15px;
 	height: 35px;
 	background-color: #0c354f;
@@ -133,9 +128,20 @@ header .list{
 }
 .content-in .flex{
 	width: 100%;
-	margin-top: -15px;
-	padding: 0px 25px 0px 25px;
+	margin-top: -20px;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
 }
 .content-in .flex .option .opt{
 	font-size: 12px;
+}
+.content-in .flex .medsos{
+	margin-top: -10px;
+}
+.content-in .flex .medsos a{
+	text-decoration: none;
+}
+.content-in .flex .medsos img{
+	width: 30px;
+	height: 30px;
 }
