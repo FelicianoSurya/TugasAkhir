@@ -14,7 +14,7 @@
 	<div class="header">
 		<div class="topic-top">
 			<header>
-				<a href="#">
+				<a href="home.php">
 					<div class="logo">
 						<img src="../asset/images/left-arrow1.png" alt="image">
 					</div>

@@ -254,6 +254,33 @@ html,body{
 	margin-top: 3px;
 	margin-left: 190px;
 }
+.content .content-in3{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: -15px;
+}
+.content-in3{
+	padding: 0px 25px 0px 30px;
+}
+.content .content-in3 .logout{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.content .content-in3 .logout button{
+	width: 100%;
+	outline: none;
+	height: 30px;
+	border: 1px solid #ed145b;
+	font-size: 15px;
+	color: white;
+	border-radius: 10px;
+	background-color: #ed145b;
+	padding: 0px 15px 0px 15px;
+}
 .hr2{
 	border: 0.9px solid darkgrey;
 }
@@ -280,6 +307,11 @@ html,body{
 }
 .box4 .text{
 	color:  #6dcff6;
+	font-size: 15px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
 	font-size: 15px;
 	margin-top: 5px;
 }

@@ -29,18 +29,24 @@
 		<div class="row">
 			<div class="col-sm-1"></div>
 			<div class="col-sm-10 flex1">
-				<div class="border-mid1">
-					<img src="../asset/images/washing.png" class="border-mid">
-					<div class="text-mid">Wash & Fold</div>
-				</div>
-				<div class="border-mid1">
-					<img src="../asset/images/ironing.png" class="border-mid">
-					<div class="text-mid">Wash & Iron</div>
-				</div>
-				<div class="border-mid1">
-					<img src="../asset/images/clothes.png" class="border-mid">
-					<div class="text-mid">Dry Clean</div>
-				</div>
+				<a href="washandfold.php">
+					<div class="border-mid1">
+						<img src="../asset/images/washing.png" class="border-mid">
+						<div class="text-mid">Wash & Fold</div>
+					</div>
+				</a>
+				<a href="washandiron.php">
+					<div class="border-mid1">
+						<img src="../asset/images/ironing.png" class="border-mid">
+						<div class="text-mid">Wash & Iron</div>
+					</div>
+				</a>
+				<a href="dryclean.php">
+					<div class="border-mid1">
+						<img src="../asset/images/clothes.png" class="border-mid">
+						<div class="text-mid">Dry Clean</div>
+					</div>
+				</a>
 			</div>
 			<div class="col-sm-1"></div>
 		</div>
