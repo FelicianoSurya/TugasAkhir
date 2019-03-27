@@ -29,9 +29,9 @@ html,body{
 	justify-content: center;
 	margin-bottom: -10px;
 }
-hr{
-	border: 0.5em solid black;
+.hr1{
 	width: 100%;
+	border: 0.5px solid black;
 }
 .content{
 	width: 100%;

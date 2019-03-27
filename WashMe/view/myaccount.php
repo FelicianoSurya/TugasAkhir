@@ -23,7 +23,7 @@
 			</header>
 		</div>
 	</div>
-	<hr>
+	<hr class="hr1">
 	<div class="content">
 		<div class="content-in">
 			<div class="user">

@@ -143,22 +143,30 @@
 		</div>
 		<hr class="hr2">
 		<div class="flex footer">
-			<div class="box4">
-				<img src="../asset/images/home.png" class="img2">
-				<div class="text">Home</div>
-			</div>
-			<div class="box4">
-				<img src="../asset/images/shopping-list2.png" class="img2">
-				<div class="text">My Orders</div>
-			</div>
-			<div class="box4">
-				<img src="../asset/images/shopping-cart2.png" class="img2">
-				<div class="text">WashMe Shop</div>
-			</div>
-			<div class="box4">
-				<img src="../asset/images/profile2.png" class="img2">
-				<div class="text">My Account</div>
-			</div>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/home.png" class="img2">
+					<div class="text">Home</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/shopping-list2.png" class="img2">
+					<div class="text">My Orders</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/shopping-cart2.png" class="img2">
+					<div class="text">WashMe Shop</div>
+				</div>
+			</a>
+			<a href="myaccount.php">
+				<div class="box4">
+					<img src="../asset/images/profile2.png" class="img2">
+					<div class="text">My Account</div>
+				</div>
+			</a>
 		</div>	
 	</div>
 </form>

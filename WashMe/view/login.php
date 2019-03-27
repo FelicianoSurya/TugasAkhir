@@ -27,7 +27,7 @@
 		$_SESSION['nohp'] = $nohp;
 		?>
 			<script>
-				window.location.href="myaccount.php";
+				window.location.href="home.php";
 			</script>
 <?php
 	}
