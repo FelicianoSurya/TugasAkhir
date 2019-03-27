@@ -1,5 +1,6 @@
 *{
 	font-family: coolvetica;
+	overflow-x: hidden;
 }
 .header{
 	font-size: 30px;
@@ -28,4 +29,59 @@
 	color: #605252;
 	text-align: right;
 	justify-content: center;
+}
+.box2{
+	margin-top: 30px;
+}
+.box2 .img{
+	width: 40px;
+	height: 40px;
+}
+.box2 .img2{
+	width: 60px;
+	height: 60px;
+}
+.box2 .text1{
+	font-size: 25px;
+}
+.box2 .text{
+	font-size: 25px;
+	margin-top: 10px;
+}
+.top{
+	margin-top: 20px;
+}
+.box2 .button{
+	background-color: #6dcff6;
+	border: none;
+	color: white;
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+	border-radius: 5px;
+}
+.hr2{
+	border: 0.9px solid darkgrey;
+}
+.flex{
+	display: flex;
+}
+.footer{
+	margin-top: -16px;
+	padding: 20px 0px;
+	background-color: #ebebeb;
+	text-align: center;
+}
+.box4 .img2{
+	width: 45px;
+	height: 45px;
+}
+.box4{
+	width: 150px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 20px;
+	margin-top: 5px;
 }
