@@ -28,7 +28,7 @@
 		<hr class="hr1">
 		<div class="row">
 			<div class="col-sm-1"></div>
-			<div class="col-sm-10 flex">
+			<div class="col-sm-10 flex1">
 				<div class="border-mid1">
 					<img src="../asset/images/washing.png" class="border-mid">
 					<div class="text-mid">Wash & Fold</div>
@@ -143,7 +143,7 @@
 			<div class="col-sm-5"><img src="../asset/images/laundry3.png" class="img"></div>
 		</div>
 		<hr class="hr2">
-		<div class="flex footer">
+		<div class="flex1 footer">
 			<a href="home.php">
 				<div class="box4">
 					<img src="../asset/images/home.png" class="img2">
@@ -153,19 +153,19 @@
 			<a href="#">
 				<div class="box4">
 					<img src="../asset/images/shopping-list2.png" class="img2">
-					<div class="text">My Orders</div>
+					<div class="text1">My Orders</div>
 				</div>
 			</a>
 			<a href="#">
 				<div class="box4">
 					<img src="../asset/images/shopping-cart2.png" class="img2">
-					<div class="text">WashMe Shop</div>
+					<div class="text1">WashMe Shop</div>
 				</div>
 			</a>
 			<a href="myaccount.php">
 				<div class="box4">
 					<img src="../asset/images/profile2.png" class="img2">
-					<div class="text">My Account</div>
+					<div class="text1">My Account</div>
 				</div>
 			</a>
 		</div>
