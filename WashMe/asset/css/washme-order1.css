@@ -1,0 +1,80 @@
+*{
+	font-family: coolvetica;
+}
+.background{
+	background-image: url("../images/laundry-ateng.jpg");
+	height: 120px;
+	padding: 20px 30px;
+}
+.background .back{
+	background-color: black;
+	border-radius: 100%;
+	opacity: 0.7;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding-top: 5px;
+}
+.background .back .img{
+	width: 25px;
+}
+.flex{
+	display: flex;
+}
+.padding{
+	padding: 10px 20px;
+}
+.flex .text{
+	font-weight: bold;
+	font-size: 18px;
+}
+.flex .border-mid{
+	background-color: black;
+	border-radius: 10px;
+	opacity: 0.6;
+	margin: -40px 0px 40px 30px;
+	padding: 5px;
+}
+.flex .border-mid .img{
+	width: 40px;
+	height: 40px;
+}
+.jarak{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: -40px;
+}
+.hr{
+	border: 1px solid lightgrey;
+	margin-top: -5px;
+}
+.box1{
+	margin-top: -15px;
+}
+.box1 .img{
+	width: 30px;
+	height: 30px;
+}
+.box1 .text1{
+	color: #6dcff6;
+	margin-left: 7px;
+}
+.box1 .text2{
+	color: #605252;
+	margin-left: 7px;
+}
+.background1{
+	background-color: #ebebeb;
+	height: 350px;
+	text-align: center;
+}
+.background1 .button{
+	background-color: #ed145b;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding: 5px 30px;
+	font-size: 20px;
+	margin-top: 30px;
+}

@@ -145,6 +145,9 @@ form{
 .hr2{
 	border: 0.9px solid darkgrey;
 }
+.flex{
+	display: flex;
+}
 .flex1{
 	display: flex;
 	justify-content: center;
