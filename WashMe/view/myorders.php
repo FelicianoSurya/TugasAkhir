@@ -59,24 +59,32 @@
 		<div class="col-sm-1"></div>
 	</div>
 	<hr class="hr2">
-	<div class="flex footer">
-		<div class="box4">
-			<img src="../asset/images/home.png" class="img2">
-			<div class="text">Home</div>
+	<div class="flex1 footer">
+			<a href="home.php">
+				<div class="box4">
+					<img src="../asset/images/home2.png" class="img2">
+					<div class="text1">Home</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/shopping-list.png" class="img2">
+					<div class="text">My Orders</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/shopping-cart2.png" class="img2">
+					<div class="text1">WashMe Shop</div>
+				</div>
+			</a>
+			<a href="myaccount.php">
+				<div class="box4">
+					<img src="../asset/images/profile2.png" class="img2">
+					<div class="text1">My Account</div>
+				</div>
+			</a>
 		</div>
-		<div class="box4">
-			<img src="../asset/images/shopping-list2.png" class="img2">
-			<div class="text">My Orders</div>
-		</div>
-		<div class="box4">
-			<img src="../asset/images/shopping-cart2.png" class="img2">
-			<div class="text">WashMe Shop</div>
-		</div>
-		<div class="box4">
-			<img src="../asset/images/profile2.png" class="img2">
-			<div class="text">My Account</div>
-		</div>
-	</div>
 </div>
 </body>
 </html>

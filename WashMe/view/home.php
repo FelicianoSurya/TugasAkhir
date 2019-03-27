@@ -153,19 +153,19 @@
 			<a href="#">
 				<div class="box4">
 					<img src="../asset/images/shopping-list2.png" class="img2">
-					<div class="text">My Orders</div>
+					<div class="text1">My Orders</div>
 				</div>
 			</a>
 			<a href="#">
 				<div class="box4">
 					<img src="../asset/images/shopping-cart2.png" class="img2">
-					<div class="text">WashMe Shop</div>
+					<div class="text1">WashMe Shop</div>
 				</div>
 			</a>
 			<a href="myaccount.php">
 				<div class="box4">
 					<img src="../asset/images/profile2.png" class="img2">
-					<div class="text">My Account</div>
+					<div class="text1">My Account</div>
 				</div>
 			</a>
 		</div>

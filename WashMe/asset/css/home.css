@@ -145,9 +145,6 @@ form{
 .hr2{
 	border: 0.9px solid darkgrey;
 }
-.flex{
-	display: flex;
-}
 .flex1{
 	display: flex;
 	justify-content: center;
@@ -171,6 +168,11 @@ form{
 }
 .box4 .text{
 	color:  #6dcff6;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
 	font-size: 20px;
 	margin-top: 5px;
 }
