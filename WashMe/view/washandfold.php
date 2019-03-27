@@ -21,13 +21,10 @@
 				</a>
 				<div class="list">
 					<div class="geser">
-						<h1>Wash & Fold</h1>
+						<h1>Available Wash & Fold Services</h1>
 					</div>
 				</div>
 			</header>
-			<div class="kotak-search">
-				<input type="text" name="search" id="search" placeholder="Search..." class="search">
-			</div>
 		</div>
 	</div>
 	<div class="content">

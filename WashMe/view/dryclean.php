@@ -21,13 +21,10 @@
 				</a>
 				<div class="list">
 					<div class="geser">
-						<h1>Dry Clean</h1>
+						<h1>Available Dry Clean Services</h1>
 					</div>
 				</div>
 			</header>
-			<div class="kotak-search">
-				<input type="text" name="search" id="search" placeholder="Search..." class="search">
-			</div>
 		</div>
 	</div>
 	<div class="content">
