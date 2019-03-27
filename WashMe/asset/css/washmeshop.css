@@ -1,0 +1,141 @@
+*{
+	font-family: coolvetica;
+	overflow-x: hidden;
+}
+.header{
+	font-size: 30px;
+	color: #605252;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+.hr1{
+	border: 0.5px solid #605252;
+}
+.background{
+	background-color: #ebebeb;
+	padding: 20px 10px 30px 40px;
+	margin-top: -16px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.border-top{
+	border: 1px solid none;
+	background-color: white;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.border-top .img{
+	width: 20px;
+	height: 20px;
+}
+.border-top .text{
+	font-size: 15px;
+	margin-left: 10px;
+}
+.img2{
+	width: 33px;
+	height: 33px;
+}
+.background2{
+	background-image: url("../images/background.jpg");
+	padding: 20px 0px 10px 0px;
+}
+.background3{
+	background-color: #ebebeb;
+	padding: 10px 25px 30px 25px;
+}
+.background2 .kategori{
+	background-color: white;
+}
+.background2 .flex1 .img{
+	width: 100px;
+	height: 100px
+}
+.background2 .flex1 .border{
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+	margin-top: 20px;
+}
+.background2 .flex1 .border .text{
+	color: #605252;
+	text-align: center;
+	margin-top: 5px;
+}
+.star{
+	width: 20px;
+	height: 20px;
+}
+.background3 .iron{
+	font-size: 25px;
+	font-weight: bold;
+}
+.background3 .background-in{
+	background-color: white;
+	margin-top: 1px;
+	padding: 10px 20px;
+}
+.background3 .background-in .img{
+	width: 100px;
+	height: 100px;
+}
+.background3 .background-in .text{
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.background3 .background-in .harga{
+	color: #ed145b;
+	font-weight: bold;
+}
+.background3 .background-in .border-bot{
+	width: 150px;
+	padding: 10px;
+}
+.background3 .background-in .border-bot .flex .text{
+	color: #605252;
+	margin-left: 5px;
+}
+.hr2{
+	border: 0.9px solid darkgrey;
+	margin-top: 0px;
+}
+.flex1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer{
+	margin-top: -16px;
+	background-color: #ebebeb;
+	padding: 10px 0px;
+	text-align: center;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.img2{
+	width: 50px;
+	height: 50px;
+}
+.box4{
+	width: 150px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 20px;
+	margin-top: 5px;
+}

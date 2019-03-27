@@ -9,6 +9,7 @@
 	<title></title>
 </head>
 <body>
+<form>
 <div class="container-fluid-screen">
 	<div class="row">
 		<div class="col-sm-12 header" >My Orders</div>
@@ -84,7 +85,8 @@
 					<div class="text1">My Account</div>
 				</div>
 			</a>
-		</div>
+	</div>
 </div>
+</form>
 </body>
 </html>
