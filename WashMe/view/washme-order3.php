@@ -23,7 +23,7 @@
 		<hr class="hr2">
 	</div>
 	<div class="box">
-		<div class="box">
+		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
 					<div class="text1">Wash & Fold</div>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<hr class="hr3">
-		<div class="box">
+		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
 					<div class="text1">Wash & Iron</div>

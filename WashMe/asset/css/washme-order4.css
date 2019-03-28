@@ -42,7 +42,6 @@
 }
 .box .box1 .flex .box-in1{
 	line-height: 23px;
-	margin-top: 5px;
 }
 .box .box1 .flex .box-in1 .text1{
 	font-weight: bold;
@@ -61,28 +60,8 @@
 }
 .jarak{
 	text-align: center;
-	margin-left: 70px;
+	margin-left: 100px;
 }
 .hr3{
 	border: 1px solid #6dcff6;
-}
-.box2 .img{
-	width: 70px;
-	height: 70px;
-}
-.box .box-in{
-	margin-left: 20px;
-}
-.box .box-in .text1{
-	font-size: 20px;
-}
-.box .box-in .text2{
-	color: #605252;
-}
-.note{
-	font-size: 20px;
-	margin-top: 15px;
-}
-.next{
-	background-color: skyblue;
 }
