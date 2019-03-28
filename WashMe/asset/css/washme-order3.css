@@ -1,0 +1,86 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.border-top{
+	padding: 10px;
+}
+.border-top .img{
+	width: 40px;
+	height: 30px;
+}
+.border-top .text{
+	color: #605252;
+	margin-left: 70px;
+	font-size: 30px;
+}
+.padding{
+	padding: 10px 30px;
+}
+.padding .text{
+	font-size: 18px;
+}
+.border-mid1{
+	margin-left: 40px;
+}
+.hr1{
+	border: 2px solid #6dcff6;
+	width: 50%;
+}
+.hr2{
+	border: 0.5px solid;
+	width: 50%;
+}
+.box{
+	padding: 0px 20px;
+}
+.box .box .flex .box-in1{
+	line-height: 23px;
+	width: 100%;
+	margin-top: 5px;
+}
+.box .box .flex .box-in1 .text1{
+	font-weight: bold;
+	font-size: 22px;
+}
+.box .box .flex .box-in1 .text2{
+	color: #605252;
+}
+.box-in1 .img{
+	width: 27px;
+	height: 27px;
+	cursor: pointer;
+}
+.box-in1 .jarak1{
+	margin: 0px 15px;
+}
+.jarak{
+	text-align: center;
+	margin-left: 50px;
+}
+.hr3{
+	border: 1px solid #6dcff6;
+}
+.box2 .img{
+	width: 70px;
+	height: 70px;
+}
+.box .box-in{
+	margin-left: 20px;
+}
+.box .box-in .text1{
+	font-size: 20px;
+}
+.box .box-in .text2{
+	color: #605252;
+}
+.note{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.next{
+	background-color: skyblue;
+}
