@@ -1,0 +1,291 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: coolvetica;
+	outline: none;
+}
+.container-fluid-fullscreen{
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #6dcff6;
+	padding: 0px 20px 0px 20px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+.header .topic-top{
+	width: 100%;
+	height: 100%;
+}
+.header .topic-top header{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.topic-top header .logo img{
+	width: 25px;
+	height: 25px;
+}
+header .list{
+	width: 92%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .geser{
+	width: 45px;
+	height: 45px;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list .geser img{
+	width: 35px;
+	height: 35px;
+}
+.list .nama{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 70%;
+}
+.list .nama h5{
+	margin-top: 15px;
+	margin-bottom: -3px;
+}
+.list .call{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+}
+.list .call img{
+	width: 25px;
+	height: 25px;
+}
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 25px 20px 100% 20px;
+	background-color: whitesmoke;
+}
+.content .content-in{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.content-in .kotak-chat{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+}
+.content-in .kotak-chat .chat{
+	padding: 5px 55px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-in .kotak-chat .chat p{
+	font-size: 20px;
+}
+.content-in .kotak-chat .waktu{
+	margin-top: -23px;
+	margin-bottom: -10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.content-in .kotak-chat .waktu p{
+	font-size: 11px;
+}
+.content .content-in1{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 25px 0px 0px 0px;
+}
+.content-in1 .kotak-chat{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid #6dcff6;
+	color: white;
+	border-radius: 10px;
+	background-color: #6dcff6;
+}
+.content-in1 .kotak-chat .chat{
+	padding: 5px 75px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-in1 .kotak-chat .chat p{
+	font-size: 20px;
+}
+.content-in1 .kotak-chat .waktu{
+	margin-top: -23px;
+	margin-bottom: -10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.content-in1 .kotak-chat .waktu p{
+	font-size: 11px;
+}
+.content-in1 .kotak-chat .waktu img{
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+}
+.content .content-in2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px 0px 0px 0px;
+}
+.content-in2 .kotak-chat{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+}
+.content-in2 .kotak-chat .chat{
+	padding: 5px 55px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-in2 .kotak-chat .chat p{
+	font-size: 20px;
+}
+.content-in2 .kotak-chat .waktu{
+	margin-top: -23px;
+	margin-bottom: -10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.content-in2 .kotak-chat .waktu p{
+	font-size: 11px;
+}
+.content .content-in3{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 25px 0px 0px 0px;
+}
+.content-in3 .kotak-chat{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 1px solid #6dcff6;
+	color: white;
+	border-radius: 10px;
+	background-color: #6dcff6;
+}
+.content-in3 .kotak-chat .chat{
+	padding: 5px 75px 0px 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-in3 .kotak-chat .chat p{
+	font-size: 20px;
+}
+.content-in3 .kotak-chat .waktu{
+	margin-top: -23px;
+	margin-bottom: -10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.content-in3 .kotak-chat .waktu p{
+	font-size: 11px;
+}
+.content-in3 .kotak-chat .waktu img{
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px 10px 20px;
+}
+.footer .topic-top{
+	width: 100%;
+	height: 100%;
+}
+.footer .topic-top footer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.topic-top footer .logo img{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+footer .list{
+	width: 92%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .kotak-search{
+	width: 100%;
+	height: 100%;
+}
+.list .kotak-search .search{
+	box-sizing: border-box;
+	padding: 12px 5px 12px 5px;
+	width: 100%;
+	height: 40px;
+	border: none;
+}
+.list .call{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+}
+.list .call img{
+	width: 25px;
+	height: 25px;
+}
