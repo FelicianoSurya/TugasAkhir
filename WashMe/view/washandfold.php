@@ -29,7 +29,7 @@
 	</div>
 	<div class="content">
 		<div class="content-in">
-			<a href="#">
+			<a href="washme-order.php">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
@@ -41,7 +41,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="washme-order.php">
 				<div class="kotak-besar up">
 					<div class="kotak-kiri">
 						<img src="../asset/images/mboklaundry.png" alt="images">
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="washme-order.php">
 				<div class="kotak-besar up">
 					<div class="kotak-kiri">
 						<img src="../asset/images/annisalaundry.png" alt="images">

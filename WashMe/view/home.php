@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -12,16 +12,16 @@
 <body>
 <form>
 	<div class="container-fluid-screen">
-		<div class="row">
-			<div class="col-sm-2"><img src="../asset/images/logo.png" class="logo"></div>
-			<div class="col-sm-6 border flex">
+		<div class="flex">
+			<div><img src="../asset/images/logo.png" class="logo"></div>
+			<div class="border flex">
 				<div><img src="../asset/images/search.png" class="search"></div>
-					<div class="text1">Search .. </div>
+				<div class="text1">Search .. </div>
 			</div>
-			<div class="col-sm-4">
-				<div class="row">
-					<div class="col-sm-3"><img src="../asset/images/coin5.png" class="coin"></div>
-					<div class="col-sm-9 text">88 coins</div>
+			<div>
+				<div class="flex">
+					<div><img src="../asset/images/coin5.png" class="coin"></div>
+					<div class="text">88 coins</div>
 				</div>
 			</div>
 		</div>
@@ -61,9 +61,9 @@
 			<div class="col-sm-12"></div>
 		</div>
 		<div class="border-mid2">
-			<div class="row">
-				<div class="col-sm-9 text-mid1">Recommended Laundries</div>
-				<div class="col-sm-3 text-mid2">See All</div>
+			<div class="flex">
+				<div class="text-mid1">Recommended Laundries</div>
+				<div class="text-mid2">See All</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 flex">
@@ -86,9 +86,9 @@
 			<div class="col-sm-12"></div>
 		</div>
 		<div class="border-mid2">
-			<div class="row">
-				<div class="col-sm-9 text-mid1">Shop</div>
-				<div class="col-sm-3 text-mid2">See All</div>
+			<div class="flex">
+				<div class="text-mid1">Shop</div>
+				<div class="text-mid3">See All</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 flex">
@@ -159,10 +159,10 @@
 			<a href="#">
 				<div class="box4">
 					<img src="../asset/images/shopping-list2.png" class="img2">
-					<div class="text1">My Orders</div>
+					<div class="text1">Orders</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="washmeshop.php">
 				<div class="box4">
 					<img src="../asset/images/shopping-cart2.png" class="img2">
 					<div class="text1">WashMe Shop</div>
@@ -171,7 +171,7 @@
 			<a href="myaccount.php">
 				<div class="box4">
 					<img src="../asset/images/profile2.png" class="img2">
-					<div class="text1">My Account</div>
+					<div class="text1">Account</div>
 				</div>
 			</a>
 		</div>

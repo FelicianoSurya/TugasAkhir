@@ -16,6 +16,8 @@ form{
 	border: 1px solid black;
 	border-radius: 30px;
 	padding: 5px 15px;
+	width: 240px;
+	margin-left: 10px;
 }
 .border .text1{
 	margin-left: 10px;
@@ -40,7 +42,7 @@ form{
 .coin{
 	width: 30px;
 	margin-top: 5px;
-	margin-left: 5px;
+	margin-left: 20px;
 }
 .text{
 	font-size: 25px;
@@ -51,15 +53,39 @@ form{
 	text-align: center;
 	margin-top: -10px;
 }
-.text-mid1{
+.border-mid2{
+	padding: 15px 10px 5px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.border-mid2 .flex{
+	display: flex;
+}
+.border-mid2 .flex .text-mid1{
 	font-size: 18px;
 	font-weight: bold;
+	display: flex;
+	flex-direction: column;
 }
-.text-mid2{
+.border-mid2 .flex .text-mid2{
+	width: 54%;
 	font-size: 18px;
 	color: #6dcff6;
 	font-weight: bold;
 	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.border-mid2 .flex .text-mid3{
+	width: 90%;
+	font-size: 18px;
+	color: #6dcff6;
+	font-weight: bold;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 .background{
 	background-color: #ebebeb;
@@ -68,9 +94,6 @@ form{
 .slide{
 	max-width: 100%;
 	padding: 20px;
-}
-.border-mid2{
-	padding: 15px 10px 5px 20px;
 }
 .hr1{
 	width: 100%;
@@ -156,6 +179,10 @@ form{
 .flex1 a{
 	color: black;
 }
+.flex1 a:hover{
+	color: black;
+	text-decoration: none;
+}
 .footer{
 	margin-top: -16px;
 	background-color: #ebebeb;
@@ -165,8 +192,8 @@ form{
 	text-decoration: none;
 }
 .img2{
-	width: 25px;
-	height: 25px;
+	width: 35px;
+	height: 35px;
 }
 .box4{
 	width: 100%;
