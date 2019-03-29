@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order3.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order3.1.css">
 	<title></title>
 </head>
 <body>
@@ -65,9 +65,13 @@
 			</div>
 		</div>
 		<div class="note">P.S : Please seperate the clothes according the services.</div>
-		<div class="next">
-			<img src="../asset/images/right-arrow2.png">
+	</div>
+	<div class="center">
+			<img src="../asset/images/right2.png" class="next">
 		</div>
+	<div class="footer flex">
+		<div class="text1">Total</div>
+		<div class="text2">Rp 15.000</div>
 	</div>
 </div>
 </body>
