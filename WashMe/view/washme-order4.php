@@ -106,7 +106,13 @@
 				</div>
 			</div>
 		</div>
-		<hr class="hr3">
+	</div>
+	<div class="center">
+			<img src="../asset/images/right2.png" class="next">
+		</div>
+	<div class="footer flex">
+		<div class="text1">Total</div>
+		<div class="text2">Rp 15.000</div>
 	</div>
 </div>
 </body>
