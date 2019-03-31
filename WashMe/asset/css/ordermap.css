@@ -41,14 +41,17 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: whitesmoke;
+	align-items: center;
+	margin-top: -280px;
 }
 .content .content-in{
 	display: flex;
 	flex-direction: column;
-	border: 1px solid blue;
+	border: 1px solid white;
+	background-color: white;
 	width: 100%;
 	border-radius: 50px 50px 0px 0px;
+	padding-top: 10px;
 }
 .content-in .content-top{
 	display: flex;
@@ -57,6 +60,66 @@ html,body{
 	align-items: center;
 }
 .content-in .content-top img{
-	width: 75px;
+	width: 65px;
 	height: 7px;
+}
+.content-in .content-mid{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 0px 30px;
+	margin-bottom: -15px;
+}
+.content-in .content-mid .nama p{
+	font-size: 23px;
+}
+.content-in .content-mid .alamat{
+	margin-top: -15px;
+}
+.hr1{
+	width: 100%;
+	border: 0.5px solid black;
+}
+.content-in .kotak-besar{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 30px 0px 30px;
+}
+.content-in .kotak-kiri{
+	display: flex;
+	flex-direction: column;
+}
+.content-in .kotak-besar .kotak-kiri img{
+	width: 60px;
+	height: 60px;
+}
+.content-in .kotak-besar .kotak-kanan{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .teks1{
+	font-size: 16px;
+	color: grey;
+	margin-top: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .naik{
+	font-size: 14px;
+	margin-top: -20px;
+	color: grey;
+}
+.content-in .kotak-besar .kotak-kanan .teks{
+	font-size: 16px;
+	color: black;
+	margin-top: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .naik1{
+	font-size: 14px;
+	margin-top: -20px;
+	color: black;
 }
