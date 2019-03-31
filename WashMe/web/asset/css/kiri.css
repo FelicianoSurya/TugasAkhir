@@ -1,0 +1,83 @@
+*{
+	font-family: coolvetica;
+	overflow-x: hidden;
+}
+.background{
+	background-color: #ebebeb;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.jarak{
+	margin: 10px;
+}
+.flex .img{
+	width: 70px;
+	height: 70px;
+}
+.flex .text{
+	font-size: 40px;
+	color: #0c354f;
+	margin-left: 10px;
+}
+.box{
+	background-color: #0c354f;
+	padding-top: 60px;
+	height: 550px;
+}
+.box .background1{
+	background-color: #6dcff6;
+	padding: 10px 20px;
+}
+.box .background1 .flex .img{
+	width: 50px;
+	height: 50px;
+}
+.box .background1 .flex .box-in{
+	margin-left: 20px;
+}
+.box .background1 .flex .box-in .text1{
+	color: white;
+	font-size: 25px;
+}
+.box .background1 .flex .box-in .img1{
+	width: 25px;
+	height: 25px;
+	margin: 0px 10px;
+}
+.box .background1 .flex .box-in .text2{
+	font-size: 20px;
+	color: white;
+}
+.box .button{
+	background-color: white;
+	border-radius: 5px;
+	color: #0c354f;
+	padding: 3px 50px;
+	border: none;
+	font-size: 20px;
+	margin: 40px 0px 0px 40px
+}
+.box1{
+	padding-left: 40px;
+	margin-top: 30px;
+}
+.box1 .box-list{
+	cursor: pointer;
+	margin-top: 15px;
+}
+.box1 :hover{
+	background-color: #6dcff6;
+}
+.box1 .box-list .img{
+	width: 35px;
+	height: 35px
+}
+.box1 .box-list .text{
+	color: white;
+	font-size: 25px;
+}
+.box-right{
+	padding: 90px 70px 0px 20px;
+}
