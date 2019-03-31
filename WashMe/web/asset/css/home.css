@@ -22,12 +22,12 @@
 	margin-left: 10px;
 }
 .box{
-	background-color: #0c354f;
+	background-color: #120f2b;
 	padding-top: 60px;
 	height: 550px;
 }
 .box .background1{
-	background-color: #6dcff6;
+	background-color: #5ba9cd;
 	padding: 10px 20px;
 }
 .box .background1 .flex .img{
@@ -68,15 +68,15 @@
 	margin-top: 15px;
 }
 .box1 :hover{
-	background-color: #6dcff6;
+	background-color: #5ba9cd;
 }
 .box1 .box-list .img{
-	width: 35px;
-	height: 35px
+	width: 30px;
+	height: 30px
 }
 .box1 .box-list .text{
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 }
 .box-right{
 	padding: 90px 70px 0px 20px;
