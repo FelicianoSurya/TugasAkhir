@@ -32,7 +32,6 @@
 							</div>
 						</div>
 					</div>
-					<button class="button">Request Pick-Up</button>
 					<div class="box1">
 						<div class="flex box-list">
 							<img src="../asset/images/home1.png" class="img">
