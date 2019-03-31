@@ -13,7 +13,7 @@ $submit = $_POST['register'];
 if($submit == 'Register'){
 	if($username !="" && $email !="" && $password !=""){
 		if($password == $confirmation_password){
-			$sql = "insert into users (username,password,email,status) values ('$username','$password','$email',user')";
+			$sql = "insert into users (username,password,email,status) values ('$username','$password','$email','user')";
 			$query = mysqli_query($conn,$sql);
 			header('location:../view/login.php?pesan=berhasil');	
 		}
