@@ -28,7 +28,7 @@
 			<div class="right">
 				<div class="box">
 					<form method="post" action="../php/login_success.php">
-						<p style="color:white;margin:0;padding:10px; width: 100%;background-color: aqua;">
+						<p style="color:aqua;margin:0;">
 							<?php 
 							if(isset($_GET['pesan'])){
 								if($_GET['pesan'] == 'berhasil'){
