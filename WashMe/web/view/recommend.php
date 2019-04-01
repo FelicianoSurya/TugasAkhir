@@ -1,66 +1,81 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Wash Me</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/kiri1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/recommend.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
-	<div class="container-fluid-screen background">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="flex jarak">
-					<img src="../asset/images/logo.png" class="img">
-					<div class="text">WashMe</div>
+	<?php 
+	session_start();
+	 ?>
+	<div class="body">
+		<div class="left">
+			<div class="top">
+				<div class="logo">
+					<img src="../asset/images/logo.png" alt="logo">
 				</div>
-				<div class="box">
-					<div class="background1">
-						<div class="flex">
-							<img src="../asset/images/girl.png" class="img">
-							<div class="box-in">
-								<div class="text1">Fleren Picestelia</div>
-								<div class="flex">
-									<div class="text2">88</div>
-									<img src="../asset/images/coins.png" class="img1">
-									<div class="text2">User</div>
-								</div>
+				<div class="topic">
+					<p>WashMe</p>
+				</div>
+			</div>
+			<div class="bot">
+				<div class="info-user">
+					<div class="picture">
+						<img src="../asset/images/girl.png" alt="picture">
+					</div>
+					<div class="info">
+						<div class="name">
+							<!-- <p><?php echo $_SESSION['username'] ?></p> -->
+						</div>
+						<div class="information">
+							<div class="poin">
+								<p>88</p></div>
+							<div class="coin">
+								<img src="../asset/images/coins.png" alt="coin">
+							</div>
+							<div class="status">
+								<!-- <p>| <?php echo $_SESSION['status'] ?></p> -->
 							</div>
 						</div>
 					</div>
-					<div class="box1">
-						<div class="flex box-list">
-							<img src="../asset/images/home1.png" class="img">
-							<div class="text">Home</div>
+				</div>
+				<div class="menu">
+					<div class="menu1">
+						<div class="logo">
+							<img src="../asset/images/home1.png" alt="home">
+						<div class="nama">
+							<p>Home</p>
 						</div>
-						<div class="flex box-list">
-							<img src="../asset/images/dashboard.png" class="img">
-							<div class="text">Dashboard</div>
+					</div>
+					<div class="menu2">
+						<div class="logo">
+							<img src="../asset/images/shopping-list1.png" alt="home">
 						</div>
-						<div class="flex box-list">
-							<img src="../asset/images/shopping-list1.png" class="img">
-							<div class="text">My Orders</div>
+						<div class="nama">
+							<p>My Orders</p>
+					<div class="menu2">
+						<div class="logo">
+							<img src="../asset/images/profile1.png" alt="home">
 						</div>
-						<div class="flex box-list">
-							<img src="../asset/images/profile1.png" class="img">
-							<div class="text">My Account</div>
+						<div class="nama">
+							<p>My Profile</p>
 						</div>
-						<div class="flex box-list">
-							<img src="../asset/images/shopping-cart1.png" class="img">
-							<div class="text">WashMe Shop</div>
+					</div>
+					<div class="menu2">
+						<div class="logo">
+							<img src="../asset/images/shopping-cart1.png" alt="home">
+						</div>
+						<div class="nama">
+							<p>WashMe Shop</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-9">
-				<div class="box-right"></div>
-			</div>
 		</div>
 	</div>
-</form>
 </body>
 </html>
