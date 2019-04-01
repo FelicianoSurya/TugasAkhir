@@ -47,9 +47,11 @@
 					<div class="menu1">
 						<div class="logo">
 							<img src="../asset/images/home1.png" alt="home">
+						</div>
 						<div class="nama">
 							<p>Home</p>
 						</div>
+					</div>
 					</div>
 					<div class="menu2">
 						<div class="logo">
@@ -57,6 +59,8 @@
 						</div>
 						<div class="nama">
 							<p>My Orders</p>
+						</div>
+					</div>
 					<div class="menu2">
 						<div class="logo">
 							<img src="../asset/images/profile1.png" alt="home">
