@@ -57,8 +57,6 @@
 						</div>
 						<div class="nama">
 							<p>My Orders</p>
-						</div>
-					</div>
 					<div class="menu2">
 						<div class="logo">
 							<img src="../asset/images/profile1.png" alt="home">
