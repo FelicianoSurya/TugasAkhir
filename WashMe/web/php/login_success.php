@@ -11,14 +11,15 @@ $query = mysqli_query($conn,"select * from users where username='$username' and 
 $cek = mysqli_num_rows($query);
 
 $hasil = mysqli_fetch_array($query);
-$status = $hasil['status'];
+$status1 = $hasil['status'];
 
 if($cek > 0){
-	if($status == 'user'){
+	if($status1 == 'user'){
 	$_SESSION['username'] = $username;
 	$_SESSION['password'] = $password;
+	$_SESSION['status'] = $status1;
 	header('location:../view/home.php');
-	}elseif($status == 'laundry'){
+	}elseif($status1 == 'laundry'){
 		header('location:../view/laundry/laundryhome.php');
 	}
 }else{
