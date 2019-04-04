@@ -52,7 +52,6 @@
 							<p>Home</p>
 						</div>
 					</div>
-					</div>
 					<div class="menu2">
 						<div class="logo">
 							<img src="../asset/images/shopping-list1.png" alt="home">
