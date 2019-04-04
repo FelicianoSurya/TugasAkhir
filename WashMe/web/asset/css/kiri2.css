@@ -169,3 +169,8 @@ html,body{
 .menu2 .logo img{
 	width: 25px;
 }
+
+.logout{
+	margin-top: 60px;
+	background-color: #ed145b;
+}
