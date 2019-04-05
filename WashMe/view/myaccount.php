@@ -102,8 +102,8 @@
 	<div class="flex footer">
 			<a href="home.php">
 				<div class="box4">
-					<img src="../asset/images/home.png" class="img2">
-					<div class="text">Home</div>
+					<img src="../asset/images/home2.png" class="img2">
+					<div class="text1">Home</div>
 				</div>
 			</a>
 			<a href="#">
@@ -120,8 +120,8 @@
 			</a>
 			<a href="myaccount.php">
 				<div class="box4">
-					<img src="../asset/images/profile2.png" class="img2">
-					<div class="text1">Account</div>
+					<img src="../asset/images/profile.png" class="img2">
+					<div class="text">Account</div>
 				</div>
 			</a>
 		</div>
