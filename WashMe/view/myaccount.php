@@ -6,7 +6,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -100,31 +100,31 @@
 	</div>
 	<hr class="hr2">
 	<div class="flex footer">
-		<a href="home.php">
-			<div class="box4">
-				<img src="../asset/images/home2.png" class="img2">
-				<div class="text1">Home</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="box4">
-				<img src="../asset/images/shopping-list2.png" class="img2">
-				<div class="text1">My Orders</div>
-			</div>
-		</a>
-		<a href="#">
-			<div class="box4">
-				<img src="../asset/images/shopping-cart2.png" class="img2">
-				<div class="text1">WashMe Shop</div>
-			</div>
-		</a>
-		<a href="myaccount.php">
-			<div class="box4">
-				<img src="../asset/images/profile.png" class="img2">
-				<div class="text">Account</div>
-			</div>
-		</a>
-	</div>	
+			<a href="home.php">
+				<div class="box4">
+					<img src="../asset/images/home.png" class="img2">
+					<div class="text">Home</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="box4">
+					<img src="../asset/images/shopping-list2.png" class="img2">
+					<div class="text1">Orders</div>
+				</div>
+			</a>
+			<a href="washmeshop.php">
+				<div class="box4">
+					<img src="../asset/images/shopping-cart2.png" class="img2">
+					<div class="text1">WashMe Shop</div>
+				</div>
+			</a>
+			<a href="myaccount.php">
+				<div class="box4">
+					<img src="../asset/images/profile2.png" class="img2">
+					<div class="text1">Account</div>
+				</div>
+			</a>
+		</div>
 </div>
 </body>
 </html>

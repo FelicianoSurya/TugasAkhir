@@ -9,9 +9,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<!--<?php 
+	<?php 
 	session_start();
-	 ?>-->
+	 ?>
 	 <div class="big-body">
 		<div class="body">
 			<div class="left">
@@ -30,7 +30,7 @@
 						</div>
 						<div class="info">
 							<div class="name">
-								<!--<p><?php echo $_SESSION['username'] ?></p>-->
+								<p><?php echo $_SESSION['username'] ?></p>
 							</div>
 							<div class="information">
 								<div class="poin">
@@ -39,7 +39,7 @@
 									<img src="../asset/images/coins.png" alt="coin">
 								</div>
 								<div class="status">
-									<!--<p>| <?php echo $_SESSION['status'] ?></p>-->
+									<p>| <?php echo $_SESSION['status'] ?></p>
 								</div>
 							</div>
 						</div>

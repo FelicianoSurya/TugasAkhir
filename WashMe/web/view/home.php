@@ -49,6 +49,7 @@
 							<img src="../asset/images/home1.png" alt="home">
 						</div>
 						<div class="nama">
+							<a href="home.php"></a>
 							<p>Home</p>
 						</div>
 					</div>
@@ -66,7 +67,8 @@
 							<img src="../asset/images/profile1.png" alt="home">
 						</div>
 						<div class="nama">
-							<p>My Profile</p>
+							<a href="myprofile.php">
+							<p>My Profile</p></a>
 						</div>
 					</div>
 					<div class="menu2">
