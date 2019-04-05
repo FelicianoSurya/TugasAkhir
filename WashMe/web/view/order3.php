@@ -2,7 +2,7 @@
 <head>
 	<title>Wash Me</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/recommend3.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/order3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -88,7 +88,38 @@
 						<img src="../asset/images/left-arrow1.png" alt="icon">
 					</div>
 					<div class="topic">
-						<p>Recommended Laundries</p>
+						<div class="topic-in">
+							<h1>Fill Order Format<span><img src="../asset/images/writing.png"></span></h1>
+							<div class="form-in">
+								<label>Pick Up Date</label>
+								<input type="date" name="tgl" id="tgl" min="2019-01-01" max="2019-12-31" class="input">
+							</div>
+							<div class="form-in up">
+								<textarea name="extra" id="extra" class="input" style="height: 65px;">Extra :<br>Rp 3.000 x 3 Kg = Rp 9.000<br>Rp 5.000 x 2 Pcs = Rp 10.000<br>Total = Rp 19.000</textarea>
+							</div>
+							<div class="form-in up">
+								<label>Pick Up Time</label>
+								<input type="time" name="time" id="time" class="input">
+							</div>
+							<div class="form-in up">
+								<label>Pick Up Date</label>
+								<textarea name="alamatpesan" id="alamatpesan" class="input" style="height: 65px;"></textarea>
+							</div>
+							<div class="up">
+								<input type="checkbox" name="place" id="place" class="input"> Home
+								<input type="checkbox" name="place" id="place" class="input"> Office
+								<input type="checkbox" name="place" id="place" class="input"> Campus
+								<input type="checkbox" name="place" id="place" class="input"> Others
+							</div>
+							<div class="form-in up">
+								<label>Notes</label>
+								<textarea name="note" id="note" placeholder="Type your notes" class="input" style="height: 65px;"></textarea>
+							</div>
+							
+						</div>
+					</div>
+					<div class="icon">
+						<img src="../asset/images/right-arrow1.png" alt="icon">
 					</div>
 				</div>
 			</div>

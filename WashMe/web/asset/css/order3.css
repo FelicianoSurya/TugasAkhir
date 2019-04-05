@@ -180,7 +180,7 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 10px 30px 0px 30px;
+	padding: 10px 50px 0px 50px;
 	width: 80%;
 	height: 100%;
 	background:  whitesmoke;
@@ -197,24 +197,62 @@ html,body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding:5px;
-	padding-left:10px;
 }
 
 .right .top .icon{
-	width: 10%;
+	width: 5%;
+	margin-top: -515px;
 }
 
 .right .top .icon img{
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 }
 
 .right .top .topic{
-	width: 90%;
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.right .top .topic p{
+
+.right .top .topic .topic-in{
+	display: flex;
+	flex-direction: column;
+}
+
+.right .top .topic .topic-in h1{
 	margin:0;
 	font-size: 35px;
 	color: #0c354f;
+}
+
+.right .top .topic .topic-in img{
+	margin-top: -5px;
+	margin-left: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+.right .top .topic .topic-in .form-in{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.right .top .topic .topic-in .up{
+	margin-top: 30px;
+}
+
+.right .top .topic .topic-in .form-in label{
+	font-size: 22px;
+}
+
+.right .top .topic .topic-in .form-in .input{
+	width: 100%;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 3px 15px 3px 15px;
 }
