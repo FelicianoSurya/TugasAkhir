@@ -20,7 +20,16 @@ if($cek > 0){
 	$_SESSION['status'] = $status1;
 	header('location:../view/home.php');
 	}elseif($status1 == 'laundry'){
+		$_SESSION['username'] = $username;
+		$_SESSION['password'] = $password;
+		$_SESSION['status'] = $status1;
 		header('location:../view/laundry/laundryhome.php');
+	}
+	elseif($status1 == 'admin'){
+		$_SESSION['username'] = $username;
+		$_SESSION['password'] = $password;
+		$_SESSION['status'] = $status1;
+		header('location:../view/admin/adminhome.php');
 	}
 }else{
 	header('location:../view/login.php?pesan=gagal');
