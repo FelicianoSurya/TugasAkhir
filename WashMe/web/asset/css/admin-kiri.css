@@ -206,9 +206,6 @@ html,body{
 }
 
 .right{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	width: 80%;
 	height: 100%;
 	background:whitesmoke;

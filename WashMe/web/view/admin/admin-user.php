@@ -9,9 +9,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<?php 
-	session_start();
-	 ?>
 	<header class="header">
 		<div class="header-kiri">
 			<p>Admin</p>
@@ -21,67 +18,7 @@
 		</div>
 	</header>
 	<div class="body">
-		<div class="left">
-			<div class="top">
-				<div class="logo">
-					<img src="../../asset/images/logo.png" alt="logo">
-				</div>
-				<div class="topic">
-					<p>WashMe</p>
-				</div>
-			</div>
-			<div class="bot">
-				<div class="info-user">
-					<div class="picture">
-						<img src="../../asset/images/girl.png" alt="picture">
-					</div>
-					<div class="info">
-						<div class="name">
-							<p><?php echo $_SESSION['username'] ?></p>
-						</div>
-						<div class="information">
-							<div class="status">
-								<p><?php echo $_SESSION['status'] ?></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="menu">
-					<a href="admin-user.php"><div class="menu1">
-						<div class="logo">
-							<img src="../../asset/images/profile1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>User</p>
-						</div>
-					</div></a>
-					<a href="admin-request.php"><div class="menu2">
-						<div class="logo">
-							<img src="../../asset/images/shopping-list1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Request</p>
-						</div>
-					</div></a>
-					<a href="admin-laundry.php"><div class="menu2">
-						<div class="logo">
-							<img src="../../asset/images/shopping-list1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Laundry</p>
-						</div>
-					</div></a>
-					<a href="admin-setting.php"><div class="menu2">
-						<div class="logo">
-							<img src="../../asset/images/profile1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Setting</p>
-						</div>
-					</div></a>
-				</div>
-			</div>
-		</div>
+		<?php include "kiri.php" ?>
 		<div class="right">
 			<div class="body-right">
 				<table border="4">
