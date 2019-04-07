@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>WashMe</title>
+		<link rel="icon" href="../asset/images/logo.png">
 		<link rel="stylesheet" type="text/css" href="../asset/css/login1.css">
 	</head>
 	<body>

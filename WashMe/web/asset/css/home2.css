@@ -10,21 +10,17 @@ html,body{
 	max-width: 100%;
 }
 
-.big-body{
-	display: flex;
-	justify-content: space-between;
-}
 .body{
 	display: flex;
-	flex-direction: column;
 	margin:0;
 	padding:0 !important;
 	width: 100%;
 	height: 100%;
+	background:whitesmoke;
 }
 
 .left{
-	width: 100%;
+	width: 20%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -128,6 +124,10 @@ html,body{
 	margin-top: 30px;
 }
 
+.aktif{
+	background:#5ba9cd;
+}
+
 .menu1:hover{
 	background:#5ba9cd;
 	cursor: pointer;
@@ -173,95 +173,113 @@ html,body{
 .menu2 .logo img{
 	width: 25px;
 }
-.flex{
+
+.logout{
+	margin-top: 60px;
+	background-color: #ed145b; 
+}
+.right{
+	width:80%;
+	display: flex;
+	flex-direction: column;
+	padding:30px;
+}
+
+.slideshow{
+	display: flex;
+	margin-bottom:20px;
+}
+.right .carousel-inner img{
+	width: 1000px;
+	height: 200px;
+}
+.search{
 	display: flex;
 }
-.box-right{
-	padding: 60px 70px 0px 20px;
+.search-left{
+	width: 70%;
+	display: flex;
 }
-.box-right .title{
-	font-size: 30px;
+.search-left img{
+	width: 30px;
+}
+#search{
+	width: 100%;
+	padding-left:10px;
+}
+.select-right{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+.select-right select{
+	width: 60%;
+}
+
+.recommended{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.recommended .topic-recommended{
+	display: flex;
+	align-items: center;
+	width:100%;
+	font-size: 25px;
 	font-weight: bold;
 }
-.box-right .flex .border1{
-	border: 1px solid black;
-	background-color: white;
+
+.topic-left{
+	width: 90%;
+}
+
+.recommended .topic-recommended p{
+	margin:0;
+}
+
+.recommended .see-all{
+	font-size: 20px;
+}
+
+.place-info{
+	display: flex;
+	justify-content: space-around;
+}
+
+.box-place{
+	display: flex;
+	flex-direction: column;
+	background:white;
+}
+
+.box-place .image-place img{
 	width: 100%;
-	padding: 6px 15px;
-	font-size: 18px;
-	color: #605252;
 }
-.box-right .flex .border2{
-	border: 1px solid;
-	background-color: #ebebeb;
-	padding: 7px 15px;
+
+.box-place .info-place p{
+	margin:0;
+	padding-left: 5px;
 }
-.box-right .flex .border2 .img{
+
+.box-place .a .b img{
 	width: 25px;
 	height: 25px;
 }
-.box-right .flex .img2{
-	width: 45px;
-	height: 45px;
-	margin-left: 20px;
+
+.box-place .a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right:10px;
 }
-.background-img{
-	background-image: url("../images/laundry4.png");
-	margin-top: 30px;
-	padding: 20px;
+.box-place .a .b{
+	display: flex;
+	justify-content: center;
 }
-.select{
-	color: #605252;
-	font-size: 20px;
-	padding: 2px 5px;
+.jalan{
+	color: grey;
 }
-.background-img .flex .box2{
-	background-color: white;
-	width: 160px;
-	height: 120px;
-	margin: 20px 0px 0px 20px;
-}
-.background-img .flex .box2 .img{
-	width: 80px;
-	height: 60px;
-	margin: 20px 20px 0px 40px;
-}
-.background-img .flex .box2 .text{
-	color: #605252;
-	font-size: 18px;
-	text-align: center;
-	margin-top: 5px;
-}
-.star{
-	width: 20px;
-	height: 20px;
-}
-.box-right .iron{
-	font-size: 25px;
-	font-weight: bold;
-	margin-top: 10px;
-}
-.box-right .background-in{
-	background-color: white;
-	padding: 10px;
-}
-.box-right .background-in .img{
-	width: 100px;
-	height: 100px;
-}
-.box-right .background-in .border-bot .text3{
-	font-size: 15px;
-	color: black;
-}
-.box-right .background-in .border-bot .harga{
-	color: #ed145b;
-	font-weight: bold;
-}
-.box-right .background-in .border-bot{
-	width: 150px;
-	padding: 10px;
-	cursor: pointer;
-}
-.box-right .background-in .border-bot .text4{
-	color: #605252;
+.situasi{
+	color:#88d7f7;
 }

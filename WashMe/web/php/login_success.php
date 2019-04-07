@@ -12,6 +12,8 @@ $cek = mysqli_num_rows($query);
 
 $hasil = mysqli_fetch_array($query);
 $status1 = $hasil['status'];
+$email = $hasil['email'];
+$nohp = $hasil['nohp'];
 
 if($cek > 0){
 	if($status1 == 'user'){
