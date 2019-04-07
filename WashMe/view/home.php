@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -12,17 +12,18 @@
 <body>
 <form>
 	<div class="container-fluid-screen">
+		<?php
+		session_start();
+		 ?>
 		<div class="flex">
 			<div><img src="../asset/images/logo.png" class="logo"></div>
-			<div class="border flex">
-				<div><img src="../asset/images/search.png" class="search"></div>
-				<div class="text1">Search .. </div>
+			<div class="search">
+				<img src="../asset/images/search.png" alt="search" class="img3">
+				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text4">
 			</div>
-			<div>
-				<div class="flex">
-					<div><img src="../asset/images/coin5.png" class="coin"></div>
-					<div class="text">88 coins</div>
-				</div>
+			<div class="flex">
+				<div><img src="../asset/images/coin5.png" class="coin"></div>
+				<div class="text">88 coins</div>
 			</div>
 		</div>
 		<hr class="hr1">
@@ -65,21 +66,29 @@
 				<div class="text-mid1">Recommended Laundries</div>
 				<div class="text-mid2">See All</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 flex">
-					<div class="box">
-						<img src="../asset/images/laundry-ateng.jpg" class="img">
-						<div class="text">Mega, Jln. Budi Karya N...</div>
-					</div>
-					<div class="box">
-						<img src="../asset/images/mboklaundry.png" class="img">
-						<div class="text">Mbok Laundry Paris 2, Jl...</div>
-					</div>
-					<div class="box">
-						<img src="../asset/images/annisalaundry.png" class="img">
-						<div class="text">Annisa Laundry Bansir L...</div>
-					</div>
+			<div class="flex border1">
+				<?php
+					include "../php/connection.php";
+					$sql = "select * from laundrys";
+					$query = mysqli_query($conn,$sql);
+					$num = mysqli_num_rows($query);
+
+					for($x=1;$x<=$num;$x++){
+						$re = mysqli_fetch_array($query);
+						$jalan = $re['alamat'];
+						$status = $re['status'];
+						$nama = $re['name'];
+						$open = $re['time_open'];
+						$close = $re['time_close'];
+						$harga = $re['harga'];
+						$kota = $re['kota'];
+						$image = $re['image'];
+				?>
+				<div class="box">
+					<img src="../asset/images/laundry-ateng.jpg" class="img">
+					<p class="jalan"><?php echo $jalan ?></p>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 		<div class="row background">

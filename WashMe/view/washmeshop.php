@@ -5,31 +5,30 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop.css">
 	<title></title>
 </head>
 <body>
 <form>
 	<div class="container-fluid-screen">
 		<div class="row">
-			<div class="col-sm-12 header" >My Orders</div>
+			<div class="col-sm-12 header" >WashMe Shop</div>
 		</div>
 		<hr class="hr1">
-		<div class="row background flex">
-			<div class="col-sm-10 flex border-top">
-				<img src="../asset/images/search.png" class="img">
-				<div class="text">Search products / shop</div>
+		<div class="background flex">
+			<div class="search">
+				<img src="../asset/images/search.png" alt="search" class="img">
+				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text">
 			</div>
-			<div class="col-sm-2">
-				<img src="../asset/images/cart-of-ecommerce.png" class="img2">
+			<div>
+				<img src="../asset/images/cart-of-ecommerce.png" class="img3">
 			</div>
 		</div>
 		<div class="background2">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5 kategori">Categories</div>
-				<div class="col-sm-6"></div>
-			</div>
+			<select class="kategori">
+				<option>Categories</option>
+				<option>Shop</option>
+			</select>
 			<div class="flex1">
 				<div class="border">
 					<img src="../asset/images/ironing.png" class="img">

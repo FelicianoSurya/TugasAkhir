@@ -10,26 +10,28 @@ form{
 	margin-left: 20px;
 }
 .search{
-	max-width: 20px;
-}
-.border{
-	border: 1px solid black;
-	border-radius: 30px;
+	border: 0.5px solid lightgrey;
+	background-color: white;
 	padding: 5px 15px;
-	width: 240px;
-	margin-left: 10px;
+	border-radius: 100px;
+	display: flex;
+	width: 50%;
+	align-items: center;
+	margin: 0px 10px;
 }
-.border .text1{
-	margin-left: 10px;
-	margin-top: 2px;
-	color: grey;
+.search .img3{
+	width: 28px;
+	height: 25px;
 }
-.kiri{
-	margin-left: 15px;
+.search .text4{
+	border: none;
+	width: 100%;
+	font-size: 20px;
+	margin-left: 10px;
 }
 .border-mid1{
 	border: 1px solid lightgrey;
-	width: 130px;
+	width: 120px;
 	padding-bottom: 10px;
 	margin: 10px;
 	text-align: center;
@@ -42,11 +44,6 @@ form{
 .coin{
 	width: 30px;
 	margin-top: 5px;
-	margin-left: 20px;
-}
-.text{
-	font-size: 25px;
-	font-weight: bold;
 }
 .text-mid{
 	font-size: 18px;
@@ -57,6 +54,9 @@ form{
 	padding: 15px 10px 5px 20px;
 	display: flex;
 	flex-direction: column;
+}
+.border-mid2 .border1{
+	width: 40%;
 }
 .border-mid2 .flex{
 	display: flex;
