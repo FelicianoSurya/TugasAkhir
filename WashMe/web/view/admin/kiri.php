@@ -83,12 +83,7 @@
 			</div>
 		</div>
 		<div class="right">
-			<div class="body-right">
-				<img src="../../asset/images/girl.png" alt="picture">
-				<p><?php echo $_SESSION['username'] ?></p>
-				<p>Admin Administration</p>
-			</div>
-			</div>
+
 		</div>
 	</div>
 </body>
