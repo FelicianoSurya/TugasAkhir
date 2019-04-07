@@ -1,11 +1,11 @@
 <?php
 
 	session_start();
-	include "koneksi.php";
+	include "connection.php";
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
-	$sql = "select * from tbregister where username='$username' and password='$password'";
+	$sql = "select * from users where username='$username' and password='$password'";
 	$query = mysqli_query($conn,$sql);
 	$result = mysqli_fetch_array($query);
 	$num = mysqli_num_rows($query);

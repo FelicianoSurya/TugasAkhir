@@ -1,7 +1,7 @@
 
 <?php
-	include 'koneksi.php';
-	$kodeuser = $_GET['kodeuser'];
+	include 'connection.php';
+	$id = $_GET['id'];
 	$username = $_GET['username'];
 	$email = $_GET['email'];
 	$password = $_GET['password'];
@@ -9,7 +9,7 @@
 	$register = $_GET['register'];
 
 	if($register == 'Register'){
-		$sql = "insert into tbregister values('$kodeuser','$username','$email','$password','$nohp')";
+		$sql = "insert into users values('$id','$username','$email','$password','$nohp')";
 	}
 	$query = mysqli_query($conn,$sql);
 

@@ -36,7 +36,16 @@
 				<h1>Get your laundry done with <span class="font">WashMe</span></h1>
 			</div>
 			<div class="login">
-				<form action="login.php" method="POST" class="kotak">
+				<form action="../php/login_success.php" method="POST" class="kotak">
+					<p style="color:aqua;margin:0;">
+							<?php 
+							if(isset($_GET['pesan'])){
+								if($_GET['pesan'] == 'berhasil'){
+									echo "Berhasil Registrasi";
+								}
+							}
+							 ?>
+						</p>
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Username :</label><br>
 						<input type="text" name="username" id="username" autocomplete="off" required class="input form-control">
@@ -44,6 +53,18 @@
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Password :</label><br>
 						<input type="password" name="password" id="password" autocomplete="off" required class="input form-control">
+						<p style="margin:0;color:red;">
+							<?php 
+
+							if(isset($_GET['pesan'])){
+								if($_GET['pesan'] == 'gagal'){
+									echo 'Login gagal! Username atau Password Salah!';
+								}else if($_GET['pesan'] == 'belum_login'){
+									echo 'Anda belum Login';
+								}
+							}
+							?>
+							</p>
 					</div>
 					<div class="form-group" style="background-color: white;">
 						<input type="submit" name="login" id="login" value="Login" class="button2 form-control">

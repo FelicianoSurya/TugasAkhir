@@ -1,5 +1,4 @@
 <?php 
-error_reporting(0);
 
 include 'connection.php';
 
@@ -15,7 +14,7 @@ if($submit == 'Register'){
 		if($password == $confirmation_password){
 			$sql = "insert into users (username,password,email,status) values ('$username','$password','$email','user')";
 			$query = mysqli_query($conn,$sql);
-			header('location:../view/login.php?pesan=berhasil');	
+			header('location:../view/index.php?pesan=berhasil');	
 		}
 		elseif($password != $confirmation_password){
 			header('location:../view/register.php?pesan=beda');

@@ -21,7 +21,7 @@
 				<img src="../asset/images/search.png" alt="search" class="img3">
 				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text4">
 			</div>
-			<div class="flex">
+			<div class="flex1">
 				<div><img src="../asset/images/coin5.png" class="coin"></div>
 				<div class="text">88 coins</div>
 			</div>

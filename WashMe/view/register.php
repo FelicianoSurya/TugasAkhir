@@ -36,26 +36,37 @@
 				<h1>Register<br><span class="font">your account</span><br>at WashMe</h1>
 			</div>
 			<div class="login">
-				<form action="registerdb.php" method="GET" class="kotak">
+				<form action="../php/register_success.php" method="POST" class="kotak">
 					<label class="label-besar" style="background-color: white;">Create a new account</label>
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Your Username :</label><br>
-						<input type="text" name="username" id="username" autocomplete="off" required class="input form-control">
+						<input type="text" name="username" id="username" autocomplete="off" class="input form-control">
 					</div>
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Your Email :</label><br>
-						<input type="email" name="email" id="email" autocomplete="off" required class="input form-control validate">
+						<input type="email" name="email" id="email" autocomplete="off" class="input form-control validate">
 					</div>
 					<div class="form-group" style="background-color: white;">
 						<label class="label" style="background-color: white;">Your Password :</label><br>
-						<input type="password" name="password" id="password" autocomplete="off" required class="input form-control">
+						<input type="password" name="password" id="password" autocomplete="off" class="input form-control">
 					</div>
 					<div class="form-group" style="background-color: white;">
-						<label class="label" style="background-color: white;">Your Phone Number :</label><br>
-						<input type="text" name="nohp" id="nohp" autocomplete="off" required class="input form-control">
+						<label class="label" style="background-color: white;">Confirmation Password :</label><br>
+						<input type="password" name="confirmation" id="confirmation" autocomplete="off" class="input form-control">
 					</div>
 					<div class="form-group" style="background-color: white;">
 						<input type="submit" name="register" id="register" value="Register" class="button2 form-control">
+						<p style="margin:0;color:red;">
+							<?php 
+							if(isset($_GET['pesan'])){
+								if($_GET['pesan'] == 'beda'){
+									echo "Konfirmasi Password tidak sama!";
+								}elseif($_GET['pesan'] == 'required'){
+									echo "Harus diisi Lengkap!";
+								}
+							}
+							?>
+							</p>
 					</div>
 				</form>
 			</div>

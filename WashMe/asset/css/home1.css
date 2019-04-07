@@ -29,6 +29,11 @@ form{
 	font-size: 20px;
 	margin-left: 10px;
 }
+.text{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 5px;
+}
 .border-mid1{
 	border: 1px solid lightgrey;
 	width: 120px;
@@ -42,8 +47,7 @@ form{
 	width: 110px;
 }
 .coin{
-	width: 30px;
-	margin-top: 5px;
+	width: 32px;
 }
 .text-mid{
 	font-size: 18px;
@@ -57,9 +61,6 @@ form{
 }
 .border-mid2 .border1{
 	width: 40%;
-}
-.border-mid2 .flex{
-	display: flex;
 }
 .border-mid2 .flex .text-mid1{
 	font-size: 18px;
