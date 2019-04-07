@@ -1,6 +1,6 @@
 *{
 	font-family: coolvetica;
-	overflow: hidden;
+	overflow-x: hidden;
 	outline: none;
 }
 
@@ -13,6 +13,7 @@ html,body{
 
 .body{
 	display: flex;
+	flex-direction: column;
 	margin:0;
 	padding:0 !important;
 	width: 100%;
@@ -206,20 +207,5 @@ html,body{
 }
 
 .right{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	height: 100%;
 	background:whitesmoke;
-}
-.body-right{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.body-right p{
-	margin:0;
-	font-size: 50px;
 }
