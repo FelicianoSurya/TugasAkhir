@@ -206,10 +206,27 @@ html,body{
 }
 
 .right{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	height: 100%;
 	background:whitesmoke;
+	width: 80%;
+	padding:20px;
+	padding-top:40px;
+}
+.body-right{
+	display: flex;
+	justify-content: center;
+	background: white;
+	padding: 20px;
+	border:1px solid black;
+}
+
+.body-right table{
+	border: solid #ebebeb;
+}
+.body-right table tr th{
+	width: 200px;
+	text-align: center;
+}
+.body-right table tr td{
+	width: 200px;
+	text-align: center;
 }
