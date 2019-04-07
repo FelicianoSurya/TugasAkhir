@@ -176,11 +176,16 @@ html,body{
 	width: 25px;
 }
 
+.logout{
+	margin-top: 60px;
+	background-color: #ed145b; 
+}
+
 .body1{
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 10px 50px 0px 50px;
+	padding: 50px 50px 0px 50px;
 	width: 80%;
 	height: 100%;
 	background:  whitesmoke;

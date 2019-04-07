@@ -124,6 +124,10 @@ html,body{
 	margin-top: 30px;
 }
 
+.aktif{
+	background:#5ba9cd;
+}
+
 .menu1:hover{
 	background:#5ba9cd;
 	cursor: pointer;
@@ -186,7 +190,7 @@ html,body{
 	margin-bottom:20px;
 }
 .right .carousel-inner img{
-	width: 700px;
+	width: 1000px;
 	height: 200px;
 }
 .search{

@@ -29,7 +29,7 @@
 				<div class="box">
 					<form method="post" action="../php/register_success.php">
 						<div class="form-group">
-							<label for="">Username</label><br>
+							<label for="">Username : </label><br>
 							<input type="text" id="username" name="username" class="form-control" autocomplete="off">
 						</div>
 						<div class="form-group form1">
@@ -37,14 +37,12 @@
 							<input type="email" id="email" name="email" class="form-control" autocomplete="off">
 						</div>
 						<div class="form-group form1">
-							<label for="">Your Password</label><br>
+							<label for="">Your Password : </label><br>
 							<input type="password" id="	password" name="password" class="form-control" autocomplete="off">
 						</div>
 						<div class="form-group form1">
-							<label for="">Confirmation Password</label><br>
+							<label for="">Confirmation Password : </label><br>
 							<input type="password" id="	confirmation" name="confirmation" class="form-control" autocomplete="off">
-
-							
 						</div>
 						<div class="button">
 							<input type="submit" id="register" name="register" value="Register" class="btn">

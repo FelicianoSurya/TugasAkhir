@@ -2,7 +2,7 @@
 <head>
 	<title>Wash Me</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/Order.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/orderr.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -30,7 +30,7 @@
 						</div>
 						<div class="info">
 							<div class="name">
-								<!-- <p><?php echo $_SESSION['username'] ?></p> -->
+								<p><?php echo $_SESSION['username'] ?></p>
 							</div>
 							<div class="information">
 								<div class="poin">
@@ -39,7 +39,7 @@
 									<img src="../asset/images/coins.png" alt="coin">
 								</div>
 								<div class="status">
-									<!-- <p>| <?php echo $_SESSION['status'] ?></p> -->
+									<p>| <?php echo $_SESSION['status'] ?></p>
 								</div>
 							</div>
 						</div>
@@ -50,7 +50,9 @@
 								<img src="../asset/images/home1.png" alt="home">
 							</div>
 							<div class="nama">
-								<p>Home</p>
+								<a href="home.php">
+									<p>Home</p>
+								</a>
 							</div>
 						</div>
 						<div class="menu2">
@@ -66,7 +68,9 @@
 								<img src="../asset/images/profile1.png" alt="home">
 							</div>
 							<div class="nama">
-								<p>My Profile</p>
+								<a href="myprofile.php">
+									<p>My Profile</p>
+								</a>
 							</div>
 						</div>
 						<div class="menu2">
@@ -74,9 +78,19 @@
 								<img src="../asset/images/shopping-cart1.png" alt="home">
 							</div>
 							<div class="nama">
-								<p>WashMe Shop</p>
+								<a href="washmeshop1.php">
+									<p>WashMe Shop</p>
+								</a>
 							</div>
 						</div>
+					<div class="menu2 logout">
+						<div class="logo">
+							<img src="../asset/images/turn-off.png" alt="home">
+						</div>
+						<div class="nama">
+							<p>Logout</p>
+						</div>
+					</div>
 					</div>
 				</div>
 			</div>
