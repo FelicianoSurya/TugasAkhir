@@ -54,9 +54,40 @@
 								<p style="margin:0">Text Request : <?php echo $text ?></p>
 							</div>
 							<div class="modal-footer">
-								<button class="btn btn-md btn-success">Accept</button>
+								<button class="btn btn-md btn-success" data-toggle='modal' data-target="#accept" data-dismiss="modal">Accept</button>
 								<button class="btn btn-md btn-danger" data-dismiss="modal">Close</button>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="accept" role='dialog'>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<p style="font-size: 20px;margin:0px;">Make Laundry For <?php echo $username; ?></p>
+								<button type="button" class="close" data-dismiss='modal'>&times;</button>
+							</div>
+							<form action="../../php/admin/admin_request_make_laundry.php" method="post">
+							<div class="modal-body" style="padding:20px;">
+								<div class="form-group">
+									<label for="username">Username Laundry : </label>
+									<input type="text" id="username" name="username" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="password">Password : </label>
+									<input type="password" id="password" name="password" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="conf-password">Confirmasi Password : </label>
+									<input type="password" id="confirmation" name="confirmation" class="form-control">
+								</div>
+								<input type="hidden" id="id" name="id" value="<?php echo $id ?>">
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#openmore">Back</button>
+								<input type="submit" id="submit" name="submit" class="btn btn-info" value="Send">
+							</div>
+							</form>
 						</div>
 					</div>
 				</div>
