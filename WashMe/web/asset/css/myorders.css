@@ -1,5 +1,6 @@
 *{
 	font-family: coolvetica;
+	overflow-x: hidden;
 	outline: none;
 }
 
@@ -9,18 +10,20 @@ html,body{
 	padding:0;
 	max-width: 100%;
 }
-
+.big-body{
+	display: flex;
+}
 .body{
 	display: flex;
+	flex-direction: column;
 	margin:0;
 	padding:0 !important;
-	width: 100%;
+	width: 20%;
 	height: 100%;
-	background:whitesmoke;
 }
 
 .left{
-	width: 20%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -124,10 +127,6 @@ html,body{
 	margin-top: 30px;
 }
 
-.aktif{
-	background:#5ba9cd;
-}
-
 .menu1:hover{
 	background:#5ba9cd;
 	cursor: pointer;
@@ -176,110 +175,41 @@ html,body{
 
 .logout{
 	margin-top: 60px;
-	background-color: #ed145b; 
+	background-color: #ed145b;
+}
+.flex{
+	display: flex;
 }
 .right{
-	width:80%;
-	display: flex;
-	flex-direction: column;
-	padding:30px;
+	width: 80%;
+	background-color: #ebebeb;
+	height: 100%;
 }
-
-.slideshow{
-	display: flex;
-	margin-bottom:20px;
+.right .order{
+	font-size: 40px;
+	color: #605252;
+	margin: 5px 30px 5px 30px;
 }
-.right .carousel-inner img{
-	width: 1000px;
-	height: 200px;
+.right .border{
+	background-color: white;
+	padding: 20px 30px;
 }
-.search{
-	display: flex;
+.right .washing{
+	width: 80px;
+	height: 80px;
 }
-.search-left{
-	width: 70%;
-	display: flex;
+.jarak{
+	margin-left: 20px;
 }
-.search-left img{
-	width: 30px;
-}
-#search{
-	width: 100%;
-	padding-left:10px;
-}
-.select-right{
-	width: 40%;
-	display: flex;
-	justify-content: center;
-}
-.select-right select{
-	width: 60%;
-}
-
-.recommended{
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-}
-
-.recommended .topic-recommended{
-	display: flex;
-	align-items: center;
-	width:100%;
-	font-size: 25px;
-	font-weight: bold;
-}
-
-.topic-left{
-	width: 90%;
-}
-
-.recommended .topic-recommended p{
-	margin:0;
-}
-
-.recommended .see-all{
+.right .jarak .text1{
 	font-size: 20px;
 }
-
-.place-info{
-	display: flex;
-	justify-content: space-around;
+.right .jarak .text2{
+	font-size: 13px;
+	color: #605252;
 }
-
-.box-place{
-	display: flex;
-	flex-direction: column;
-	background:white;
-}
-
-.box-place .image-place img{
-	width: 100%;
-}
-
-.box-place .info-place p{
-	margin:0;
-	padding-left: 5px;
-}
-
-.box-place .a .b img{
-	width: 25px;
-	height: 25px;
-}
-
-.box-place .a{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-right:10px;
-}
-.box-place .a .b{
-	display: flex;
-	justify-content: center;
-}
-.jalan{
-	color: grey;
-}
-.situasi{
-	color:#88d7f7;
+.right .jarak .text3{
+	font-size: 25px;
+	color: #6dcff6;
+	margin-top: 5px;
 }

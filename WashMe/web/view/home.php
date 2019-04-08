@@ -2,93 +2,15 @@
 <head>
 	<title>Wash Me</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home2.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<?php 
-	session_start();
-	 ?>
 	<div class="body">
-		<div class="left">
-			<div class="top">
-				<div class="logo">
-					<img src="../asset/images/logo.png" alt="logo">
-				</div>
-				<div class="topic">
-					<p>WashMe</p>
-				</div>
-			</div>
-			<div class="bot">
-				<div class="info-user">
-					<div class="picture">
-						<img src="../asset/images/girl.png" alt="picture">
-					</div>
-					<div class="info">
-						<div class="name">
-							<p><?php echo $_SESSION['username'] ?></p>
-						</div>
-						<div class="information">
-							<div class="poin">
-								<p>88</p></div>
-							<div class="coin">
-								<img src="../asset/images/coins.png" alt="coin">
-							</div>
-							<div class="status">
-								<p>| <?php echo $_SESSION['status'] ?></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="menu">
-					<div class="menu1">
-						<div class="logo">
-							<img src="../asset/images/home1.png" alt="home">
-						</div>
-						<div class="nama">
-							<a href="home.php"></a>
-							<p>Home</p>
-						</div>
-					</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/shopping-list1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>My Orders</p>
-						</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/profile1.png" alt="home">
-						</div>
-						<div class="nama">
-							<a href="myprofile.php">
-							<p>My Profile</p></a>
-						</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/shopping-cart1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>WashMe Shop</p>
-						</div>
-					</div>
-					<div class="menu2 logout">
-						<div class="logo">
-							<img src="../asset/images/turn-off.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Logout</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		<?php include "kiri.php" ?>	
 			<div class="right">
 				<div class="slideshow">
 					<div id="demo" class="carousel slide" data-ride="carousel">
@@ -182,8 +104,44 @@
 					<?php } ?>
 					</div>
 				</div>
+				<div class="req-laundry">
+					<div class="isi">
+						<div class="question">
+							<p>Have a Laundry? Open your online branch in WashMe</p>
+							<p  class="easy">Easy to use and trusted. FREE!</p>
+							<div class="bot" style="margin-top:20px;">
+								<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#openlaundry">Open Your Laundry</button>
+								<a href="">Learn More</a>
+							</div>
+						</div>
+						<div class="img">
+							<img src="../asset/images/laundry3.png" alt="laundry">
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="openlaundry" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">Request Laundry</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<textarea style="width: 100%;" name="req" id="req" rows="3"></textarea>
+							</div>
+							<div class="modal-footer">
+								<?php 
+								$username = $_SESSION['username'];
+								$date = date('Y-m-d H:i:s');
+								 ?>
+								<button type="button" class="btn btn-info" data-dismiss="modal" onclick="request_laundry(<?php echo "'$username','$date'" ?>)">Submit</button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
 </body>
 </html>
+<script src="../js/home.js"></script>
