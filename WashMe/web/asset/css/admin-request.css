@@ -61,3 +61,41 @@ html,body{
 	height: 100%;
 	background:whitesmoke;
 }
+
+.req{
+	background:#5ba9cd;
+}
+
+.box{
+	padding:30px;
+	display: flex;
+	justify-content:space-around;
+}
+
+.box .box-req{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:1px solid;
+	padding:20px;
+}
+.box .box-req img{
+	width: 130px;
+	height: 130px;
+	margin-bottom:20px;
+}
+.box .box-req p{
+	margin: 0;
+	font-size: 25px;
+}
+
+.box .box-req .date{
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.box .box-req button{
+	margin-top:20px;
+}
