@@ -55,6 +55,10 @@
 						<input type="password" name="confirmation" id="confirmation" autocomplete="off" class="input form-control">
 					</div>
 					<div class="form-group" style="background-color: white;">
+						<label class="label" style="background-color: white;">No hp :</label><br>
+						<input type="text" name="nohp" id="nohp" autocomplete="off" class="input form-control">
+					</div>
+					<div class="form-group" style="background-color: white;">
 						<input type="submit" name="register" id="register" value="Register" class="button2 form-control">
 						<p style="margin:0;color:red;">
 							<?php 
