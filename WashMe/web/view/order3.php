@@ -109,9 +109,6 @@
 								<input type="date" name="tgl" id="tgl" min="2019-01-01" max="2019-12-31" class="input">
 							</div>
 							<div class="form-in up">
-								<textarea name="extra" id="extra" class="input" style="height: 65px;">Extra :							Rp 3.000 x 3 Kg = Rp 9.000			Rp 5.000 x 2 Pcs = Rp 10.000		Total = Rp 19.000</textarea>
-							</div>
-							<div class="form-in up">
 								<label>Pick Up Time</label>
 								<input type="time" name="time" id="time" class="input">
 							</div>
