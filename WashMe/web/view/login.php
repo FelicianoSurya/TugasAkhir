@@ -33,7 +33,7 @@
 							<?php 
 							if(isset($_GET['pesan'])){
 								if($_GET['pesan'] == 'berhasil'){
-									echo "Berhasil Registrasi";
+									echo "Registration Success";
 								}
 							}
 							 ?>
@@ -50,9 +50,9 @@
 
 							if(isset($_GET['pesan'])){
 								if($_GET['pesan'] == 'gagal'){
-									echo 'Login gagal! Username atau Password Salah!';
+									echo 'Login failed! Username or Password Wrong!';
 								}else if($_GET['pesan'] == 'belum_login'){
-									echo 'Anda belum Login';
+									echo 'You are not logged in';
 								}
 							}
 							?>

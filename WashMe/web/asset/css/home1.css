@@ -20,7 +20,7 @@ html,body{
 	flex-direction: column;
 	padding:30px;
 	overflow-y:scroll;
-	background: whitesmoke;
+	background:#ebebeb;
 }
 
 .slideshow{

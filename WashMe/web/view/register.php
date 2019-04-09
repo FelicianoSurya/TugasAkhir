@@ -22,7 +22,7 @@
 		<div class="bot">
 			<div class="left">
 				<div class="content">
-					<p class="white">Register <br><span class="color">Your Account</span> At WashMe</p>
+					<p class="white">Register <br><span class="color">Your Account</span> <br>At WashMe</p>
 				</div>
 			</div>
 			<div class="right">

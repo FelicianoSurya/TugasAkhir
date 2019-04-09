@@ -50,8 +50,8 @@
 					<div class="select-right">
 						<select name="categories" id="category" class="">
 							<option>Wash & Fold</option>
-							<option>Wash</option>
-							<option>Fold</option>
+							<option>Wash & Iron</option>
+							<option>Dry Cleaning</option>
 						</select>
 					</div>
 				</div>
