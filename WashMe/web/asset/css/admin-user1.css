@@ -66,8 +66,6 @@ html,body{
 	display: flex;
 	justify-content: center;
 	background: white;
-	padding: 20px;
-	border:1px solid black;
 }
 
 .body-right table{
