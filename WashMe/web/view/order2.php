@@ -9,93 +9,8 @@
 	<spcript src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<?php 
-	session_start();
-	?>
-	<div class="big-body">
-		<div class="body">
-			<div class="left">
-				<div class="top">
-					<div class="logo">
-						<img src="../asset/images/logo.png" alt="logo">
-					</div>
-					<div class="topic">
-						<p>WashMe</p>
-					</div>
-				</div>
-				<div class="bot">
-					<div class="info-user">
-						<div class="picture">
-							<img src="../asset/images/girl.png" alt="picture">
-						</div>
-						<div class="info">
-							<div class="name">
-								<p><?php echo $_SESSION['username'] ?></p>
-							</div>
-							<div class="information">
-								<div class="poin">
-									<p>88</p></div>
-								<div class="coin">
-									<img src="../asset/images/coins.png" alt="coin">
-								</div>
-								<div class="status">
-									<p>| <?php echo $_SESSION['status'] ?></p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="menu">
-						<div class="menu1">
-							<div class="logo">
-								<img src="../asset/images/home1.png" alt="home">
-							</div>
-							<div class="nama">
-								<a href="home.php">
-									<p>Home</p>
-								</a>
-							</div>
-						</div>
-						<div class="menu2">
-							<div class="logo">
-								<img src="../asset/images/shopping-list1.png" alt="home">
-							</div>
-							<div class="nama">
-								<p>My Orders</p>
-							</div>
-						</div>
-						<div class="menu2">
-							<div class="logo">
-								<img src="../asset/images/profile1.png" alt="home">
-							</div>
-							<div class="nama">
-								<a href="myprofile.php">
-									<p>My Profile</p>
-								</a>
-							</div>
-						</div>
-						<div class="menu2">
-							<div class="logo">
-								<img src="../asset/images/shopping-cart1.png" alt="home">
-							</div>
-							<div class="nama">
-								<a href="washmeshop1.php">
-									<p>WashMe Shop</p>
-								</a>
-							</div>
-						</div>
-					<div class="menu2 logout">
-						<div class="logo">
-							<img src="../asset/images/turn-off.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Logout</p>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="body1">
+	<div class="body">
+		<?php include "kiri.php";?>
 			<div class="right">
 				<div class="top">
 					<div class="icon">
@@ -125,7 +40,7 @@
 												<div class="img"><img src="../asset/images/plus.png"></div>
 											</div>
 										</div>
-										<hr>
+										<hr class="hr1">
 										<div class="form-in">
 											<div class="kiri">
 												<h5>Wash & Fold</h5>
@@ -140,7 +55,7 @@
 												<div class="img"><img src="../asset/images/plus.png"></div>
 											</div>
 										</div>
-										<hr>
+										<hr class="hr1">
 										<div class="content-in">
 											<div class="kgimg"><img src="../asset/images/weight.png"></div>
 											<div class="text">
@@ -155,43 +70,82 @@
 											<p>3 kg</p>
 										</div>
 									</div>
+									<div class="content-foot">
+										<div class="total">
+											<p>Total : Rp 15.000</p>
+										</div>
+									</div>
 								</div>
-								<div class="topic-kiri">
+								<div class="topic-kanan">
 									<div class="title">
-										<h4>Basic Laundry (Kg)</h4>
+										<h4>Dry Cleaning (Pcs)</h4>
 									</div>
 									<hr>
 									<div class="content">
 										<div class="form-in">
 											<div class="kiri">
-												<h5>Wash & Fold</h5>
-												<p>Rp 5.000 / kg</p>
+												<h5>Sweater</h5>
+												<p>Rp 10.000 / pcs</p>
 											</div>
 											<div class="kanan">
 												<div class="img"><img src="../asset/images/minus.png"></div>
 												<div class="center">
-													<h5>3</h5>
-													<p>(kg)</p>
+													<h5>1</h5>
 												</div>
 												<div class="img"><img src="../asset/images/plus.png"></div>
 											</div>
 										</div>
-										<hr>
+										<hr class="hr1">
 										<div class="form-in">
 											<div class="kiri">
-												<h5>Wash & Fold</h5>
-												<p>Rp 5.000 / kg</p>
+												<h5>Wedding Dress</h5>
+												<p>Rp 100.000 / pcs</p>
 											</div>
 											<div class="kanan">
 												<div class="img"><img src="../asset/images/minus.png"></div>
 												<div class="center">
-													<h5>3</h5>
-													<p>(kg)</p>
+													<h5>0</h5>
 												</div>
 												<div class="img"><img src="../asset/images/plus.png"></div>
 											</div>
 										</div>
-										<hr>
+										<hr class="hr1">
+										<div class="form-in">
+											<div class="kiri">
+												<h5>Swimming Suit</h5>
+												<p>Rp 10.000 / pcs</p>
+											</div>
+											<div class="kanan">
+												<div class="img"><img src="../asset/images/minus.png"></div>
+												<div class="center">
+													<h5>0</h5>
+												</div>
+												<div class="img"><img src="../asset/images/plus.png"></div>
+											</div>
+										</div>
+										<hr class="hr1">
+										<div class="form-in">
+											<div class="kiri">
+												<h5>Shirt / Batik</h5>
+												<p>Rp 15.000 / pcs</p>
+											</div>
+											<div class="kanan">
+												<div class="img"><img src="../asset/images/minus.png"></div>
+												<div class="center">
+													<h5>1</h5>
+												</div>
+												<div class="img"><img src="../asset/images/plus.png"></div>
+											</div>
+										</div>
+										<hr class="hr1">
+										<div class="last">
+											<p>2 pcs</p>
+										</div>
+									</div>
+									<div class="content-foot">
+										<div class="total">
+											<p>Total : Rp 15.000</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -202,7 +156,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</div>
 </body>
 </html>
