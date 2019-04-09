@@ -82,7 +82,7 @@ html,body{
 
 .place-info{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top:20px;
 }
 
@@ -91,6 +91,7 @@ html,body{
 	flex-direction: column;
 	border:1px solid #efefef;
 	background-color: #ffffff;
+	padding-bottom: 10px;
 }
 
 .box-place .image-place img{
@@ -104,6 +105,7 @@ html,body{
 
 .box-place .info-place .jalan{
 	width:200px;
+	z-index: 2;
 }
 
 .box-place .a .b img{
@@ -114,11 +116,11 @@ html,body{
 .box-place .a{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding-right:10px;
 }
 .box-place .a .b{
 	display: flex;
-	justify-content: center;
 }
 .jalan{
 	color: grey;

@@ -41,38 +41,46 @@
 					</div>
 				</div>
 				<div class="menu">
-					<div class="menu1">
-						<div class="logo">
-							<img src="../asset/images/home1.png" alt="home">
+					<a href="home.php">
+						<div class="menu1">
+							<div class="logo">
+								<img src="../asset/images/home1.png" alt="home">
+							</div>
+							<div class="nama">
+								<p>Home</p>
+							</div>
 						</div>
-						<div class="nama">
-							<p>Home</p>
+					</a>
+					<a href="myorders.php">
+						<div class="menu2">
+							<div class="logo">
+								<img src="../asset/images/shopping-list1.png" alt="home">
+							</div>
+							<div class="nama">
+								<p>My Orders</p>
+							</div>
 						</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/shopping-list1.png" alt="home">
+					</a>
+					<a href="myprofile.php">
+						<div class="menu2">
+							<div class="logo">
+								<img src="../asset/images/profile1.png" alt="home">
+							</div>
+							<div class="nama">
+								<p>My Profile</p>
+							</div>
 						</div>
-						<div class="nama">
-							<p>My Orders</p>
+					</a>
+					<a href="washmeshop-kategori.php">
+						<div class="menu2">
+							<div class="logo">
+								<img src="../asset/images/shopping-cart1.png" alt="home">
+							</div>
+							<div class="nama">
+								<p>WashMe Shop</p>
+							</div>
 						</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/profile1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>My Profile</p>
-						</div>
-					</div>
-					<div class="menu2">
-						<div class="logo">
-							<img src="../asset/images/shopping-cart1.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>WashMe Shop</p>
-						</div>
-					</div>
+					</a>
 					<div class="menu2 logout">
 						<div class="logo">
 							<img src="../asset/images/turn-off.png" alt="home">
