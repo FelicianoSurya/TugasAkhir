@@ -7,7 +7,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-	<?php 
+	<?php
 	session_start();
 	 ?>
 		<div class="left">
@@ -44,20 +44,20 @@
 							<p>User</p>
 						</div>
 					</div></a>
+					<a href="admin-laundry.php"><div class="menu2 laundry">
+						<div class="logo">
+							<img src="../../asset/images/washing-machine3.png" alt="home">
+						</div>
+						<div class="nama">
+							<p>Laundry</p>
+						</div>
+					</div></a>
 					<a href="admin-request.php"><div class="menu2 req">
 						<div class="logo">
 							<img src="../../asset/images/shopping-list1.png" alt="home">
 						</div>
 						<div class="nama">
 							<p>Request</p>
-						</div>
-					</div></a>
-					<a href="admin-laundry.php"><div class="menu2">
-						<div class="logo">
-							<img src="../../asset/images/washing-machine3.png" alt="home">
-						</div>
-						<div class="nama">
-							<p>Laundry</p>
 						</div>
 					</div></a>
 					<a href="admin-setting.php"><div class="menu2">

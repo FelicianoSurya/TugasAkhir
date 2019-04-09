@@ -21,11 +21,15 @@
 		<?php include "kiri.php" ?>
 		<div class="right">
 			<div class="box">
-				<?php 
+				<?php
 				include "../../php/connection.php";
 				$sql = 'select * from request_laundry';
 				$query = mysqli_query($conn,$sql);
 				$num = mysqli_num_rows($query);
+				if($num == 0){
+					echo "No Request Laundry!!";
+				}
+				else{
 				for($x = 1; $x <= $num; $x++){
 					$re = mysqli_fetch_array($query);
 					$id = $re['id'];
@@ -41,7 +45,7 @@
 						<button class="btn btn-md btn-info" data-toggle="modal" data-target="#openmore">See More</button>
 						<button class="btn btn-md btn-danger" onclick="del_req(<?php echo "'$id'" ?>)">Reject</button>
 					</div>
-				</div>	  
+				</div>
 				<div class="modal fade" id="openmore" role="dialog">
 					<div class="modal-dialog">
 						<div class="modal-content">
@@ -91,7 +95,7 @@
 						</div>
 					</div>
 				</div>
-			<?php } ?>
+			<?php } } ?>
 		</div>
 		</div>
 	</div>
