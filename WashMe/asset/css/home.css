@@ -3,16 +3,16 @@
 	font-family: coolvetica;
 }
 form{
-	padding-top: 10px;
+	padding-top: 20px;
 }
 .logo{
-	width: 40px;
-	margin-left: 20px;
+	width: 100px;
+	margin-left: 30px;
 }
 .search{
-	border: 0.5px solid lightgrey;
+	border: 1px solid lightgrey;
 	background-color: white;
-	padding: 5px 15px;
+	padding: 5px 30px;
 	border-radius: 100px;
 	display: flex;
 	width: 50%;
@@ -20,37 +20,37 @@ form{
 	margin: 0px 10px;
 }
 .search .img3{
-	width: 28px;
-	height: 25px;
+	width: 80px;
+	height: 60px;
 }
 .search .text4{
 	border: none;
 	width: 100%;
-	font-size: 20px;
+	font-size: 30px;
 	margin-left: 10px;
 }
 .text{
-	font-size: 25px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-left: 5px;
 }
 .border-mid1{
 	border: 1px solid lightgrey;
-	width: 120px;
+	width: 250px;
 	padding-bottom: 10px;
-	margin: 10px;
+	margin: 20px;
 	text-align: center;
 }
 .border-mid{
 	padding: 15px;
 	text-align: center;
-	width: 110px;
+	width: 180px;
 }
 .coin{
-	width: 32px;
+	width: 80px;
 }
 .text-mid{
-	font-size: 18px;
+	font-size: 30px;
 	text-align: center;
 	margin-top: -10px;
 }
@@ -60,17 +60,17 @@ form{
 	flex-direction: column;
 }
 .border-mid2 .border1{
-	width: 40%;
+	width: 100%;
 }
 .border-mid2 .flex .text-mid1{
-	font-size: 18px;
+	font-size: 30px;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 }
 .border-mid2 .flex .text-mid2{
-	width: 54%;
-	font-size: 18px;
+	width: 63%;
+	font-size: 30px;
 	color: #6dcff6;
 	font-weight: bold;
 	display: flex;
@@ -79,7 +79,7 @@ form{
 }
 .border-mid2 .flex .text-mid3{
 	width: 90%;
-	font-size: 18px;
+	font-size: 30px;
 	color: #6dcff6;
 	font-weight: bold;
 	display: flex;
@@ -98,15 +98,45 @@ form{
 	width: 100%;
 	border: 0.5px solid black;
 }
-.box{
-	max-width: 250px;
-	max-height: 300px;
-	margin: 10px 5px 15px 5px;
+.box-place{
+	display: flex;
+	flex-direction: column;
+	border:1px solid #efefef;
+	background-color: #ffffff;
 }
-.box .text{
-	font-weight: bold;
-	font-size: 15px;
+
+.box-place .image-place img{
+	width: 200px;
+}
+
+.box-place .info-place p{
+	margin:0;
+	padding-left: 5px;
+}
+
+.box-place .info-place .jalan{
+	width:200px;
+}
+
+.box-place .a .b img{
+	width: 25px;
+	height: 25px;
+}
+
+.box-place .a{
+	display: flex;
+	align-items: center;
+	padding-right:10px;
+}
+.box-place .a .b{
+	display: flex;
+	justify-content: center;
+}
+.jalan{
 	color: grey;
+}
+.situasi{
+	color:#88d7f7;
 }
 .img{
 	width: 200px;
@@ -117,51 +147,52 @@ form{
 	max-width: 200px;
 	margin: 10px 5px 20px 5px;
 }
-.box2 .text{
-	font-size: 15px;
-	font-weight: bold;
+.box2 .text5{
+	font-size: 18px;
 	color: black;
 }
 .box2 .harga{
 	color: #ed145b;
-	font-weight: bold;
+	font-size: 20px;
 }
-.box2 .flex .text{
+.box2 .flex1 .text{
 	color: grey;
-	font-size: 13px;
-	margin-left: 5px;
-	font-weight: bold;
+	font-size: 15px;
 }
 .star{
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 }
 .box3{
 	padding: 20px;
 }
 .box3 .text1{
 	color: #6dcff6;
-	font-size: 25px;
+	font-size: 30px;
 }
 .box3 .text2{
 	color: #605252;
-	font-size: 20px;
+	font-size: 25px;
 }
 .box3 .button{
 	background-color: #ed145b;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	border-radius: 10px;
 	cursor: pointer;
 	border : none;
-	padding: 0px 10px;
+	padding: 10px 20px;
 }
 .box3 .text3{
 	color: #ed145b;
 	margin-top: 10px;
 	margin-left: 5px;
-	font-size: 20px;
+	font-size: 25px;
 	cursor: pointer;
+}
+.box3 .img{
+	width: 280px;
+	height: 230px;
 }
 .hr2{
 	border: 0.9px solid darkgrey;
@@ -185,25 +216,28 @@ form{
 	margin-top: -16px;
 	background-color: #ebebeb;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .footer a:hover{
 	text-decoration: none;
 }
-.img2{
-	width: 35px;
-	height: 35px;
+.box4 .img2{
+	width: 100px;
+	height: 100px;
 }
 .box4{
 	width: 100%;
-	padding: 10px 20px 10px 20px;
+	margin: 20px 30px;
 }
 .box4 .text{
 	color:  #6dcff6;
-	font-size: 15px;
+	font-size: 35px;
 	margin-top: 5px;
 }
 .box4 .text1{
 	color:  grey;
-	font-size: 15px;
+	font-size: 35px;
 	margin-top: 5px;
 }
