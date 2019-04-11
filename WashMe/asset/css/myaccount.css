@@ -19,6 +19,7 @@ html,body{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	padding: 10px 0px;
 }
 .header .topic-top header{
 	width: 100%;
@@ -31,7 +32,10 @@ html,body{
 }
 .hr1{
 	width: 100%;
-	border: 0.5px solid black;
+	border: 1px solid black;
+}
+.title{
+	font-size: 60px;
 }
 .content a{
 	width: 100%;
@@ -52,6 +56,9 @@ html,body{
 .content-in{
 	padding: 0px 25px 0px 30px;
 	margin-bottom: -15px;
+}
+.content .content-in .user{
+	font-size: 40px;
 }
 .content .content-in .user p{
 	margin-top: -5px;
@@ -88,6 +95,7 @@ html,body{
 }
 .content .content-in1 .user p{
 	margin-top: -5px;
+	font-size: 40px;
 }
 .content .content-in1 .edit{
 	margin-top: -10px;
@@ -99,34 +107,35 @@ html,body{
 .content .content-in1 .edit button{
 	width: 70%;
 	outline: none;
-	height: 35px;
 	border: 1px solid #0c354f;
 	font-size: 13px;
 	color: white;
 	border-radius: 10px;
 	background-color: #0c354f;
-	padding: 0px 15px 0px 15px;
+	padding: 10px 15px 10px 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
 .content .content-in1 .edit button img{
-	width: 20px;
+	width: 40px;
 	outline: none;
-	height: 20px;
+	height: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: -130px;
-	margin-top: 7px;
+	margin-left: -200px;
+	margin-top: 15px;
 }
 .content .content-in1 .edit button p{
 	display: flex;
+	font-size: 35px;
 	outline: none;
 	justify-content: center;
 	align-items: center;
-	margin-top: -12px;
+	margin-top: -40px;
+	margin-left: 50px;
 }
 .content .content-in2{
 	width: 100%;

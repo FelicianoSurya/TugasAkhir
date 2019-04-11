@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/myorders.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myorders1.css">
 	<title></title>
 </head>
 <body>
@@ -26,8 +26,8 @@
 		<div class="col-sm-1"></div>
 		<div class="col-sm-10">
 			<div class="row">
-				<div class="col-sm-2"><img src="../asset/images/tag2.png" class="img"></div>
-				<div class="col-sm-8 text1">Payment</div>
+				<div class="col-sm-2"><img src="../asset/images/tag2.png" class="img2"></div>
+				<div class="col-sm-8 text">Payment</div>
 				<div class="col-sm-2"><img src="../asset/images/check.png" class="img"></div>
 			</div>
 			<div class="row top">
