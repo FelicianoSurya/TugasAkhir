@@ -6,25 +6,25 @@
 	align-items: center;
 }
 .border-top{
-	padding: 10px;
+	padding: 20px;
 }
 .border-top .img{
-	width: 40px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 }
 .border-top .text{
 	color: #605252;
-	margin-left: 70px;
-	font-size: 30px;
+	margin-left: 40px;
+	font-size: 50px;
 }
 .padding{
 	padding: 10px 30px;
 }
 .padding .text{
-	font-size: 18px;
+	font-size: 50px;
 }
 .border-mid1{
-	margin-left: 40px;
+	margin-left: 120px;
 }
 .hr1{
 	border: 2px solid #6dcff6;
@@ -38,22 +38,22 @@
 	padding: 0px 20px;
 }
 .box1{
-	padding-left: 20px;
+	padding: 20px 0px 20px 40px;
 }
 .box .box1 .flex .box-in1{
-	line-height: 23px;
+	line-height: 45px;
 	margin-top: 5px;
 }
 .box .box1 .flex .box-in1 .text1{
-	font-weight: bold;
-	font-size: 22px;
+	font-size: 50px;
 }
 .box .box1 .flex .box-in1 .text2{
 	color: #605252;
+	font-size: 30px;
 }
 .box-in1 .img{
-	width: 27px;
-	height: 27px;
+	width: 70px;
+	height: 70px;
 	cursor: pointer;
 }
 .box-in1 .jarak1{
@@ -61,45 +61,46 @@
 }
 .jarak{
 	text-align: center;
-	margin-left: 70px;
+	margin-left: 300px;
 }
 .hr3{
 	border: 1px solid #6dcff6;
 }
 .box2 .img{
-	width: 70px;
-	height: 70px;
+	width: 150px;
+	height: 150px;
 }
 .box .box-in{
 	margin-left: 20px;
 }
 .box .box-in .text1{
-	font-size: 20px;
+	font-size: 40px;
 }
 .box .box-in .text2{
 	color: #605252;
+	font-size: 30px;
 }
 .note{
-	font-size: 20px;
+	font-size: 30px;
 	margin-top: 15px;
 }
 .center{
 	text-align: center;
-	margin-top: 5px;
 }
 .next{
-	width: 70px;
+	width: 150px;
 }
 .footer{
 	background-color: #6dcff6;
 	padding: 10px 20px;
+	margin-top: -30px;
 }
 .footer .text1{
-	font-size: 20px;
+	font-size: 50px;
 }
 .footer .text2{
-	width: 90%;
-	font-size: 20px;
+	width: 100%;
+	font-size: 50px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;

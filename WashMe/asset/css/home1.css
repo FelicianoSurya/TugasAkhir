@@ -26,7 +26,7 @@ form{
 .search .text4{
 	border: none;
 	width: 100%;
-	font-size: 30px;
+	font-size: 40px;
 	margin-left: 10px;
 }
 .text{
@@ -37,20 +37,20 @@ form{
 .border-mid1{
 	border: 1px solid lightgrey;
 	width: 250px;
-	padding-bottom: 10px;
+	padding: 10px 0px;
 	margin: 20px;
 	text-align: center;
 }
 .border-mid{
 	padding: 15px;
 	text-align: center;
-	width: 180px;
+	width: 200px;
 }
 .coin{
 	width: 80px;
 }
 .text-mid{
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	margin-top: -10px;
 }
@@ -63,14 +63,14 @@ form{
 	width: 100%;
 }
 .border-mid2 .flex .text-mid1{
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 }
 .border-mid2 .flex .text-mid2{
-	width: 63%;
-	font-size: 30px;
+	width: 45%;
+	font-size: 45px;
 	color: #6dcff6;
 	font-weight: bold;
 	display: flex;
@@ -78,8 +78,8 @@ form{
 	align-items: flex-end;
 }
 .border-mid2 .flex .text-mid3{
-	width: 90%;
-	font-size: 30px;
+	width: 85%;
+	font-size: 45px;
 	color: #6dcff6;
 	font-weight: bold;
 	display: flex;
@@ -106,21 +106,22 @@ form{
 }
 
 .box-place .image-place img{
-	width: 200px;
+	width: 350px;
 }
 
 .box-place .info-place p{
-	margin:0;
+	font-size: 40px;
 	padding-left: 5px;
+	line-height: 40px;
 }
 
 .box-place .info-place .jalan{
-	width:200px;
+	width:350px;
 }
 
 .box-place .a .b img{
-	width: 25px;
-	height: 25px;
+	width: 60px;
+	height: 60px;
 }
 
 .box-place .a{
@@ -139,45 +140,44 @@ form{
 	color:#88d7f7;
 }
 .img{
-	width: 200px;
-	height: 150px;
+	width: 350px;
+	height: 300px;
 }
 .box2{
-	max-height: 300px;
-	max-width: 200px;
-	margin: 10px 5px 20px 5px;
+	width: 400px;
+	margin: 20px 0px;
 }
 .box2 .text5{
-	font-size: 18px;
+	font-size: 40px;
 	color: black;
 }
 .box2 .harga{
 	color: #ed145b;
-	font-size: 20px;
+	font-size: 40px;
 }
 .box2 .flex1 .text{
 	color: grey;
-	font-size: 15px;
+	font-size: 35px;
 }
 .star{
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 }
 .box3{
 	padding: 20px;
 }
 .box3 .text1{
 	color: #6dcff6;
-	font-size: 30px;
+	font-size: 50px;
 }
 .box3 .text2{
 	color: #605252;
-	font-size: 25px;
+	font-size: 45px;
 }
 .box3 .button{
 	background-color: #ed145b;
 	color: white;
-	font-size: 25px;
+	font-size: 45px;
 	border-radius: 10px;
 	cursor: pointer;
 	border : none;
@@ -187,7 +187,7 @@ form{
 	color: #ed145b;
 	margin-top: 10px;
 	margin-left: 5px;
-	font-size: 25px;
+	font-size: 45px;
 	cursor: pointer;
 }
 .box3 .img{
@@ -202,7 +202,6 @@ form{
 }
 .flex1{
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 .flex1 a{
