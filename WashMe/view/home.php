@@ -82,11 +82,23 @@
 						$close = $re['time_close'];
 						$harga = $re['harga'];
 						$kota = $re['kota'];
-						$image = $re['image'];
 				?>
-				<div class="box">
-					<img src="../asset/images/laundry-ateng.jpg" class="img">
-					<p class="jalan"><?php echo $jalan ?></p>
+				<div class="box-place">
+					<div class="image-place">
+						<img src="../asset/images/laundry-ateng.jpg" alt="laundry-ateng">
+					</div>
+					<div class="info-place">
+						<p class="jalan"><?php echo $jalan ?></p>
+						<p class="situasi"><?php echo $status ?></p>
+						<p class="date"><?php echo $open ?> - <?php echo $close ?></p>
+						<div class="a">
+							<p class="harga"><?php echo $harga ?> / kg</p>
+							<div class="b">
+								<img src="../asset/images/location-mark-blue.png" alt="location">
+								<p class="city"><?php echo $kota ?></p>
+							</div>
+						</div>
+					</div>
 				</div>
 				<?php } ?>
 			</div>
@@ -99,13 +111,13 @@
 				<div class="text-mid1">Shop</div>
 				<div class="text-mid3">See All</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 flex">
+			<div>
+				<div class="flex">
 					<div class="box2">
 						<img src="../asset/images/setrika1.png" class="img">
-						<div class="text">Setrika Uap Listrik Silver Star ES300...</div>
+						<div class="text5">Setrika Uap Listrik Silver Star ES300...</div>
 						<div class="harga">Rp 515.000</div>
-						<div class="flex">
+						<div class="flex1">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
@@ -116,28 +128,15 @@
 					</div>
 					<div class="box2">
 						<img src="../asset/images/shop1.jpg" class="img">
-						<div class="text">Stand Hanger / Gantungan tiang...</div>
+						<div class="text5">Stand Hanger / Gantungan tiang...</div>
 						<div class="harga">Rp 70.000</div>
-						<div class="flex">
+						<div class="flex1">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
 							<img src="../asset/images/star1.png" class="star">
 							<div class="text">(89)</div>
-						</div>
-					</div>
-					<div class="box2">
-						<img src="../asset/images/shop2.jpg" class="img">
-						<div class="text">Jemuran Dinding Fortuna (JD-150)</div>
-						<div class="harga">Rp 340.000</div>
-						<div class="flex">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<div class="text">(156)</div>
 						</div>
 					</div>
 				</div>
@@ -147,7 +146,7 @@
 			<div class="col-sm-12"></div>
 		</div>
 		<div class="row box3">
-			<div class="col-sm-7">
+			<div class="col-sm-8">
 				<div class="text1">Have a laundry? Open your online branch in WashMe</div>
 				<div class="text2">Easy to use and trusted. FREE!</div>
 				<div class="flex">
@@ -155,10 +154,10 @@
 					<div class="text3"><u>Learn more</u></div>
 				</div>
 			</div>
-			<div class="col-sm-5"><img src="../asset/images/laundry3.png" class="img"></div>
+			<div class="col-sm-4"><img src="../asset/images/laundry3.png" class="img"></div>
 		</div>
 		<hr class="hr2">
-		<div class="flex1 footer">
+		<div class="footer">
 			<a href="home.php">
 				<div class="box4">
 					<img src="../asset/images/home.png" class="img2">

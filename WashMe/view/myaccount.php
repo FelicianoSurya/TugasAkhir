@@ -6,7 +6,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -18,7 +18,7 @@
 		<div class="topic-top">
 			<header>
 				<div>
-					<h4>My Account</h4>
+					<h4 class="title">My Account</h4>
 				</div>
 			</header>
 		</div>
@@ -27,7 +27,7 @@
 	<div class="content">
 		<div class="content-in">
 			<div class="user">
-				<h5><?php echo $_SESSION['username']; ?></h5>
+				<p><?php echo $_SESSION['username']; ?></p>
 				<p><?php echo $_SESSION['email']; ?></p>
 				<p class="no"><?php echo $_SESSION['nohp']; ?></p>
 			</div>

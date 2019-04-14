@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/chat.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/chat1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -28,7 +28,7 @@
 						<p>KB 1234 WQ</p>
 					</div>
 					<div class="call">
-						<img src="../asset/images/call-answer.png" alt="images">
+						<img src="../asset/images/call-answer.png" alt="images" class="img">
 					</div>
 				</div>
 			</header>
