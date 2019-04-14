@@ -83,7 +83,7 @@
 }
 
 .name{
-	font-size: 20px;
+	font-size: 18px;
 }
 .coin{
 	margin-left:10px;
@@ -96,6 +96,10 @@
 .menu{
 	display: flex;
 	flex-direction: column;
+}
+
+.menu a:hover{
+	text-decoration: none;
 }
 
 .menu1{

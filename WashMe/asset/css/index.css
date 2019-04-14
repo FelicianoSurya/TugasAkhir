@@ -2,146 +2,118 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	background-color: #6dcff6;
 	font-family: coolvetica;
-}
-.container-fluid-fullscreen{
-	width: 100%;
-	height: 100%;
 }
 html,body{
 	width: 100%;
 	height: 100%;
-	display: flex;
-	justify-content: center;
-	overflow-x: hidden;
+	overflow: hidden;
 }
-.header{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-.header .topic-top header{
+
+.body{
 	width: 100%;
 	height: 100%;
-	margin: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	background-color: #6dcff6;
 }
-header .logo{
-	margin-left: 10px;
-}
-.topic-top header .logo img{
-	width: 65px;
-	height: 65px;
-}
-header .list{
-	width: 33%;
-	height: 100%;
-	margin-right: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.list .geser{
+
+header{
 	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	padding:30px;
 }
-.list .geser button{
-	height: 30px;
-	font-size: 16px;
-	color: white;
-}
-.list .geser .button{
-	width: 83px;
-	padding: 0px 10px 0px 10px;
-	border: 3px solid white;
-	background-color: transparent;
-	outline: none;
-}
-.list .geser .button1{
-	margin-left: 5px;
-	padding: 0px 20px 0px 20px;
-	border: 3px solid #0c354f;
-	background-color: #0c354f;
-	outline: none;
-}
-.content{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	padding: 40px;
-	justify-content: center;
-	align-items: center;
-}
-.content .content-in{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-.content-in .tagline{
-	width: 100%;
+
+header .header{
 	display: flex;
 	align-items: center;
-	justify-content: center;
 }
-.content-in .tagline h1{
-	color: white;
+
+header .header .left{
+	width: 55%;
+}
+
+header .header .left img{
+	width: 150px;
+}
+
+header .header .right{
+}
+
+.header .right button{
+	color:white;
+	width: 200px;
 	font-size: 40px;
-	text-align: center;
+	background-color:transparant;
+	border: 5px solid white;
 }
-.content-in .tagline h1 .font{
-	color: #0c354f;
+
+.header .right .help{
+	background:#0c354f;
+	border:none;
+	margin-left:10px;
 }
-.content-in .login{
-	width: 100%;
-	padding: 0px 20px 10px 20px;
+
+.content{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+}
+
+
+.topic{
+	font-size: 90px;
+	margin-top:100px;
+	color:white;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: flex;
 	justify-content: center;
-}
-.content-in .login .kotak{
-	width: 100%;
-	border: 1px solid white;
-	padding: 10px;
-	padding-bottom: 0px;
-	background-color: white;
-}
-.content-in .login .kotak .label{
-	font-size: 20px;
-}
-.content-in .login .kotak .input{
-	font-size: 15px;
-	height: 30px;
-}
-.content-in .login .kotak .button2{
-	margin: 0 auto;
-	font-size: 15px;
-	height: 35px;
-	background-color: #0c354f;
-	color: white;
-	border-radius: 0px;
-}
-.content-in .flex{
-	width: 100%;
-	margin-top: -20px;
-	padding: 0px 20px 0px 20px;
 	text-align: center;
 }
-.content-in .flex .option .opt{
-	font-size: 12px;
+
+.washme{
+	color:#0c354f;
 }
-.content-in .flex .medsos{
-	margin-top: -10px;
+
+.box{
+	width: 70%;
+	padding:50px;
+	background:white;
 }
-.content-in .flex .medsos a{
-	text-decoration: none;
+
+.box label{
+	font-size: 50px;
 }
-.content-in .flex .medsos img{
-	width: 30px;
-	height: 30px;
+
+.box input{
+	font-size: 40px;
+}
+
+.box button{
+	background:#0c354f;
+	color:white;
+	font-size: 40px;
+	margin-top:50px;
+}
+
+.box a{
+	font-size: 30px;
+	color:black;
+}
+
+.lain{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 40px;
+	margin-top:40px;
+}
+
+.lain .sosmed{
+	display: flex;
+}
+
+.lain .sosmed img{
+	width: 150px;
+	height: 150px;
+	padding:20px;
 }

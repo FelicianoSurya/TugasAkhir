@@ -2,7 +2,7 @@
 <head>
 	<title>Wash Me</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home2.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -22,10 +22,10 @@
 
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="../asset/images/slideshow/1.png" alt="slideshow">
+								<img src="../asset/images/slideshow/laundry.png" alt="slideshow">
 							</div>
 							<div class="carousel-item">
-								<img src="../asset/images/slideshow/2.png" alt="slideshow">
+								<img src="../asset/images/slideshow/top web'15 v4.jpg" alt="slideshow">
 							</div>
 							<div class="carousel-item">
 								<img src="../asset/images/slideshow/3.png" alt="slideshow">
@@ -74,6 +74,7 @@
 
 						for($x = 1;$x<=$num;$x++){
 							$re = mysqli_fetch_array($query);
+							$name = $re['name'];
 							$jalan = $re['alamat'];
 							$status = $re['status'];
 							$nama = $re['name'];
@@ -88,6 +89,7 @@
 								<img src="../asset/images/laundry-ateng.jpg" alt="laundry-ateng">
 							</div>
 							<div class="info-place">
+								<p class="name"><?php echo $name; ?></p>
 								<p class="jalan"><?php echo $jalan ?></p>
 								<p class="situasi"><?php echo $status ?></p>
 								<p class="date"><?php echo $open ?> - <?php echo $close ?></p>
