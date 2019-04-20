@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/recommend.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/recommend1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -14,72 +14,53 @@
 	<div class="header">
 		<div class="topic-top">
 			<header>
-				<a href="#">
+				<a href="home.php">
 					<div class="logo">
 						<img src="../asset/images/left-arrow1.png" alt="image">
 					</div>
 				</a>
 				<div class="list">
 					<div class="geser">
-						<h1>Recommended Laundries</h1>
+						<h1>Recommended</h1>
 					</div>
 				</div>
 			</header>
-			<div class="kotak-search">
-				<input type="text" name="search" id="search" placeholder="Search..." class="search">
-			</div>
 		</div>
+	</div>
+	<div class="search">
+		<img src="../asset/images/search.png" alt="search" class="img3">
+		<input type="text" id="search" name="search" placeholder="Search Laundry" class="text4">
 	</div>
 	<div class="content">
 		<div class="content-in">
-			<a href="#">
+			<?php 
+			include "../php/connection.php";
+			$sql = "select * from laundrys";
+			$query = mysqli_query($conn,$sql);
+			$num = mysqli_num_rows($query);
+			for($x=1;$x <=$num;$x++){
+				$re = mysqli_fetch_array($query);
+				$name = $re['name'];
+				$alamat = $re['alamat'];
+				$rating = $re['rating'];
+				$kota = $re['kota'];
+			 ?>
+			<a href="washme-order.php">
 				<div class="kotak-besar">
-					<div class="kotak-kiri">
-						<img src="../asset/images/laundry-ateng.jpg" alt="images">
-					</div>
-					<div class="kotak-kanan">
-						<p class="teks1">Laundry Ateng</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Imam Bonjol Gg. Tanjung...</span></p>
-						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>5.7</span></p>
-					</div>
-				</div>
-			</a>
-			<a href="#">
-				<div class="kotak-besar up">
 					<div class="kotak-kiri">
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
 					</div>
 					<div class="kotak-kanan">
-						<p class="teks1">Laundry Fresco</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Gajah Mada Gg. Gajah Ma...</span></p>
-						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>5.0</span></p>
+						<div class="teks">
+							<p class="teks1"><?php echo $name ?></p>
+							<p class="kota"><?php echo $kota ?></p>
+						</div>
+						<p class="naik"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
+						<p class="naikk"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
 					</div>
 				</div>
 			</a>
-			<a href="#">
-				<div class="kotak-besar up">
-					<div class="kotak-kiri">
-						<img src="../asset/images/mboklaundry.png" alt="images">
-					</div>
-					<div class="kotak-kanan">
-						<p class="teks1">Laundry Mbok</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Sungai Raya Dalam Komp...</span></p>
-						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>4.5</span></p>
-					</div>
-				</div>
-			</a>
-			<a href="#">
-				<div class="kotak-besar up">
-					<div class="kotak-kiri">
-						<img src="../asset/images/annisalaundry.png" alt="images">
-					</div>
-					<div class="kotak-kanan">
-						<p class="teks1">Annisa Laundry</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Putri Chandra Midi No.33</span></p>
-						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>3.4</span></p>
-					</div>
-				</div>
-			</a>
+			<?php } ?>
 		</div>
 	</div>
 </div>
