@@ -34,12 +34,16 @@
 	<div class="content">
 		<div class="content-in">
 			<?php 
-			include "connection.php";
+			include "../php/connection.php";
 			$sql = "select * from laundrys where service = 'wash&fold'";
 			$query = mysqli_query($conn,$sql);
 			$num = mysqli_num_rows($query);
 			for($x=1;$x <=$num;$x++){
-
+				$re = mysqli_fetch_array($query);
+				$name = $re['name'];
+				$alamat = $re['alamat'];
+				$rating = $re['rating'];
+				$kota = $re['kota'];
 			 ?>
 			<a href="washme-order.php">
 				<div class="kotak-besar">
@@ -47,9 +51,12 @@
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
 					</div>
 					<div class="kotak-kanan">
-						<p class="teks1">Laundry Fresco</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Gajah Mada Gg. Gajah Ma...</span></p>
-						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>5.0</span></p>
+						<div class="teks">
+							<p class="teks1"><?php echo $name ?></p>
+							<p class="kota"><?php echo $kota ?></p>
+						</div>
+						<p class="naik"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
+						<p class="naikk"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
 					</div>
 				</div>
 			</a>

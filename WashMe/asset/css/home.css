@@ -93,6 +93,9 @@ form{
 	justify-content: flex-end;
 	align-items: flex-end;
 }
+.mid2 a:hover{
+	text-decoration: none;
+}
 .background{
 	background-color: #ebebeb;
 	height: 30px;

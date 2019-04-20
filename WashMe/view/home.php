@@ -96,7 +96,7 @@
 		<div class="border-mid2">
 			<div class="flex">
 				<div class="text-mid1">Recommended Laundries</div>
-				<div class="text-mid2">See All</div>
+				<div class="text-mid2"><a href="recommend.php" style="color:#6dcff6;">See All</a></div>
 			</div>
 			<div class="flex border1">
 				<?php
