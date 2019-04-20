@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home2.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -14,6 +14,14 @@
 	<div class="container-fluid-screen">
 		<?php
 		session_start();
+
+		$username = $_SESSION['username'];
+		include "../php/connection.php";
+		$sql = "select * from user where username='$username'";
+		$query = mysqli_query($conn,$sql);
+		$re = mysqli_fetch_array($query);
+		$name = $re['name'];
+		$coin = $re['coin'];
 		 ?>
 		<div class="flex">
 			<div><img src="../asset/images/logo.png" class="logo"></div>
@@ -23,7 +31,7 @@
 			</div>
 			<div class="flex1">
 				<div><img src="../asset/images/coin5.png" class="coin"></div>
-				<div class="text">88 coins</div>
+				<div class="text"><?php echo $coin ?> coins</div>
 			</div>
 		</div>
 		<hr class="hr1">
@@ -71,9 +79,6 @@
 						<div class="carousel-item">
 							<img src="../asset/images/slideshow/top web'15 v4.jpg" alt="slideshow">
 						</div>
-						<div class="carousel-item">
-							<img src="../asset/images/slideshow/3.png" alt="slideshow">
-						</div>
 					</div>
 
 					<a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -116,7 +121,15 @@
 					</div>
 					<div class="info-place">
 						<p class="jalan"><?php echo $jalan ?></p>
-						<p class="situasi"><?php echo $status ?></p>
+						<?php
+						if($status == "open"){
+						 ?>
+						<p class="situasi">Open</p>
+						<?php } 
+						else if($status == 'close'){
+						?>
+						<p class="situasi" style="color:#ed145b;">Close</p>
+						<?php } ?>
 						<p class="date"><?php echo $open ?> - <?php echo $close ?></p>
 						<div class="a">
 							<div class="b">
