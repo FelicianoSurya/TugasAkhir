@@ -1,5 +1,4 @@
 *{
-	overflow-x: hidden;
 	font-family: coolvetica;
 }
 form{
@@ -31,7 +30,6 @@ form{
 }
 .text{
 	font-size: 50px;
-	font-weight: bold;
 	margin-left: 5px;
 }
 .border-mid1{
@@ -61,10 +59,11 @@ form{
 }
 .border-mid2 .border1{
 	width: 100%;
+	overflow-x: scroll;
 }
 .border-mid2 .flex .text-mid1{
 	font-size: 45px;
-	font-weight: bold;
+	margin-left:20px;
 	display: flex;
 	flex-direction: column;
 }
@@ -72,7 +71,6 @@ form{
 	width: 45%;
 	font-size: 45px;
 	color: #6dcff6;
-	font-weight: bold;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
@@ -81,7 +79,6 @@ form{
 	width: 85%;
 	font-size: 45px;
 	color: #6dcff6;
-	font-weight: bold;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
@@ -101,6 +98,7 @@ form{
 .box-place{
 	display: flex;
 	flex-direction: column;
+	margin-left:20px;
 	border:1px solid #efefef;
 	background-color: #ffffff;
 }
@@ -110,7 +108,10 @@ form{
 }
 
 .box-place .info-place p{
-	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size:35px;
 	padding-left: 5px;
 	line-height: 40px;
 }
@@ -120,8 +121,8 @@ form{
 }
 
 .box-place .a .b img{
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 }
 
 .box-place .a{

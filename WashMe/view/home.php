@@ -55,7 +55,7 @@
 		<div class="row background" style="margin-top: 20px;">
 			<div class="col-sm-12"></div>
 		</div>
-		<div class="row">
+		<div class="row" style="padding:20px;">
 			<div class="col-sm-12"><img src="../asset/images/slideshow/laundry.png" class="slide"></div>
 		</div>
 		<div class="row background">
@@ -92,7 +92,6 @@
 						<p class="situasi"><?php echo $status ?></p>
 						<p class="date"><?php echo $open ?> - <?php echo $close ?></p>
 						<div class="a">
-							<p class="harga"><?php echo $harga ?> / kg</p>
 							<div class="b">
 								<img src="../asset/images/location-mark-blue.png" alt="location">
 								<p class="city"><?php echo $kota ?></p>

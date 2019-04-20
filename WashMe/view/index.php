@@ -17,7 +17,7 @@
 				<img src="../asset/images/logo.png" alt="logo">
 			</div>
 			<div class="right">
-				<button type="button" name="register" class="btn btn-lg">Register</button>
+				<a href="register.php"><button type="button" name="register" class="btn btn-lg">Register</button></a>
 				<button type="button" name="help" class="btn btn-lg help">Help</button>
 			</div>
 		</div>
