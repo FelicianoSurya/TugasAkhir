@@ -8,31 +8,29 @@
 .container-fluid-fullscreen{
 	width: 100%;
 	height: 100%;
-	padding: 10px 0px;
 }
 html,body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	overflow-x: hidden;
-	padding-right: 10px;
-	margin: 10px 10px 0px 10px;
 }
 .header{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-bottom:20px;
 }
+
 .header .topic-top{
 	width: 100%;
 	height: 100%;
 }
 .header .topic-top header{
 	width: 100%;
-	height: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 20px;
+	padding:30px;
 }
 .topic-top header .logo img{
 	width: 65px;
@@ -114,4 +112,31 @@ header .list{
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+.search{
+	border: 1px solid lightgrey;
+	background-color: whitesmoke;
+	padding: 5px 30px;
+	border-radius:20px;
+	padding:20px;
+	padding-left: 50px;
+	display: flex;
+	width: 90%;
+	align-items: center;
+	margin-left:40px;
+	margin-bottom:40px;
+}
+#search{
+	background: transparent;
+	padding-left:40px;
+}
+.search .img3{
+	width: 50px;
+}
+.search .text4{
+	border: none;
+	width: 100%;
+	font-size: 40px;
+	margin-left: 10px;
+	outline: none;
 }

@@ -115,6 +115,7 @@ form{
 
 .box-place .image-place img{
 	width: 350px;
+	height: 350px;
 }
 
 .box-place .info-place p{
@@ -156,11 +157,19 @@ form{
 }
 .box2{
 	width: 400px;
-	margin: 20px 0px;
+	margin-left:20px;
+	padding-bottom:20px;
+}
+.al{
+	overflow-x: scroll;
 }
 .box2 .text5{
-	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 35px;
 	color: black;
+	width:300px;
+	text-overflow: ellipsis;
 }
 .box2 .harga{
 	color: #ed145b;
@@ -171,8 +180,8 @@ form{
 	font-size: 35px;
 }
 .star{
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 }
 .box3{
 	padding: 30px;
@@ -188,8 +197,9 @@ form{
 }
 .box3 .button{
 	background-color: #ed145b;
+	margin-top:10px;
 	color: white;
-	font-size: 45px;
+	font-size: 40px;
 	border-radius: 10px;
 	cursor: pointer;
 	border : none;
