@@ -152,33 +152,93 @@
 			</div>
 			<div>
 				<div class="flex">
-					<div class="box2">
-						<img src="../asset/images/setrika1.png" class="img">
-						<div class="text5">Setrika Uap Listrik Silver Star ES300...</div>
-						<div class="harga">Rp 515.000</div>
-						<div class="flex1">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<div class="text">(3)</div>
-						</div>
+					<?php 
+					include "../php/connection.php";
+					$sql = "select * from products";
+					$query = mysqli_query($conn,$sql);
+					$num = mysqli_num_rows($query);
+					for($x=1;$x<=$num;$x++){
+						$re = mysqli_fetch_array($query);
+						$kode = $re['kode_product'];
+						$nama = $re['nama_product'];
+						$kategori = $re['kategori'];
+						$harga = $re['harga'];
+						$stok = $re['stok'];
+						$shop = $re['shop'];
+						$rating = $re['rating'];
+					 ?>
+				<div class="box2">
+					<img src="../asset/images/setrika1.png" class="img">
+					<div class="text5"><?php echo $nama ?></div>
+					<div class="harga">Rp <?php echo $harga ?></div>
+					<?php if($rating <= 20){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
 					</div>
-					<div class="box2">
-						<img src="../asset/images/shop1.jpg" class="img">
-						<div class="text5">Stand Hanger / Gantungan tiang...</div>
-						<div class="harga">Rp 70.000</div>
-						<div class="flex1">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<img src="../asset/images/star1.png" class="star">
-							<div class="text">(89)</div>
-						</div>
+					<?php } ?>
+					<?php if($rating <= 20){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
 					</div>
+					<?php } ?>
+					<?php if($rating <= 40 && $rating > 20){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
+					<?php if($rating <= 60 && $rating > 40){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
+					<?php if($rating <= 80 && $rating > 60){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
+					<?php if($rating <= 100 && $rating > 80){
+					 ?>
+					<div class="flex1">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
 				</div>
+			<?php } ?>
 			</div>
 		</div>
 		<div class="row background">
