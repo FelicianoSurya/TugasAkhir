@@ -6,7 +6,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -48,7 +48,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in">Enter Promo Code<span><img src="../asset/images/right-arrow.png"></span></p>
+					<img src="../asset/images/tag.png">
+					<p class="promo-in">Enter Promo Code</p>
 				</div>
 			</div>
 		</a>
@@ -56,7 +57,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in1">My Voucher<span><img src="../asset/images/right-arrow.png"></span></p>
+					<img src="../asset/images/coupon.png">
+					<p class="promo-in">My Voucher</p>
 				</div>
 			</div>
 		</a>
@@ -64,7 +66,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in2">Language<span><img src="../asset/images/right-arrow.png"></span></p>
+					<img src="../asset/images/translate.png">
+					<p class="promo-in">Language</p>
 				</div>
 			</div>
 		</a>
@@ -72,7 +75,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in3">Help<span><img src="../asset/images/right-arrow.png"></span></p>
+					<img src="../asset/images/information.png">
+					<p class="promo-in">Help</p>
 				</div>
 			</div>
 		</a>
@@ -80,7 +84,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in4">Frequently Ask Questions<span><img src="../asset/images/right-arrow.png"></span></p>
+					<img src="../asset/images/writing.png">
+					<p class="promo-in">Frequently Ask Questions</p>
 				</div>
 			</div>
 		</a>
@@ -88,7 +93,8 @@
 		<a href="#">
 			<div class="content-in2">
 				<div class="promo">
-					<p class="promo-in5">Rate WashMe App<span>3.20</span></p>
+					<img src="../asset/images/star.png">
+					<p class="promo-in">Rate WashMe App</p>
 				</div>
 			</div>
 		</a>
