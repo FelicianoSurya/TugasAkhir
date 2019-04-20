@@ -6,7 +6,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -26,22 +26,35 @@
 	<hr class="hr1">
 	<div class="content">
 		<div class="content-in">
-			<div class="user">
-				<p><?php echo $_SESSION['username']; ?></p>
-				<p><?php echo $_SESSION['email']; ?></p>
-				<p class="no"><?php echo $_SESSION['nohp']; ?></p>
+			<?php 
+			$username = $_SESSION['username'];
+			include "../php/connection.php";
+			$sql = "select * from user where username='$username'";
+			$query = mysqli_query($conn,$sql);
+			$re = mysqli_fetch_array($query);
+			$name = $re['name'];
+			$email = $re['email'];
+			$nohp = $re['nohp'];
+			 ?>
+			<div class="picture">
+				<img src="../asset/images/boy.png">
 			</div>
-			<div class="edit">
+			<div class="user">
+				<p class="name"><?php echo $name ?></p>
+				<p class="email"><?php echo $email ?></p>
+				<p class="phone"><?php echo $nohp; ?></p>
+			</div>
+			<div class="edit1">
 				<button type="button" id="profile">Edit Profile</button>
 			</div>
 		</div>
 		<hr class="hr1">
 		<div class="content-in1">
 			<div class="user">
-				<p>Click below to connect your WashMe account with<br>Facebook</p>
+				<p style="text-align-last: center;">Click below to connect your WashMe account with<br>Facebook</p>
 			</div>
 			<div class="edit">
-				<button type="button" id="profile"><span><img src="../asset/images/facebook-logo.png"></span><p>Connect with Facebook</p></button>
+				<button type="button"><span><img src="../asset/images/facebook-logo.png"></span><p>Connect with Facebook</p></button>
 			</div>
 		</div>
 		<hr class="hr1">
@@ -98,6 +111,7 @@
 				</div>
 			</div>
 		</a>
+		<hr class="hr1">
 		<div class="content-in3">
 			<div class="logout">
 				<a href="logout.php"><button type="button" id="logout">logout</button></a>
