@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -56,7 +56,34 @@
 			<div class="col-sm-12"></div>
 		</div>
 		<div class="row" style="padding:20px;">
-			<div class="col-sm-12"><img src="../asset/images/slideshow/laundry.png" class="slide"></div>
+			<div class="slideshow">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+					</ul>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../asset/images/slideshow/laundry.png" alt="slideshow">
+						</div>
+						<div class="carousel-item">
+							<img src="../asset/images/slideshow/top web'15 v4.jpg" alt="slideshow">
+						</div>
+						<div class="carousel-item">
+							<img src="../asset/images/slideshow/3.png" alt="slideshow">
+						</div>
+					</div>
+
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
 		</div>
 		<div class="row background">
 			<div class="col-sm-12"></div>

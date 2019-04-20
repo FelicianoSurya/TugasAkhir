@@ -16,90 +16,61 @@ html,body{
 	justify-content: center;
 	overflow-x: hidden;
 }
-.header{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
 .header .topic-top header{
 	width: 100%;
 	height: 100%;
-	margin: 10px;
+	padding:30px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 header .logo{
-	margin-left: 10px;
+	width: 50%;
 }
 .topic-top header .logo img{
-	width: 65px;
-	height: 65px;
-}
-header .list{
-	width: 33%;
-	height: 100%;
-	margin-right: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.list .geser{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	width: 150px;
 }
 .list .geser button{
-	height: 30px;
-	font-size: 16px;
+	width: 200px;
+	font-size: 40px;
 	color: white;
-}
-.list .geser .button{
-	width: 83px;
-	padding: 0px 10px 0px 10px;
-	border: 3px solid white;
-	background-color: transparent;
+	margin-left: 10px;
+	padding:10px;
+	border:none;
 	outline: none;
 }
 .list .geser .button1{
-	margin-left: 5px;
-	padding: 0px 20px 0px 20px;
-	border: 3px solid #0c354f;
-	background-color: #0c354f;
-	outline: none;
+	border:5px solid white;
 }
-.content{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	padding: 40px;
-	justify-content: center;
-	align-items: center;
+.list .geser .button2{
+	background:#0c354f;
+	border:none;
 }
+
 .content .content-in{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .content-in .tagline{
 	width: 100%;
+	margin-top:40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .content-in .tagline h1{
 	color: white;
-	font-size: 40px;
+	font-size: 80px;
 	text-align: center;
 }
 .content-in .tagline h1 .font{
 	color: #0c354f;
 }
 .content-in .login{
-	width: 100%;
-	padding: 0px 20px 20px 20px;
+	width: 80%;
+	margin-top:20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -107,35 +78,32 @@ header .list{
 .content-in .login .kotak{
 	width: 100%;
 	border: 1px solid white;
-	padding: 10px;
+	padding: 30px;
 	padding-bottom: 0px;
 	background-color: white;
 }
 .content-in .login .kotak .label-besar{
-	font-size: 20px;
-	margin-bottom: -10px;
+	font-size: 50px;
 }
 .content-in .login .kotak .label{
-	font-size: 15px;
+	font-size: 35px;
 }
 .content-in .login .kotak .input{
-	font-size: 15px;
-	margin-bottom: -10px;
-	height: 30px;
+	font-size:40px;
+	border:1px solid;
 }
 .content-in .login .kotak .button2{
 	margin-top: 25px;
-	font-size: 15px;
-	height: 35px;
+	font-size: 40px;
 	background-color: #0c354f;
 	color: white;
 	border-radius: 0px;
 }
 .content-in .flex{
 	width: 100%;
-	margin-top: -15px;
-	padding: 0px 25px 0px 25px;
+	display: flex;
+	justify-content: center;
 }
 .content-in .flex .option .opt{
-	font-size: 12px;
+	font-size: 35px;
 }

@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/register.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/register1	.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -20,10 +20,10 @@
 				<div class="list">
 					<div class="geser">
 						<a href="index.php">
-							<button class="button">Login</button>
+							<button class="button1">Login</button>
 						</a>
 						<a href="#">
-							<button class="button1">Help</button>
+							<button class="button2">Help</button>
 						</a>
 					</div>
 				</div>
@@ -33,7 +33,7 @@
 	<div class="content">
 		<div class="content-in">
 			<div class="tagline">
-				<h1>Register<br><span class="font">your account</span><br>at WashMe</h1>
+				<h1>Register your account<br><span class="font">at WashMe</span></h1>
 			</div>
 			<div class="login">
 				<form action="../php/register_success.php" method="POST" class="kotak">

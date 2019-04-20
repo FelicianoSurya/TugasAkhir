@@ -13,7 +13,6 @@ $cek = mysqli_num_rows($query);
 $hasil = mysqli_fetch_array($query);
 $status1 = $hasil['status'];
 $email = $hasil['email'];
-$nohp = $hasil['nohp'];
 
 if($cek > 0){
 	if($status1 == 'user'){
@@ -22,7 +21,13 @@ if($cek > 0){
 	$_SESSION['status'] = $status1;
 	header('location:../view/home.php');
 	}elseif($status1 == 'laundry'){
-		header('location:../view/laundry/laundryhome.php');
+	header('location:../view/laundry/laundryhome.php');
+	}
+	elseif($status1 == 'admin'){
+		$_SESSION['username'] = $username;
+		$_SESSION['password'] = $password;
+		$_SESSION['status'] = $status1;
+		header('location:../view/admin/adminhome.php');
 	}
 }else{
 	header('location:../view/login.php?pesan=gagal');

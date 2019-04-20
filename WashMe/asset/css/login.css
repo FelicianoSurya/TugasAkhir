@@ -33,14 +33,11 @@ header .header .left img{
 	width: 150px;
 }
 
-header .header .right{
-}
 
 .header .right button{
 	color:white;
 	width: 200px;
 	font-size: 40px;
-	background-color:transparant;
 	border: 5px solid white;
 }
 
@@ -84,6 +81,7 @@ header .header .right{
 }
 
 .box input{
+	border:1px solid;
 	font-size: 40px;
 }
 
