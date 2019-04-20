@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/dryclean.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/dryclean1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -36,7 +36,7 @@
 					</div>
 					<div class="kotak-kanan">
 						<p class="teks1">Laundry Ateng</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span class="teks">Jln. Imam Bonjol Gg. Tanjung...</span></p>
+						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Imam Bonjol Gg. Tanjung...</span></p>
 						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>5.7</span></p>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 					</div>
 					<div class="kotak-kanan">
 						<p class="teks1">Annisa Laundry</p>
-						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span class="teks">Jln. Putri Chandra Midi No.33</span></p>
+						<p class="naik"><img src="../asset/images/location-mark-blue.png" alt="images"><span>Jln. Putri Chandra Midi No.33</span></p>
 						<p class="naik"><img src="../asset/images/star1.png" alt="images"><span>3.4</span></p>
 					</div>
 				</div>

@@ -117,25 +117,26 @@ html,body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 .content .content-in1 .edit button img{
-	width: 40px;
+	width: 60px;
 	outline: none;
-	height: 40px;
+	height: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: -200px;
+	margin-right: 500px;
 	margin-top: 15px;
 }
 .content .content-in1 .edit button p{
 	display: flex;
-	font-size: 35px;
+	font-size: 50px;
 	outline: none;
 	justify-content: center;
 	align-items: center;
-	margin-top: -40px;
-	margin-left: 50px;
+	margin-top: -60px;
+	margin-left: 60px;
 }
 .content .content-in2{
 	width: 100%;
@@ -150,118 +151,24 @@ html,body{
 .content-in2 .promo{
 	width: 100%;
 	height: 100%;
+	padding: 35px 0px 35px 0px;
+	font-size: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+.content-in2 .promo img{
+	width: 70px;
+	height: 70px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	margin-left: 10px;
 }
 .content-in2 .promo .promo-in{
-	background-image: url('../images/tag.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
 	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
 	width: 100%;
-	height: 40px;
-	background-size: 25px;
+	height: 50px;
 	display: flex;
-}
-.content-in2 .promo .promo-in1{
-	background-image: url('../images/coupon.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
-	width: 100%;
-	height: 40px;
-	background-size: 25px;
-	display: flex;
-}
-.content-in2 .promo .promo-in2{
-	background-image: url('../images/translate.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
-	width: 100%;
-	height: 40px;
-	background-size: 25px;
-	display: flex;
-}
-.content-in2 .promo .promo-in3{
-	background-image: url('../images/information.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
-	width: 100%;
-	height: 40px;
-	background-size: 25px;
-	display: flex;
-}
-.content-in2 .promo .promo-in4{
-	background-image: url('../images/writing.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
-	width: 100%;
-	height: 40px;
-	background-size: 25px;
-	display: flex;
-}
-.content-in2 .promo .promo-in5{
-	background-image: url('../images/star.png');
-	background-repeat: no-repeat;
-	background-position: 10px 8px;
-	box-sizing: border-box;
-	padding: 8px 0px 8px 65px;
-	width: 100%;
-	height: 40px;
-	background-size: 25px;
-	display: flex;
-}
-.content-in2 .promo .promo-in img{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 200px;
-}
-.content-in2 .promo .promo-in1 img{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 245px;
-}
-.content-in2 .promo .promo-in2 img{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 255px;
-}
-.content-in2 .promo .promo-in3 img{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 290px;
-}
-.content-in2 .promo .promo-in4 img{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 145px;
-}
-.content-in2 .promo .promo-in5 span{
-	width: 20px;
-	height: 20px;
-	display: flex;
-	margin-top: 3px;
-	margin-left: 190px;
+	margin-left: 40px;
 }
 .content .content-in3{
 	width: 100%;
@@ -282,13 +189,13 @@ html,body{
 .content .content-in3 .logout button{
 	width: 100%;
 	outline: none;
-	height: 30px;
 	border: 1px solid #ed145b;
-	font-size: 15px;
+	font-size: 50px;
 	color: white;
 	border-radius: 10px;
 	background-color: #ed145b;
-	padding: 0px 15px 0px 15px;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 20px;
 }
 .hr2{
 	border: 0.9px solid darkgrey;
@@ -302,25 +209,28 @@ html,body{
 	margin-top: -16px;
 	background-color: #ebebeb;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .footer a:hover{
 	text-decoration: none;
 }
-.img2{
-	width: 35px;
-	height: 35px;
+.box4 .img2{
+	width: 100px;
+	height: 100px;
 }
 .box4{
 	width: 100%;
-	padding: 10px 20px 10px 20px;
+	margin: 20px 30px;
 }
 .box4 .text{
 	color:  #6dcff6;
-	font-size: 15px;
+	font-size: 35px;
 	margin-top: 5px;
 }
 .box4 .text1{
 	color:  grey;
-	font-size: 15px;
+	font-size: 35px;
 	margin-top: 5px;
 }
