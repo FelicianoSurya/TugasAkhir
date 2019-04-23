@@ -14,7 +14,9 @@
 	<div class="container-fluid-screen">
 		<div class="header">
 			<img src="../../asset/images/logo.png" class="logo">
-			<div class="flex"><p>Admin</p></div>
+			<div class="atas">
+				<p>Admin</p>
+			</div>
 		</div>
 		<hr class="hr">
 		<div class="content">

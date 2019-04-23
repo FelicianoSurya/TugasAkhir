@@ -10,9 +10,16 @@
 	width: 110px;
 	height: 110px;
 }
-.flex{
+.atas{
 	color: #605252;
-	font-size: 50px;
+	font-size: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+}
+.atas p{
+	margin:0;
 }
 .hr{
 	border: 1px solid black;
