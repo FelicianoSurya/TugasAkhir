@@ -30,12 +30,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div class="min"><img src="../asset/images/minus.png" class="img"></div>
-					<div class="jarak1">
-						<div class="text1">3</div>
-						<div class="text2">(Kg)</div>
-					</div>
-					<div class="max"><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="jumlah" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -47,12 +43,8 @@
 					<div class="text2">Rp 8.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div class="min"><img src="../asset/images/minus.png" class="img"></div>
-					<div class="jarak1">
-						<div class="text1">0</div>
-						<div class="text2">(Kg)</div>
-					</div>
-					<div class="max"><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="jumlah" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -60,8 +52,8 @@
 		<div class="flex box2">
 			<div><img src="../asset/images/weight.png" class="img"></div>
 			<div class="box-in">
-				<div class="text1">Not sure how much your laundry weights?</div>
-				<div class="text2">Don't worry, our picker will always recalculate the weight during pick up.</div>
+				<div class="text">Not sure how much your laundry weights?</div>
+				<div class="text1">Don't worry, our picker will always recalculate the weight during pick up.</div>
 			</div>
 		</div>
 		<div class="note">P.S : Please seperate the clothes according the services.</div>
