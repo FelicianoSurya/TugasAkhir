@@ -20,7 +20,7 @@
 		</div>
 		<hr class="hr">
 		<div class="content">
-			<div class="text1">User's Account</div>
+			<div class="text1">Laundry's Account</div>
 			<div class="input">
 				<img src="../../asset/images/search.png">
 				<input type="text" name="search" id="search" placeholder="Search...">
