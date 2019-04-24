@@ -12,18 +12,18 @@
 <body>
 <form>
 	<div class="container-fluid-screen">
-		<div class="flex border-top">
-		<div><img src="../asset/images/left-arrow2.png" class="img"></div>
-		<div class="text">Fill Order Format</div>
-	</div>
-	<div class="flex padding">
-		<div class="text">Delivery</div>
-		<div class="text border-mid1">Pick Up Myself</div>
-	</div>
-	<div class="flex">
-		<hr class="hr1">
-		<hr class="hr2">
-	</div>
+		<div class="header">
+			<img src="../asset/images/left-arrow2.png">
+			<div class="atas"><p>Fill Delivery Format</p></div>
+		</div>
+		<div class="body">
+			<div>Set Delivery Date</div>
+			<select>
+				<option>Wednesday, 27 March 2019</option>
+				<option>Thursday, 28 March 2019</option>
+			</select>
+			
+		</div>
 	</div>
 </form>
 </body>

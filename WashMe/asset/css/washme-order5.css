@@ -1,36 +1,23 @@
 *{
 	font-family: coolvetica;
 }
-.flex{
+.header{
+	padding: 20px 50px;
 	display: flex;
 	align-items: center;
 }
-.border-top{
-	padding: 10px;
+.header img{
+	width: 70px;
+	height: 70px;
 }
-.border-top .img{
-	width: 40px;
-	height: 30px;
-}
-.border-top .text{
+.header .atas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	font-size: 60px;
 	color: #605252;
-	margin-left: 50px;
-	font-size: 30px;
 }
-.padding{
-	padding: 10px 0px 10px 90px;
-}
-.padding .text{
-	font-size: 25px;
-}
-.border-mid1{
-	margin-left: 40px;
-}
-.hr1{
-	border: 2px solid #6dcff6;
-	width: 50%;
-}
-.hr2{
-	border: 0.5px solid;
-	width: 50%;
+.body{
+	padding: 10px 70px;
 }
