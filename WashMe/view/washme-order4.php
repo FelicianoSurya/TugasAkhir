@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order4.2.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order4.1.css">
 	<title></title>
 </head>
 <body>
@@ -30,9 +30,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -44,9 +43,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -58,9 +56,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -72,9 +69,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -86,9 +82,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>
@@ -100,9 +95,8 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<div><img src="../asset/images/minus.png" class="img"></div>
-					<div class="text1 jarak1">3</div>
-					<div><img src="../asset/images/plus.png" class="img"></div>
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
 				</div>
 			</div>
 		</div>

@@ -30,7 +30,7 @@
 					<div class="text2">Rp 5.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<input type="number" name="jlh" id="jlh" placeholder="jumlah" autocomplete="off" class="form-control input">
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
 					<p class="text3">/Kg</p>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 					<div class="text2">Rp 8.000 / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<input type="number" name="jlh" id="jlh" placeholder="jumlah" autocomplete="off" class="form-control input">
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
 					<p class="text3">/Kg</p>
 				</div>
 			</div>
