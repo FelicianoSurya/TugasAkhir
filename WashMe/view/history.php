@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="header flex">
-	<img src="../asset/images/left-arrow2.png" class="arrow">
+	<a href="myorders-1.php"><img src="../asset/images/left-arrow2.png" class="arrow"></a>
 	<div class="title">History</div>
 </div>
 <div class="body flex jarak">

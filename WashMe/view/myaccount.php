@@ -126,7 +126,7 @@
 					<div class="text1">Home</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="myorders-1.php">
 				<div class="box4">
 					<img src="../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Orders</div>

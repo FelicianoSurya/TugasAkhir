@@ -1,10 +1,24 @@
 *{
 	font-family: coolvetica;
 }
+.flex5{
+	display: flex;
+	align-items: center;
+}
 .header{
 	font-size: 50px;
 	text-align: center;
 	margin: 30px 0px;
+}
+.header .arrow{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 70px;
+	margin-left: 250px;
+	color: #605252;
+	font-weight: bold;
 }
 hr{
 	border: 1px solid;

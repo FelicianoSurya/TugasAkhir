@@ -14,10 +14,11 @@
 	<div class="row top">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-8 header">My Orders</div>
-		<div class="col-sm-2"><img src="../asset/images/history.png" class="img"></div>
+		<div class="col-sm-2"><a href="history.php"><img src="../asset/images/history.png" class="img"></a></div>
 	</div>
 	<hr class="hr1">
 	<div class="background">
+		<a href="myorders-2.php">
 		<div class="background-in flex">
 			<img src="../asset/images/washing-machine2.png" class="img">
 			<div class="left">
@@ -26,6 +27,7 @@
 				<div class="text2">On Progress</div>
 			</div>
 		</div>
+		</a>
 	</div>
 	<hr class="hr2">
 	<div class="footer">
@@ -35,13 +37,13 @@
 					<div class="text1">Home</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="myorders-1.php">
 				<div class="box4">
 					<img src="../asset/images/shopping-list.png" class="img2">
 					<div class="text">My Orders</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="washmeshop.php">
 				<div class="box4">
 					<img src="../asset/images/shopping-cart2.png" class="img2">
 					<div class="text1">WashMe Shop</div>

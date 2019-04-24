@@ -13,7 +13,7 @@
 <form>
 	<div class="container-fluid-screen">
 		<div class="header">
-			<img src="../../asset/images/logo.png" class="logo">
+			<a href="washme-laundry.php"><img src="../../asset/images/logo.png" class="logo"></a>
 			<div class="atas">
 				<p>Admin</p>
 			</div>
@@ -92,25 +92,25 @@
 			</div>
 		</div>
 		<div class="footer">
-			<a href="home.php">
+			<a href="useraccount.php">
 				<div class="box4">
 					<img src="../../asset/images/profile.png" class="img2">
 					<div class="text">User</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="laundryaccount.php">
 				<div class="box4">
 					<img src="../../asset/images/washing-machine5.png" class="img2">
 					<div class="text1">Laundry</div>
 				</div>
 			</a>
-			<a href="washmeshop.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Request</div>
 				</div>
 			</a>
-			<a href="myaccount.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/settings3.png" class="img2">
 					<div class="text1">Setting</div>

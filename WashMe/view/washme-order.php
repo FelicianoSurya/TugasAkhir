@@ -12,7 +12,7 @@
 <form>
 	<div class="container-fluid-screen">
 		<div class="background">
-			<div class="back"><img src="../asset/images/left-arrow.png" class="img"></div>
+			<div class="back"><a href="home.php"><img src="../asset/images/left-arrow.png" class="img"></a></div>
 		</div>
 		<div class="padding flex">
 			<div class="text">Mega Laundry, Jln Budi Karya No.15</div>
@@ -26,7 +26,7 @@
 			<div class="text2">until 19:00 today</div>
 		</div>
 		<div class="background1">
-			<button class="button">Fill Order Format</button>
+			<button class="button"><a href="washme-order3.php">Fill Order Format</a></button>
 		</div>
 	</div>
 </form>

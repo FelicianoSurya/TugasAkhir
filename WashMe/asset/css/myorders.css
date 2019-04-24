@@ -2,12 +2,22 @@
 	font-family: coolvetica;
 	overflow-x: hidden;
 }
+.flex5{
+	display: flex;
+	align-items: center;
+}
 .header{
-	font-size: 50px;
+	padding: 20px 30px;
+}
+.header .arrow{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 70px;
+	margin-left: 250px;
 	color: #605252;
 	font-weight: bold;
-	text-align: center;
-	margin-top: 20px;
 }
 .hr1{
 	border: 0.5px solid #605252;
