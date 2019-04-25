@@ -5,14 +5,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order3.1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order3.css">
 	<title></title>
 </head>
 <body>
 <div class="container-fluid-screen">
 	<div class="flex border-top">
 		<div><img src="../asset/images/left-arrow2.png" class="img"></div>
-		<div class="text">Laundry Item</div>
+		<div class="atas">Laundry Item</div>
 	</div>
 	<div class="flex padding">
 		<div class="text">Basic Laundry (Kg)</div>
