@@ -21,6 +21,7 @@
 			<select class="select">
 				<option>Wednesday, 27 March 2019</option>
 				<option>Thursday, 28 March 2019</option>
+				<option>Friday, 29 March 2019</option>
 			</select>
 			<div class="select jarak">
 				<div>Extra :</div>
