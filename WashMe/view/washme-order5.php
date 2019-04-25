@@ -30,9 +30,33 @@
 			</div>
 			<div class="text2">Set Delivery Time</div>
 			<div class="box">
-				<input type="time" name="time" id="time" min="00:00" max="24:00" required class="time">
+				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
 				<div class="strip"></div>
-				<input type="time" name="time" id="time" min="00:00" max="24:00" required class="time">
+				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
+			</div>
+			<div class="box1">
+				<div>Home</div>
+				<div class="strip1">-</div>
+				<div>Jln Veteran gg Syukur 1 no50D</div>
+				<img src="../asset/images/location-mark-blue.png" class="img">
+			</div>
+			<hr class="hr">
+			<div class="box2">
+				<div>Home</div>
+				<div class="jarak1">/</div>
+				<div class="jarak1">Office</div>
+				<div class="jarak1">/</div>
+				<div class="jarak1">Campus</div>
+				<div class="jarak1">/</div>
+				<div>Others</div>
+			</div>
+			<div class="box3">
+				<div class="text">Add Note</div>
+				<div class="logo"><img src="../asset/images/writing1.png"></div>
+			</div>
+			<hr class="hr">
+			<div class="box4">
+				<img src="../asset/images/right2.png" class="img1">
 			</div>
 		</div>
 	</div>
