@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/washandfold2.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washandfold3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -44,25 +44,34 @@
 				$alamat = $re['alamat'];
 				$rating = $re['rating'];
 				$kota = $re['kota'];
+				$time_close = $re['time_close'];
+				$status = $re['status'];
+				$service = $re['service'];
+				$harga = $re['harga'];
 			 ?>
-			<a href="washme-order.php">
+			 <form onclick="saveUser(<?php echo "'$name','$alamat','$status','$time_close','$service','$harga'";?>)">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
 					</div>
 					<div class="kotak-kanan">
 						<div class="teks">
-							<p class="teks1"><?php echo $name ?></p>
-							<p class="kota"><?php echo $kota ?></p>
+							<p class="teks1" id="name" name="name"><?php echo $name ?></p>
+							<p class="kota" id="kota" name="kota"><?php echo $kota ?></p>
 						</div>
-						<p class="naik"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
-						<p class="naikk"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
+						<p class="naik" id="alamat" name="alamat"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
+						<p class="naikk" id="rating" name="rating"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
+						<input type="hidden" id="time_close" name="time_close" value="<?php echo($time_close)?>">
+						<input type="hidden" id="status" name="status" value="<?php echo($status)?>">
+						<input type="hidden" id="service" name="service" value="<?php echo($service)?>">
+						<input type="hidden" id="harga" name="harga" value="<?php echo($harga)?>">
 					</div>
 				</div>
-			</a>
+			</form>
 			<?php } ?>
 		</div>
 	</div>
 </div>
+<script src="../js/userorder.js"></script>
 </body>
 </html>

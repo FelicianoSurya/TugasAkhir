@@ -9,24 +9,32 @@
 	<title></title>
 </head>
 <body>
+	<?php
+		include "../php/connection.php";
+
+		$name = $_REQUEST['name'];
+		$alamat = $_REQUEST['alamat'];
+		$status = $_REQUEST['status'];
+		$time_close = $_REQUEST['time_close'];
+	?>
 <form>
 	<div class="container-fluid-screen">
 		<div class="background">
 			<div class="back"><a href="home.php"><img src="../asset/images/left-arrow.png" class="img"></a></div>
 		</div>
 		<div class="padding flex">
-			<div class="text">Mega Laundry, Jln Budi Karya No.15</div>
+			<div class="text"><?php echo $name?>, <?php echo $alamat?></div>
 			<div class="border-mid"><img src="../asset/images/map.png" class="img"></div>
 		</div>
 		<div class="padding jarak">0.94 Km</div>
 		<hr class="hr">
 		<div class="padding flex box1">
 			<div><img src="../asset/images/clock3.png" class="img"></div>
-			<div class="text1">OPEN</div>
-			<div class="text2">until 19:00 today</div>
+			<div class="text1"><?php echo $status?></div>
+			<div class="text2">until <?php echo $time_close?> today</div>
 		</div>
 		<div class="background1">
-			<button class="button"><a href="washme-order3.php">Fill Order Format</a></button>
+			<button class="button" type="button" name="order" id="order">Fill Order Format</button>
 		</div>
 	</div>
 </form>

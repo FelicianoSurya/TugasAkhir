@@ -71,6 +71,7 @@ header .list{
 	align-items: center;
 	justify-content: center;
 	margin-left: 20px;
+	margin-bottom: 30px;
 }
 .content-in .kotak-besar p{
 	padding:5px;

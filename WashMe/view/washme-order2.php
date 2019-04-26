@@ -10,30 +10,47 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
 	<div class="container-fluid-screen">
 		<div class="header">
 			<img src="../asset/images/left-arrow2.png">
 			<div class="atas"><p>Fill Order Format</p></div>
 		</div>
+
 		<div class="body">
+			<?php
+				include "../php/connection.php";
+				$tgl = date('Y-m-d');
+				$sql = "select * from transaksi";
+				$query = mysqli_query($conn,$sql);
+				$num = mysqli_num_rows($query);
+				$angka = $num + 1;
+				$notransaksi = "TL-$angka";
+				for($x=1;$x<=$num;$x++){
+					$res = mysqli_fetch_array($query);
+					$id = $res['id'];
+					$service = $res['service'];
+					$harga = $res['harga'];
+				}
+			?>
+			<input type="text" name="notemp" id="notemp">
+			<input type="text" name="notransaksi" id="notransaksi" value="<?php echo($notransaksi)?>">
+			<input type="text" name="id" id="id" value="<?php echo($id)?>">
+			<input type="text" name="service" id="service" value="<?php echo($service)?>">
+			<input type="text" name="harga" id="harga" value="<?php echo($harga)?>">
 			<div class="text1">Set Pick Up Date</div>
 			<select class="select">
-				<option>Tuesday, 26 March 2019</option>
-				<option>Wednesday, 27 March 2019</option>
-				<option>Thursday, 28 March 2019</option>
-				<option>Friday, 29 March 2019</option>
+				<option name="tgl_ambil" id="tgl_ambil"><?php echo $tgl?></option>
 			</select>
 			<div class="text2">Set Pick Up Time</div>
 			<div class="box">
-				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
+				<input type="time" name="jam_ambil" id="jam_ambil" min="09:00" max="17:00" required class="time">
 				<div class="strip"></div>
-				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
+				<input type="time" name="batas_ambil" id="batas_ambil" min="09:00" max="17:00" required class="time">
 			</div>
 			<div class="box1">
 				<div>Home</div>
 				<div class="strip1">-</div>
-				<div>Jln Veteran gg Syukur 1 no50D</div>
+				<div><input type="text" name="alamat_ambil" id="alamat_ambil" required style="border:none;"></div>
 				<img src="../asset/images/location-mark-blue.png" class="img">
 			</div>
 			<hr class="hr">
@@ -47,15 +64,15 @@
 				<div>Others</div>
 			</div>
 			<div class="box3">
-				<div class="text">Add Note</div>
+				<div class="text"><input type="text" name="note_ambil" id="note_ambil" required style="border:none; width: 100%;"></div>
 				<div class="logo"><img src="../asset/images/writing1.png"></div>
 			</div>
 			<hr class="hr">
 			<div class="box4">
-				<img src="../asset/images/right2.png" class="img1">
+				<button name="submit" id="submit" onclick="saveTransaksi(<?php echo " '$notransaksi','$id','$service','$harga'"; ?>)" style="border:none; background: none; color: white;" value="submit">submit<img src="../asset/images/right2.png" class="img1"></button>
 			</div>
 		</div>
 	</div>
-</form>
+<script src="../js/savetransaksi2.js"></script>
 </body>
 </html>
