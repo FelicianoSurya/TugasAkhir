@@ -202,11 +202,15 @@ form{
 	background-color: #ed145b;
 	margin-top:10px;
 	color: white;
+	text-decoration: none;
 	font-size: 40px;
 	border-radius: 10px;
 	cursor: pointer;
 	border : none;
 	padding: 10px 20px;
+}
+.box3 .button a{
+	color: white;
 }
 .box3 .text3{
 	color: #ed145b;
