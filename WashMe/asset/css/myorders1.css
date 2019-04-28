@@ -82,12 +82,20 @@
 	align-items: center;
 }
 .footer{
-	margin-top: -16px;
-	background-color: #ebebeb;
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	padding:20px;
+	justify-content: space-around;
 	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
 }
 .footer a:hover{
 	text-decoration: none;
@@ -95,10 +103,6 @@
 .box4 .img2{
 	width: 100px;
 	height: 100px;
-}
-.box4{
-	width: 100%;
-	margin: 20px 30px;
 }
 .box4 .text{
 	color:  #6dcff6;

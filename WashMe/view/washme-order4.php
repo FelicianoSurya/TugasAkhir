@@ -26,8 +26,8 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Sweater</div>
+					<div class="text2">Rp 10.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
@@ -39,8 +39,8 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Wedding Dress</div>
+					<div class="text2">Rp 100.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
@@ -52,8 +52,8 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Swimming Suit</div>
+					<div class="text2">Rp 10.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
@@ -65,8 +65,8 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Shirt / Batik</div>
+					<div class="text2">Rp 15.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
@@ -78,8 +78,8 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Bolster / Pillow</div>
+					<div class="text2">Rp 10.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
@@ -91,8 +91,21 @@
 		<div class="box1">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1">Trousers / Jeans</div>
+					<div class="text2">Rp 10.000 / Pcs</div>
+				</div>
+				<div class="flex box-in1 jarak">
+					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<p class="text3">/Kg</p>
+				</div>
+			</div>
+		</div>
+		<hr class="hr3">
+		<div class="box1">
+			<div class="flex">
+				<div class="box-in1">
+					<div class="text1">Towel</div>
+					<div class="text2">Rp 10.000 / Pcs</div>
 				</div>
 				<div class="flex box-in1 jarak">
 					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">

@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -238,13 +238,14 @@
 				<div class="text1">Have a laundry? Open your online branch in WashMe</div>
 				<div class="text2">Easy to use and trusted. FREE!</div>
 				<div class="flex">
-					<button class="button">Open your Laundry</button>
+					<button class="button"><a href="openyourlaundry.php">Open your Laundry</a></button>
 					<div class="text3"><u>Learn more</u></div>
 				</div>
 			</div>
 			<div class="col-sm-4"><img src="../asset/images/laundry3.png" class="img"></div>
 		</div>
 		<hr class="hr2">
+	</div>
 		<div class="footer">
 			<a href="home.php">
 				<div class="box4">
@@ -271,7 +272,6 @@
 				</div>
 			</a>
 		</div>
-	</div>
 </form>
 </body>
 </html>
