@@ -73,6 +73,6 @@
 		</div>
 	</div>
 </div>
-<script src="../js/userorder1.js"></script>
+<script src="../js/userorder2.js"></script>
 </body>
 </html>

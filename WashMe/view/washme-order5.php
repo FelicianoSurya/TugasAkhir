@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,11 +20,28 @@
 			<div class="atas"><p>Fill Delivery Format</p></div>
 		</div>
 		<div class="body">
+			<form action="../php/saveorder.php" method="POST">
+				<?php
+				include "../php/connection.php";
+
+				$id = $_SESSION['id'];
+
+				$sql = "select * from laundrys where id='$id'";
+				$query = mysqli_query($conn,$sql);
+				$num = mysqli_num_rows($query);
+				$tgl = date('Y-m-d');
+				$angka = $num + 1;
+				$notransaksi = "TL-$angka";
+				$res = mysqli_fetch_array($query);
+				$id = $res['id'];
+				$service = $res['service'];
+				$harga = $res['harga'];
+			?>
+			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
 			<div class="text1">Set Delivery Date</div>
 			<select class="select">
-				<option>Wednesday, 27 March 2019</option>
-				<option>Thursday, 28 March 2019</option>
-				<option>Friday, 29 March 2019</option>
+				<input type="text" name="tgl_deliv" id="tgl_deliv">
 			</select>
 			<div class="select jarak">
 				<div>Extra :</div>
@@ -31,34 +51,26 @@
 			</div>
 			<div class="text2">Set Delivery Time</div>
 			<div class="box">
-				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
+				<input type="time" name="jam_deliv" id="jam_deliv" min="09:00" max="17:00" required class="time">
 				<div class="strip"></div>
-				<input type="time" name="time" id="time" min="09:00" max="17:00" required class="time">
+				<input type="time" name="batas_deliv" id="batas_deliv" min="09:00" max="17:00" required class="time">
 			</div>
 			<div class="box1">
 				<div>Home</div>
 				<div class="strip1">-</div>
-				<div>Jln Veteran gg Syukur 1 no50D</div>
+				<div class="text"><input type="text" name="alamat_deliv" id="alamat_deliv" required style="border:none;"></div>
 				<img src="../asset/images/location-mark-blue.png" class="img">
 			</div>
 			<hr class="hr">
-			<div class="box2">
-				<div>Home</div>
-				<div class="jarak1">/</div>
-				<div class="jarak1">Office</div>
-				<div class="jarak1">/</div>
-				<div class="jarak1">Campus</div>
-				<div class="jarak1">/</div>
-				<div>Others</div>
-			</div>
 			<div class="box3">
-				<div class="text">Add Note</div>
+				<div class="text"><input type="text" name="note_deliv" id="note_deliv" required style="border:none; width: 100%;"></div>
 				<div class="logo"><img src="../asset/images/writing1.png"></div>
 			</div>
 			<hr class="hr">
 			<div class="box4">
-				<img src="../asset/images/right2.png" class="img1">
+				<input type="submit" name="submit2" id="submit2" style="border:none; background: none; color: white;" value="submit"><img src="../asset/images/right2.png" class="img1">
 			</div>
+			</form>
 		</div>
 	</div>
 </form>

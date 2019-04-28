@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,28 +25,34 @@
 		<hr class="hr1">
 		<hr class="hr2">
 	</div>
+	<form action="../php/saveorder.php" method="POST">
+		<?php
+			include "../php/connection.php";
+
+			$id = $_SESSION['id'];
+
+			$sql = "select * from laundrys where id='$id'";
+			$query = mysqli_query($conn,$sql);
+			$num = mysqli_num_rows($query);
+			$tgl = date('Y-m-d');
+			$angka = $num + 1;
+			$notransaksi = "TL-$angka";
+			$res = mysqli_fetch_array($query);
+			$id = $res['id'];
+			$service = $res['service'];
+			$harga = $res['harga'];
+		?>
 	<div class="box">
 		<div class="box1">
+			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="hidden" name="id" id="id" value="<?php echo($id)?>">
 			<div class="flex">
 				<div class="box-in1">
-					<div class="text1">Wash & Fold</div>
-					<div class="text2">Rp 5.000 / Kg</div>
+					<div class="text1"><input type="text" value="<?php echo $service;?>" name="service" id="service" style="border:none;"></div>
+					<div class="text2"><input type="text" onkeyup="totalOrder()" value="<?php echo $harga;?>" name="harga" id="harga" style="border:none; width: 100px;"> / Kg</div>
 				</div>
 				<div class="flex box-in1 jarak">
-					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
-					<p class="text3">/Kg</p>
-				</div>
-			</div>
-		</div>
-		<hr class="hr3">
-		<div class="box1">
-			<div class="flex">
-				<div class="box-in1">
-					<div class="text1">Wash & Iron</div>
-					<div class="text2">Rp 8.000 / Kg</div>
-				</div>
-				<div class="flex box-in1 jarak">
-					<input type="number" name="jlh" id="jlh" placeholder="amount" autocomplete="off" class="form-control input">
+					<input type="number" onkeyup="totalOrder()" name="jlh_kg" id="jlh_kg" placeholder="amount" autocomplete="off" class="form-control input">
 					<p class="text3">/Kg</p>
 				</div>
 			</div>
@@ -59,12 +68,14 @@
 		<div class="note">P.S : Please seperate the clothes according the services.</div>
 	</div>
 	<div class="center">
-			<img src="../asset/images/right2.png" class="next">
+			<input type="submit" name="submit1" id="submit1" style="border:none; background: none; color: white;" value="submit"><img src="../asset/images/right2.png" class="next">
 		</div>
 	<div class="footer flex">
 		<div class="text1">Total</div>
-		<div class="text2">Rp 15.000</div>
+		<div class="text2"><input type="text" name="total" id="total" onkeyup="totalOrder()" style="border:none; background-color: transparent;"></div>
 	</div>
+	</form>
 </div>
+<script src="../js/userorder2.js"></script>
 </body>
 </html>
