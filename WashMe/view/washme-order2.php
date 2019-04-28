@@ -20,7 +20,7 @@
 			<?php
 				include "../php/connection.php";
 				$tgl = date('Y-m-d');
-				$sql = "select * from transaksi";
+				$sql = "select * from temptransaksi";
 				$query = mysqli_query($conn,$sql);
 				$num = mysqli_num_rows($query);
 				$angka = $num + 1;
@@ -30,10 +30,10 @@
 				$service = $res['service'];
 				$harga = $res['harga'];
 			?>
-			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo($notransaksi)?>">
-			<input type="hidden" name="id" id="id" value="<?php echo($id)?>">
-			<input type="hidden" name="service" id="service" value="<?php echo($service)?>">
-			<input type="hidden" name="harga" id="harga" value="<?php echo($harga)?>">
+			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
+			<input type="hidden" name="service" id="service" value="<?php echo $service;?>">
+			<input type="hidden" name="harga" id="harga" value="<?php echo $harga;?>">
 			<div class="text1">Set Pick Up Date</div>
 			<select class="select">
 				<option name="tgl_ambil" id="tgl_ambil"><?php echo $tgl?></option>

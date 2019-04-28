@@ -72,6 +72,6 @@
 		</div>
 	</div>
 </div>
-<script src="../js/userorder.js"></script>
+<script src="../js/userorder1.js"></script>
 </body>
 </html>
