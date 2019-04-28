@@ -12,10 +12,10 @@
 	<?php
 		include "../php/connection.php";
 
-		$name = $_REQUEST['name'];
-		$alamat = $_REQUEST['alamat'];
-		$status = $_REQUEST['status'];
-		$time_close = $_REQUEST['time_close'];
+		$name = $_POST['name'];
+		$alamat = $_POST['alamat'];
+		$status = $_POST['status'];
+		$time_close = $_POST['time_close'];
 	?>
 <form>
 	<div class="container-fluid-screen">
@@ -23,7 +23,7 @@
 			<div class="back"><a href="home.php"><img src="../asset/images/left-arrow.png" class="img"></a></div>
 		</div>
 		<div class="padding flex">
-			<div class="text"><?php echo $name?>, <?php echo $alamat?></div>
+			<div class="text"><?php echo $name?><?php echo $alamat?></div>
 			<div class="border-mid"><img src="../asset/images/map.png" class="img"></div>
 		</div>
 		<div class="padding jarak">0.94 Km</div>
