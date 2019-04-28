@@ -3,7 +3,7 @@
 }
 .background{
 	background-image: url("../images/laundry-keren.jpg");
-	height: 250px;
+	height: 500px;
 	padding: 20px 30px;
 }
 .background .back{
@@ -26,18 +26,29 @@
 	padding: 10px 30px;
 }
 .flex .text{
-	font-size: 35px;
+	width:85%;
+	font-size: 55px;
 }
 .flex .border-mid{
-	background-color: black;
 	border-radius: 10px;
-	opacity: 0.6;
-	margin: -40px 0px 40px 30px;
-	padding: 5px;
+	width: 90px;
+	height: 90px;
+	margin-top:-200px;
+	position: relative;
+}
+.flex .border-mid .bg{
+	width: 90px;
+	height: 90px;
+	background-color:black;
+	opacity: 0.5;
+	position: absolute;
 }
 .flex .border-mid .img{
 	width: 70px;
 	height: 70px;
+	position: absolute;
+	top: 6px;
+	left: 10px;
 }
 .jarak{
 	font-size: 35px;
@@ -47,7 +58,7 @@
 	border: 1px solid lightgrey;
 	margin-top: -5px;
 }
-.box1{
+.box1{	
 }
 .box1 .img{
 	width: 70px;
