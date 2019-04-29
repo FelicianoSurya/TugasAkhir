@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +21,6 @@
 	</style>
 </head>
 <body>
-<form>
 	<div class="container-fluid-fullscreen">
 		<div class="header flex5">
 			<a href="myorders-1.php"><img src="../asset/images/left-arrow2.png" class="arrow"></a>
@@ -29,17 +31,34 @@
 			<a href="myorders.php">
 			<div class="flex2">
 				<div class="box">
+				<form action="../php/prosesorder.php" method="POST">
+					<?php
+						include "../php/connection.php";
+
+						$id = $_SESSION['id'];
+
+						$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
+						$query = mysqli_query($conn,$sql);
+						$re = mysqli_fetch_array($query);
+						$id = $re['id'];
+						$notransaksi = $re['no'];
+						$name = $re['name'];
+						$alamat = $re['alamat'];
+						$alamat_ambil = $re['alamat_ambil'];
+						$tgl = $re['tgl'];
+					?>
+					<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 					<div class="flex">
 						<div class="top1">Pick Up</div>
-						<div class="top2">Order WMO-1234567</div>
+						<div class="top2">Order <?php echo $tgl;?></div>
 					</div>
 					<div class="flex1 top">
 						<img src="../asset/images/destination.png" class="img">
 						<div class="left">
-							<div class="text">Jln. Veteran gg. Syukur 6</div>
+							<div class="text"><?php echo $alamat_ambil;?></div>
 							<hr class="top">
-							<div class="text">Mega Laundry</div>
-							<div class="text">Jln. Budi Karya No. 15</div>
+							<div class="text"><?php echo $name;?></div>
+							<div class="text"><?php echo $alamat;?></div>
 						</div>
 					</div>
 					<img src="../asset/images/maps.jpg" class="img1">
@@ -65,11 +84,9 @@
 			</a>
 		</div>
 		<div class="flex2">
-			<button class="button2">
-				<img src="../asset/images/close-browser.png" class="img">
-				<p>Cancel Order</p>
-			</button>	
+			<input type="submit" name="cancel" id="cancel" value="Cancel" class="button2">
 		</div>
+				</form>
 				</div>
 		<div class="footer">
 			<a href="home.php">
@@ -98,6 +115,5 @@
 			</a>
 		</div>
 	</div>
-</form>
 </body>
 </html>

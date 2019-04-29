@@ -40,6 +40,7 @@
 			$num = mysqli_num_rows($query);
 			for($x=1;$x <=$num;$x++){
 				$re = mysqli_fetch_array($query);
+				$id = $re['id'];
 				$name = $re['name'];
 				$alamat = $re['alamat'];
 				$rating = $re['rating'];
@@ -49,7 +50,7 @@
 				$service = $re['service'];
 				$harga = $re['harga'];
 			 ?>
-			 <form onclick="saveUser(<?php echo "'$name','$alamat','$status','$time_close','$service','$harga'";?>)">
+			 <form onclick="saveUser(<?php echo "'$id'";?>)">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
@@ -72,6 +73,6 @@
 		</div>
 	</div>
 </div>
-<script src="../js/userorder1.js"></script>
+<script src="../js/userorder2.js"></script>
 </body>
 </html>

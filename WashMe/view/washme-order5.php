@@ -6,17 +6,16 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order5.1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washme-order5.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
 	<div class="container-fluid-screen">
 		<div class="header">
-			<img src="../asset/images/left-arrow2.png">
+			<a href="washme-order3.php"><img src="../asset/images/left-arrow2.png"></a>
 			<div class="atas"><p>Fill Delivery Format</p></div>
 		</div>
 		<div class="body">
@@ -34,15 +33,15 @@
 				$notransaksi = "TL-$angka";
 				$res = mysqli_fetch_array($query);
 				$id = $res['id'];
-				$service = $res['service'];
-				$harga = $res['harga'];
+				$time_open = $res['time_open'];
+				$time_close = $res['time_close'];
 			?>
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
 			<div class="text1">Set Delivery Date</div>
-			<select class="select">
-				<input type="text" name="tgl_deliv" id="tgl_deliv">
-			</select>
+			<div>
+				<input type="date" name="tgl_deliv" id="tgl_deliv" class="select">
+			</div>
 			<div class="select jarak">
 				<div>Extra :</div>
 				<div>Rp 3.000 x 3 Kg = Rp 9.000</div>
@@ -51,9 +50,9 @@
 			</div>
 			<div class="text2">Set Delivery Time</div>
 			<div class="box">
-				<input type="time" name="jam_deliv" id="jam_deliv" min="09:00" max="17:00" required class="time">
+				<input type="time" name="jam_deliv" id="jam_deliv" min="<?php echo($time_open)?>" max="<?php echo($time_close)?>" required class="time">
 				<div class="strip"></div>
-				<input type="time" name="batas_deliv" id="batas_deliv" min="09:00" max="17:00" required class="time">
+				<input type="time" name="batas_deliv" id="batas_deliv" min="<?php echo($time_open)?>" max="<?php echo($time_close)?>" required class="time">
 			</div>
 			<div class="box1">
 				<div>Home</div>
@@ -68,11 +67,10 @@
 			</div>
 			<hr class="hr">
 			<div class="box4">
-				<input type="submit" name="submit2" id="submit2" style="border:none; background: none; color: white;" value="submit"><img src="../asset/images/right2.png" class="img1">
+				<input type="submit" name="next" id="next" class="button" value="Confirm">
 			</div>
 			</form>
 		</div>
 	</div>
-</form>
 </body>
 </html>

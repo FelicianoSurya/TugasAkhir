@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,17 +20,39 @@
 		<div class="col-sm-2"><a href="history.php"><img src="../asset/images/history.png" class="img"></a></div>
 	</div>
 	<hr class="hr1">
+
 	<div class="background">
+			<?php
+				include "../php/connection.php";
+
+				$id = $_SESSION['id'];
+
+				$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
+				$query = mysqli_query($conn,$sql);
+				$num = mysqli_num_rows($query);
+				for($x=1 ; $x<=$num ; $x++){
+					$re = mysqli_fetch_array($query);
+					$id = $re['id'];
+					$notransaksi = $re['no'];
+					$name = $re['name'];
+					$alamat = $re['alamat'];
+					$tgl = $re['tgl'];
+			?>
 		<a href="myorders-2.php">
 		<div class="background-in flex">
+			
+			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<img src="../asset/images/washing-machine2.png" class="img">
 			<div class="left">
-				<div class="text">Mega Laundry - Jln. Budi Karya No. 15</div>
-				<div class="text1">Order Number : WMO-1234567</div>
+				<div class="text"><?php echo $name;?> - <?php echo $alamat;?></div>
+				<div class="text1">Tanggal Order : <?php echo $tgl;?></div>
 				<div class="text2">On Progress</div>
 			</div>
 		</div>
 		</a>
+			<?php
+				}
+			?>
 	</div>
 	<hr class="hr2">
 	<div class="footer">

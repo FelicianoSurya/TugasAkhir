@@ -40,30 +40,39 @@
 			$num = mysqli_num_rows($query);
 			for($x=1;$x <=$num;$x++){
 				$re = mysqli_fetch_array($query);
+				$id = $re['id'];
 				$name = $re['name'];
 				$alamat = $re['alamat'];
 				$rating = $re['rating'];
 				$kota = $re['kota'];
+				$time_close = $re['time_close'];
+				$status = $re['status'];
+				$service = $re['service'];
+				$harga = $re['harga'];
 			 ?>
-			<a href="washme-order.php">
+			 <form onclick="saveUser(<?php echo "'$id'";?>)">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
 						<img src="../asset/images/laundryfresco.jpg" alt="images">
 					</div>
 					<div class="kotak-kanan">
 						<div class="teks">
-							<p class="teks1"><?php echo $name ?></p>
-							<p class="kota"><?php echo $kota ?></p>
+							<p class="teks1" id="name" name="name"><?php echo $name ?></p>
+							<p class="kota" id="kota" name="kota"><?php echo $kota ?></p>
 						</div>
-						<p class="naik"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
-						<p class="naikk"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
+						<p class="naik" id="alamat" name="alamat"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
+						<p class="naikk" id="rating" name="rating"><img src="../asset/images/star1.png" alt="images"><span><?php echo $rating ?></span></p>
+						<input type="hidden" id="time_close" name="time_close" value="<?php echo($time_close)?>">
+						<input type="hidden" id="status" name="status" value="<?php echo($status)?>">
+						<input type="hidden" id="service" name="service" value="<?php echo($service)?>">
+						<input type="hidden" id="harga" name="harga" value="<?php echo($harga)?>">
 					</div>
 				</div>
-			</a>
+			</form>
 			<?php } ?>
 		</div>
 	</div>
 </div>
+<script src="../js/userorder2.js"></script>
 </body>
 </html>
-<script src="../js/userorder1.js"></script>

@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,29 +17,32 @@
 	<a href="myorders-1.php"><img src="../asset/images/left-arrow2.png" class="arrow"></a>
 	<div class="title">History</div>
 </div>
+	<?php
+		include "../php/connection.php";
+
+		$id = $_SESSION['id'];
+
+		$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
+		$query = mysqli_query($conn,$sql);
+		$num = mysqli_num_rows($query);
+		for($x=1 ; $x<=$num ; $x++){
+			$re = mysqli_fetch_array($query);
+			$id = $re['id'];
+			$name = $re['name'];
+			$alamat = $re['alamat'];
+			$tgl_ambil = $re['tgl_ambil'];
+			$tgl_deliv = $re['tgl_deliv'];
+	?>
 <div class="body flex jarak">
 	<img src="../asset/images/delivery-truck.png" class="img">
 	<div>
 		<div class="text">Delivered</div>
-		<div class="text1">Mega Laundry - Jln  Budi Karya No. 15</div>
-		<div class="text2">21 March - 23 March</div>
+		<div class="text1"><?php echo $name;?> - <?php echo $alamat;?></div>
+		<div class="text2"><?php echo $tgl_ambil;?> - <?php echo $tgl_deliv;?></div>
 	</div>
 </div>
-<div class="body flex">
-	<img src="../asset/images/delivery-truck.png" class="img">
-	<div>
-		<div class="text3">Order Cancelled</div>
-		<div class="text1">Mega Laundry - Jln  Budi Karya No. 15</div>
-		<div class="text2">21 March - 23 March</div>
-	</div>
-</div>
-<div class="body flex">
-	<img src="../asset/images/delivery-truck.png" class="img">
-	<div>
-		<div class="text">Delivered</div>
-		<div class="text1">Mega Laundry - Jln  Budi Karya No. 15</div>
-		<div class="text2">21 March - 23 March</div>
-	</div>
-</div>
+	<?php
+		}
+	?>
 </body>
 </html>
