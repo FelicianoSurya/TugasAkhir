@@ -1,0 +1,104 @@
+*{
+	font-family: coolvetica;
+}
+.body{
+	padding: 30px 50px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .border{
+	background-color: #605252;
+	border-radius: 50%;
+	padding: 20px;
+}
+.header .border img{
+	width: 70px;
+	height: 70px;
+}
+.gambar{
+	text-align: center;
+}
+.gambar img{
+	width: 75%;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.text1{
+	font-size: 55px;
+}
+.harga{
+	color: #ed145b;
+	font-size: 50px;
+}
+.flex .star{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.flex .text2{
+	color: #605252;
+	font-size: 50px;
+	margin: 0px 15px;
+}
+.flex .harga{
+	margin: 0;
+}
+.flex .garis{
+	border: 1px solid #605252;
+	background-color: #605252;
+	width: 7px;
+	height: 50px;
+}
+.top{
+	margin-top: 30px;
+}
+.flex .img1{
+	width: 80px;
+	height: 80px;
+}
+.flex .text3{
+	font-size: 45px;
+	color: #605252;
+	margin: 0px 10px;
+}
+.flex .text4{
+	font-size: 45px;
+	margin: 0px 10px;
+}
+.flex .border1{
+	border: 1px solid #605252;
+	padding: 20px 30px;
+	width: 40%;
+	height: 80px;
+	margin-right: 20px;
+}
+.flex .border1 .img{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+}
+.flex .border1 .flex1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.flex .border1 .text5{
+	font-size: 45px;
+	margin: 0;
+}
+.flex .border2{
+	border: 1px solid #605252;
+	padding: 20px 30px;
+	width: 15%;
+	height: 80px;
+	padding: 20px 30px;
+}
+.flex .border2 .img{
+	width: 50px;
+	height: 50px;
+}
