@@ -101,6 +101,7 @@
 .background3 .background-in .border-bot{
 	padding: 10px;
 	margin: 0px 5px;
+	width: 50%;
 }
 .background3 .background-in .border-bot .flex2 .text2{
 	color: #605252;

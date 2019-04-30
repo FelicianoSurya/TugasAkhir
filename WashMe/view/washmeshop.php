@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop1.css">
 	<title></title>
 </head>
 <body>
@@ -18,7 +18,7 @@
 		<div class="background flex1">
 			<div class="search">
 				<img src="../asset/images/search.png" alt="search" class="img">
-				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text">
+				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text" onkeyup="search(this.value,<?php echo "'$kode_product'" ?>)">
 			</div>
 			<div>
 				<img src="../asset/images/cart-of-ecommerce.png" class="img3">
@@ -46,46 +46,83 @@
 		</div>
 		<div class="background3">
 			<div class="iron">Iron</div>
-			<div class="background-in flex">
+			<div class="background-in flex" id="cari">
+				<?php
+					include "../php/connection.php";
+					$sql = "select * from products";
+					$query = mysqli_query($conn,$sql);
+					$num = mysqli_num_rows($query);
+					for($x=1;$x<=$num;$x++){
+						$re = mysqli_fetch_array($query);
+						$kode = $re['kode_product'];
+						$nama = $re['nama_product'];
+						$kategori = $re['kategori'];
+						$harga = $re['harga'];
+						$stok = $re['stok'];
+						$shop = $re['shop'];
+						$rating = $re['rating'];
+					 ?>
 				<div class="border-bot">
 					<img src="../asset/images/setrika1.png" class="img">
-					<div class="text">Setrika Uap Listrik Silver Star ES300...</div>
-					<div class="harga">Rp 515.000</div>
+					<div class="text"><?php echo $nama ?></div>
+					<div class="harga"><?php echo $harga ?></div>
+					<?php if($rating <= 20){
+					 ?>
 					<div class="flex2">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(3)</div>
+						<div class="text2">(<?php echo $rating ?>)</div>
 					</div>
-				</div>
-				<div class="border-bot">
-					<img src="../asset/images/setrika1.png" class="img">
-					<div class="text">Setrika Uap Listrik Silver Star ES300...</div>
-					<div class="harga">Rp 515.000</div>
-					<div class="flex2">
+					<?php } ?>
+					<?php if($rating <= 40 && $rating > 20){
+					 ?>
+					 <div class="flex2">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(3)</div>
+						<div class="text2">(<?php echo $rating ?>)</div>
 					</div>
-				</div>
-				<div class="border-bot">
-					<img src="../asset/images/setrika1.png" class="img">
-					<div class="text">Setrika Uap Listrik Silver Star ES300...</div>
-					<div class="harga">Rp 515.000</div>
-					<div class="flex2">
+					<?php } ?>
+					<?php if($rating <= 60 && $rating > 40){
+					 ?>
+					 <div class="flex2">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
 						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(3)</div>
+						<div class="text2">(<?php echo $rating ?>)</div>
 					</div>
+					<?php } ?>
+					<?php if($rating <= 80 && $rating > 60){
+					 ?>
+					 <div class="flex2">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text2">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
+					<?php if($rating <= 100 && $rating > 80){
+					 ?>
+					 <div class="flex2">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<img src="../asset/images/star1.png" class="star">
+						<div class="text2">(<?php echo $rating ?>)</div>
+					</div>
+					<?php } ?>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 		<hr class="hr2">
