@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/washme-shopproduct.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washme-shopproduct1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -62,6 +62,48 @@
 			<div class="border2">
 				<img src="../asset/images/share2.png" class="img">
 			</div>
+		</div>
+		<div class="flex top1">
+			<img src="../asset/images/laundry-ateng.jpg" class="img2">
+			<div class="flex1">
+				<div class="border3">
+					<p class="text6">Mega Laundry</p>
+					<p class="text7">Pontianak</p>
+				</div>
+				<button class="button">View Shop</button>
+			</div>
+		</div>
+		<div class="flex1 border4 top1">
+			<div>
+				<p class="harga">200</p>
+				<p class="text8">Product</p>
+			</div>
+			<div class="garis1"></div>
+			<div>
+				<p class="harga">4.8</p>
+				<p class="text8">Rating</p>
+			</div>
+			<div class="garis1"></div>
+			<div>
+				<p class="harga">94%</p>
+				<p class="text8">Chat Response</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-box">
+			<div>
+				<img src="../asset/images/speech-bubble.png" class="image">
+				<p class="teks">Chat Now</p>
+			</div>
+			<div class="garis"></div>
+			<div>
+				<img src="../asset/images/add-to-the-cart.png" class="image">
+				<p class="teks">Add to Cart</p>
+			</div>
+		</div>
+		<div class="footer-box1">
+			<p class="teks">Buy Now</p>
 		</div>
 	</div>
 </div>
