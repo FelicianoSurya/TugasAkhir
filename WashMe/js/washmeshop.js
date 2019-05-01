@@ -14,7 +14,7 @@ function tampil_hasilsearch(){
 	}
 }
 function search(cari,kode_product){
-	url = "search.php?search="+cari+"&kode_product="+kode_product;
+	url = "washmeshop.php?search="+cari+"&kode_product="+kode_product;
 	url = url+"&sid="+Math.random();
 	ajaxku = buatajax();
 	ajaxku.onreadystatechange = tampil_hasilsearch;

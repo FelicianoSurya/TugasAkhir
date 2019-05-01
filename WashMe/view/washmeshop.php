@@ -18,7 +18,7 @@
 		<div class="background flex1">
 			<div class="search">
 				<img src="../asset/images/search.png" alt="search" class="img">
-				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text" onkeyup="search(this.value,<?php echo "'$kode_product'" ?>)">
+				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text" onkeyup="search(this.value,<?php echo "'$nama'" ?>)">
 			</div>
 			<div>
 				<img src="../asset/images/cart-of-ecommerce.png" class="img3">
