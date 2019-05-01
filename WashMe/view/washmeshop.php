@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
 		<div class="background flex1">
 			<div class="search">
 				<img src="../asset/images/search.png" alt="search" class="img">
-				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text" onkeyup="search(this.value,<?php echo "'$nama'" ?>)">
+				<input type="text" id="search" name="search" placeholder="Search Laundry" class="text" onkeyup="search_barang(this.value)">
 			</div>
 			<div>
 				<img src="../asset/images/cart-of-ecommerce.png" class="img3">
@@ -61,9 +61,10 @@
 						$stok = $re['stok'];
 						$shop = $re['shop'];
 						$rating = $re['rating'];
+						$image = $re['image'];
 					 ?>
 				<div class="border-bot">
-					<img src="../asset/images/setrika1.png" class="img">
+					<img src="<?php echo "$image" ?>" class="img">
 					<div class="text"><?php echo $nama ?></div>
 					<div class="harga"><?php echo $harga ?></div>
 					<?php if($rating <= 20){
@@ -153,6 +154,7 @@
 			</a>
 		</div>
 	</div>
+	<script src="../js/washmeshop.js"></script>
 </form>
 </body>
 </html>

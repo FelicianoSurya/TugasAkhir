@@ -13,8 +13,8 @@ function tampil_hasilsearch(){
 		document.getElementById('cari').innerHTML = data;
 	}
 }
-function search(cari,kode_product){
-	url = "washmeshop.php?search="+cari+"&kode_product="+kode_product;
+function search_barang(cari){
+	url = "search.php?search="+cari;
 	url = url+"&sid="+Math.random();
 	ajaxku = buatajax();
 	ajaxku.onreadystatechange = tampil_hasilsearch;

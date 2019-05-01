@@ -120,6 +120,7 @@
 						<img src="../asset/images/laundry-ateng.jpg" alt="laundry-ateng">
 					</div>
 					<div class="info-place">
+						<p class="date"><?php echo $nama ?></p>
 						<p class="jalan"><?php echo $jalan ?></p>
 						<?php
 						if($status == "open"){
