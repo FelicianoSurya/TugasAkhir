@@ -99,25 +99,25 @@
 			</div>
 		</div>
 		<div class="footer">
-			<a href="home.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/home.png" class="img2">
 					<div class="text">Home</div>
 				</div>
 			</a>
-			<a href="myorders-1.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Orders</div>
 				</div>
 			</a>
-			<a href="washmeshop.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/shopping-cart2.png" class="img2">
 					<div class="text1">WashMe Shop</div>
 				</div>
 			</a>
-			<a href="myaccount.php">
+			<a href="#">
 				<div class="box4">
 					<img src="../../asset/images/profile2.png" class="img2">
 					<div class="text1">Account</div>

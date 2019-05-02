@@ -1,0 +1,78 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	font-size: 60px;
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+}
+.box{
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+}
+.box img{
+	width: 250px;
+	height: 250px;
+}
+.box p{
+	font-size: 40px;
+	margin-top: 10px;
+	color: #605252;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.box1{
+	padding: 0px 70px;
+	margin-top: 80px;
+}
+.box1 .flex .text{
+	width: 40%;
+	font-size: 50px;
+}
+.box1 .flex .text1{
+	width: 5%;
+	font-size: 50px;
+}
+.box1 .flex .text2{
+	width: 55%;
+	font-size: 50px;
+	color: #605252;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4{
+	width: 100%;
+	margin: 20px 30px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}
