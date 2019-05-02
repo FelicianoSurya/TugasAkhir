@@ -2,9 +2,10 @@
 	font-family: coolvetica;
 }
 .header{
-	background-image: url("../images/laundry-ateng1.png");
+	background-image: url("../images/laundry-keren1.png");
 	width: 100%;
 	padding: 40px 70px;
+	background-repeat: no-repeat;
 }
 .flex{
 	display: flex;

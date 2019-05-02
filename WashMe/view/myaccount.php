@@ -6,7 +6,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/myaccount1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -64,6 +64,9 @@
 					<img src="../asset/images/tag.png">
 					<p class="promo-in">Enter Promo Code</p>
 				</div>
+				<div class="panah">
+					<img src="../asset/images/right-arrow.png" class="arrow">
+				</div>
 			</div>
 		</a>
 		<hr class="hr1">
@@ -72,6 +75,9 @@
 				<div class="promo">
 					<img src="../asset/images/coupon.png">
 					<p class="promo-in">My Voucher</p>
+				</div>
+				<div class="panah">
+					<img src="../asset/images/right-arrow.png" class="arrow">
 				</div>
 			</div>
 		</a>
@@ -82,6 +88,9 @@
 					<img src="../asset/images/translate.png">
 					<p class="promo-in">Language</p>
 				</div>
+				<div class="panah">
+					<img src="../asset/images/right-arrow.png" class="arrow">
+				</div>
 			</div>
 		</a>
 		<hr class="hr1">
@@ -89,7 +98,10 @@
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/information.png">
-					<p class="promo-in">Help</p>
+					<p class="promo-in">Frequently Ask Questions</p>
+				</div>
+				<div class="panah">
+					<img src="../asset/images/right-arrow.png" class="arrow">
 				</div>
 			</div>
 		</a>
@@ -98,7 +110,10 @@
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/writing.png">
-					<p class="promo-in">Frequently Ask Questions</p>
+					<p class="promo-in">Terms of Service</p>
+				</div>
+				<div class="panah">
+					<img src="../asset/images/right-arrow.png" class="arrow">
 				</div>
 			</div>
 		</a>
@@ -108,6 +123,9 @@
 				<div class="promo">
 					<img src="../asset/images/star.png">
 					<p class="promo-in">Rate WashMe App</p>
+				</div>
+				<div class="panah">
+					<p>3.20</p>
 				</div>
 			</div>
 		</a>
