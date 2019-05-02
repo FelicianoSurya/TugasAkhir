@@ -3,7 +3,6 @@
 }
 .body{
 	padding: 30px 50px;
-	height: 1800px;
 }
 .header{
 	display: flex;
@@ -144,6 +143,118 @@
 	width: 4px;
 	height: 100px;
 }
+
+.isi{
+	height: 1900px;
+}
+.body{
+	padding: 30px 50px;
+}
+
+.body .flex1 .text{
+	font-size: 50px;
+	color: black;
+}
+.body .flex1 .flex .img{
+	width: 70px;
+	height: 70px;
+}
+.body .flex1 .flex .waktu{
+	font-size: 50px;
+	color: black;
+	margin-left: 15px;
+}
+.hr{
+	border: 1px solid;
+}
+.box .hr2{
+	border: 1px solid;
+	margin-top: 1px;
+}
+.box .flex .box-in{
+	background-color: #ebebeb;
+	width: 40%;
+	height: 110px;
+	padding: 10px 50px;
+	margin-top: -15px;
+}
+.box .flex .box-in .text{
+	font-size: 50px;
+}
+.box .flex .box-in2{
+	padding: 0px 50px;
+	color: #605252;
+	font-size: 50px;
+}
+.body1{
+	padding: 30px 50px;
+	line-height: 50px;
+}
+.top{
+	margin-top: 60px;
+}
+.body1 .teks{
+	color: #605252;
+	font-size: 50px;
+}
+.body2{
+	padding: 20px 50px;
+	line-height: 40px;
+}
+.body2 .flex1 .text3{
+	font-size: 50px;
+}
+.body2 .flex1 .flex .star{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.body2 .flex1 .harga{
+	color: #ed145b;
+	font-size: 50px;
+	margin: 0;
+	margin-left: 10px;
+}
+.body2 .flex1 .teks{
+	color: #605252;
+	font-size: 50px;
+	margin: 0;
+	margin-left: 10px;
+}
+.body2 .flex1 .teks2{
+	color: #ed145b;
+	font-size: 50px;
+}
+.flex3{
+	display: flex;
+}
+.body2 .flex1 .flex3 .img1{
+	width: 100px;
+	height: 100px;
+	margin-right: 25px;
+}
+.body2 .flex1 .flex3 .text4{
+	font-size: 45px;
+}
+.body2 .flex1 .flex3 .star1{
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+}
+.body2 .flex1 .flex3 .tanggal{
+	font-size: 40px;
+	color: #605252;
+	margin-top: 20px;
+}
+.body2 .flex1 .flex3 .komentar{
+	font-size: 40px;
+	margin-top: 20px;
+}
+.body2 .flex1 .img2{
+	width: 80px;
+	height: 80px;
+}
+
 .footer{
 	display: flex;
 	align-items: center;
