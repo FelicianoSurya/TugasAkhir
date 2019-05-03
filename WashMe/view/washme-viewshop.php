@@ -14,7 +14,7 @@
 	<div class="container-fluid-screen">
 		<div class="header">
 			<div class="flex">
-				<img src="../asset/images/left-arrow.png" class="img">
+				<a href="washme-shopproduct.php"><img src="../asset/images/left-arrow.png" class="img"></a>
 				<input type="text" name="search" id="search" placeholder="Search in Mega Laundry" class="border">
 			</div>
 			<p class="nama">Mega Laundry</p>

@@ -64,7 +64,7 @@
 						$image = $re['image'];
 					 ?>
 				<div class="border-bot">
-					<img src="<?php echo "$image" ?>" class="img">
+					<a href="washme-shopproduct.php"><img src="<?php echo "$image" ?>" class="img"></a>
 					<div class="text"><?php echo $nama ?></div>
 					<div class="harga"><?php echo $harga ?></div>
 					<?php if($rating <= 20){

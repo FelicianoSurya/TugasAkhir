@@ -16,7 +16,7 @@
 			<header>
 				<a href="home.php">
 					<div class="logo">
-						<img src="../asset/images/left-arrow.png" alt="image">
+						<a href="washme-shopproduct.php"><img src="../asset/images/left-arrow.png" alt="image"></a>
 					</div>
 				</a>
 				<div class="list">

@@ -15,7 +15,7 @@
 	<div class="body">
 		<div class="header">
 			<div class="border">
-				<img src="../asset/images/left-arrow.png">
+				<a href="washmeshop.php"><img src="../asset/images/left-arrow.png"></a>
 			</div>
 			<div class="border">
 				<img src="../asset/images/shopping-cart1.png">
@@ -70,7 +70,7 @@
 					<p class="text6">Mega Laundry</p>
 					<p class="text7">Pontianak</p>
 				</div>
-				<button class="button">View Shop</button>
+				<button class="button"><a href="washme-viewshop.php" style="color:#ed145b">View Shop</a></button>
 			</div>
 		</div>
 		<div class="flex1 border4 top1">
@@ -202,7 +202,7 @@
 		<div class="footer">
 		<div class="footer-box">
 			<div>
-				<img src="../asset/images/speech-bubble.png" class="image">
+				<a href="chat.php"><img src="../asset/images/speech-bubble.png" class="image"></a>
 				<p class="teks">Chat Now</p>
 			</div>
 			<div class="garis"></div>
