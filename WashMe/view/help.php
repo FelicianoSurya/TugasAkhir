@@ -13,14 +13,14 @@
 <form>
 	<div class="container-fluid-screen">
 		<div class="header">
-			<img src="../asset/images/left-arrow1.png" class="img">
-			<div class="title">Help</div>
+			<a href="myaccount.php"><img src="../asset/images/left-arrow1.png" class="img"></a>
+			<div class="title">Frequently Ask Questions</div>
 		</div>
 		<hr class="hr">
 		<div class="body">
 			<div class="flex1">
 				<p class="text">How do I find out if you serve my neighborhood?</p>
-				<img src="../asset/images/right-arrow.png" class="img">
+				<a href="help2.php"><img src="../asset/images/right-arrow.png" class="img"></a>
 			</div>
 		</div>
 		<hr class="hr">
