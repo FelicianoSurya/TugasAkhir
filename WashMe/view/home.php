@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -146,7 +146,7 @@
 		<div class="row background">
 			<div class="col-sm-12"></div>
 		</div>
-		<div class="border-mid2">
+		<div class="border-mid2 ">
 			<div class="flex">
 				<div class="text-mid1">Shop</div>
 				<div class="text-mid3">See All</div>
@@ -246,6 +246,30 @@
 			<div class="col-sm-4"><img src="../asset/images/laundry3.png" class="img"></div>
 		</div>
 		<hr class="hr2">
+	</div>
+	<div class="height">
+		<div class="foot">
+			<div class="text">Created By :</div>
+			<div class="flex1" style="width: 100%;">
+				<div class="box">
+					<div>
+						<div class="box-in">
+							<div>
+								<p>David Leonardo</p>
+								<p>Fleren Picestelia</p>
+							</div>
+							<div class="box-in1">
+								<p>Feliciano Surya</p>
+								<p>Zauhiung Karyaten</p>
+							</div>
+						</div>
+						<p class="kelas">XI TKJ 2</p>
+						<P class="kelas">SMK KRISTEN IMMANUEL PONTIANAK</P>
+					</div>
+				<img src="../asset/images/logo smk.png" class="img">
+				</div>
+			</div>
+		</div>
 	</div>
 		<div class="footer">
 			<a href="home.php">
