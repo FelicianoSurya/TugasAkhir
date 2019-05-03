@@ -13,7 +13,7 @@
 <form>
 	<div class="container-fluid">
 		<div class="content">
-			<img src="../asset/images/left-arrow1.png" class="img">
+			<a href="myaccount.php"><img src="../asset/images/left-arrow1.png" class="img"></a>
 			<div class="top">
 				<img src="../asset/images/discount.png" class="img1">
 				<p class="text top1">Have a promo code?</p>

@@ -45,7 +45,7 @@
 				<p class="phone"><?php echo $nohp; ?></p>
 			</div>
 			<div class="edit1">
-				<button type="button" id="profile">Edit Profile</button>
+				<button type="button" id="profile"><a href="myaccount2.php" style="color:white">Edit Profile</a></button>
 			</div>
 		</div>
 		<hr class="hr1">
@@ -65,7 +65,7 @@
 					<p class="promo-in">Enter Promo Code</p>
 				</div>
 				<div class="panah">
-					<img src="../asset/images/right-arrow.png" class="arrow">
+					<a href="enterpromocode.php"><img src="../asset/images/right-arrow.png" class="arrow"></a>
 				</div>
 			</div>
 		</a>
@@ -89,7 +89,7 @@
 					<p class="promo-in">Language</p>
 				</div>
 				<div class="panah">
-					<img src="../asset/images/right-arrow.png" class="arrow">
+					<a href="language.php"><img src="../asset/images/right-arrow.png" class="arrow"></a>
 				</div>
 			</div>
 		</a>
@@ -101,7 +101,7 @@
 					<p class="promo-in">Frequently Ask Questions</p>
 				</div>
 				<div class="panah">
-					<img src="../asset/images/right-arrow.png" class="arrow">
+					<a href="help.php"><img src="../asset/images/right-arrow.png" class="arrow"></a>
 				</div>
 			</div>
 		</a>
