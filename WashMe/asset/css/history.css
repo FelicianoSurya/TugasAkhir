@@ -1,3 +1,6 @@
+*{
+	font-family: coolvetica;
+}
 .flex{
 	display: flex;
 	align-items: center;
