@@ -31,15 +31,15 @@
 			</select>
 			<div class="flex1">
 				<div class="border">
-					<img src="../asset/images/ironing.png" class="img">
+					<a href="washme-shopproduct.php"><img src="../asset/images/ironing.png" class="img"></a>
 					<div class="text">Iron</div>
 				</div>
 				<div class="border">
-					<img src="../asset/images/hanger.png" class="img">
+					<a href="washme-shopproduct.php"><img src="../asset/images/hanger.png" class="img"></a>
 					<div class="text">Hanger</div>
 				</div>
 				<div class="border">
-					<img src="../asset/images/dry.png" class="img">
+					<a href="washme-shopproduct.php"><img src="../asset/images/dry.png" class="img"></a>
 					<div class="text">Clothes Line</div>
 				</div>
 			</div>
