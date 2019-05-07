@@ -25,6 +25,9 @@
 .header .submit{
 	color: #ed145b;
 	font-size: 50px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
 }
 .hr{
 	border: 1px solid;
@@ -33,8 +36,9 @@
 	padding: 20px 40px 20px 80px;
 }
 .box .img1{
-	width: 250px;
-	height: 250px;
+	font-size: 50px;
+	background-color: white;
+	width: 100%;
 }
 .box .text{
 	font-size: 50px;

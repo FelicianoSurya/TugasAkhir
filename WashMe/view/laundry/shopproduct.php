@@ -3,30 +3,30 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../../asset/css/laundry/shopproduct1.css">
+	<link rel="stylesheet" type="text/css" href="../../asset/css/laundry/shopproduct.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
+<form action="save.php" method="POST">
 	<div class="container-fluid-screen">
 	<div class="body">
 		<div class="flex header">
 			<div class="title">Add Product</div>
-			<div class="submit">SUBMIT</div>
+			<input type="button" name="submit" id="submit" value="submit" class="submit">
 		</div>
 		<div class="box">
-			<img src="../../asset/images/covermesincuci.png" class="img1">
-		</div>
-		<hr class="hr">
-		<div class="box">
-			<input type="text" name="name" id="name" placeholder="Product Name" class="text">
+			<input type="file" name="image" id="image" class="img1">
 		</div>
 		<hr class="hr">
 		<div class="box">
-			<input type="text" name="name" id="name" placeholder="Product Description / #hashtags" class="text">
+			<input type="text" name="nama_product" id="nama_product" placeholder="Product Name" class="text">
+		</div>
+		<hr class="hr">
+		<div class="box">
+			<input type="text" name="description" id="description" placeholder="Product Description / #hashtags" class="text">
 		</div>
 		<hr class="hr">
 		<div class="box flex">
@@ -34,9 +34,11 @@
 			<div class="box-in">
 				<p>Category</p>
 				<div style="display: flex; justify-content: flex-end; position: relative; width: 100%; margin-top: -100px;">
-					<select style="position: absolute; padding: 20px 40px;">
-						<option>sd</option>
-						<option>asd</option>
+					<select style="position: absolute; padding: 20px 40px; border: none; width: 65%;" id="kategori">
+						<option></option>
+						<option><img src="../../asset/images/boy.png"> Iron</option>
+						<option>Hanger</option>
+						<option>Clothes Line</option>
 					</select>
 					<img src="../../asset/images/right-arrow.png" class="img2" style="position: absolute; right: 0px; margin-top: 10px;">
 				</div>
@@ -49,7 +51,7 @@
 				<p>Price</p>
 				<div class="flex-end">
 					<p>Rp</p>
-					<input type="number" name="name" id="name" placeholder="" class="text3">
+					<input type="number" name="harga" id="harga" placeholder="" class="text3">
 				</div>
 			</div>
 		</div>
@@ -58,7 +60,7 @@
 			<img src="../../asset/images/package.png" class="img">
 			<div class="box-in">
 				<p>Stock</p>
-				<input type="number" name="name" id="name" placeholder="Set Stock" class="text2">
+				<input type="number" name="stok" id="stok" placeholder="Set Stock" class="text2">
 			</div>
 		</div>
 		<hr class="hr">
@@ -66,7 +68,7 @@
 			<img src="../../asset/images/scale.png" class="img">
 			<div class="box-in">
 				<p>Weight</p>
-				<input type="number" name="name" id="name" placeholder="Set Weight" class="text2">
+				<input type="number" name="berat" id="berat" placeholder="Set Weight" class="text2">
 			</div>
 		</div>
 		<hr class="hr">
@@ -76,7 +78,7 @@
 				<p>Shipping Fee</p>
 				<div class="flex-end">
 					<p>Rp</p>
-					<input type="number" name="name" id="name" placeholder="" class="text3">
+					<input type="number" name="fee" id="fee" placeholder="" class="text3">
 				</div>
 			</div>
 		</div>
