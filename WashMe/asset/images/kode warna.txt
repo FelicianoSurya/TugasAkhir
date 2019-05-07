@@ -13,6 +13,7 @@ Merah tua #ff000c
 
 warna chart
 ungu #845EC2
+ungu muda #D65DB1
 pink #FF6F91
 orange #FF9671
 kuning #FFC75F
