@@ -1,0 +1,71 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 30px 50px;
+	display: flex;
+	align-items: center;
+}
+.header img{
+	width: 80px;
+	height: 100px;
+}
+.header p{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	font-size: 60px;
+}
+.box{
+	padding: 20px 0px;
+	text-align: center;
+}
+.box p{
+	color: #a1a1a1;
+	font-size: 40px;
+}
+.box img{
+	width: 170px;
+	height: 170px;
+	margin-top: 20px;
+}
+.box2{
+	padding: 20px 60px;
+	margin-top: 40px;
+	line-height: 45px;
+}
+.box2 .flex{
+	display: flex;
+	align-items: center;
+}
+.box2 .flex .text1{
+	font-size: 45px;
+	width: 45%;
+}
+.box2 .flex .text2{
+	width: 5%;
+	font-size: 45px
+}
+.box2 .flex .text3{
+	color: #a1a1a1;
+	font-size: 45px;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box3{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 60px;
+	padding: 20px 60px;
+	margin-top: 30px;
+}
+.box3 .text{
+	color: #a1a1a1;
+}
+.box3 .text1{
+	margin-left: 20px;
+	margin-right: 20px;
+}

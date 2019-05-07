@@ -86,13 +86,13 @@
 					<div class="text1">Home</div>
 				</div>
 			</a>
-			<a href="myorders-1.php">
+			<a href="myorders.php">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list.png" class="img2">
 					<div class="text">Orders</div>
 				</div>
 			</a>
-			<a href="washmeshop.php">
+			<a href="shopproduct.php">
 				<div class="box4">
 					<img src="../../asset/images/shopping-cart2.png" class="img2">
 					<div class="text1">WashMe Shop</div>
