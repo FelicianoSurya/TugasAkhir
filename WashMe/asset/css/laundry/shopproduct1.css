@@ -8,6 +8,12 @@
 	display: flex;
 	align-items: center;
 }
+.flex-end{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 50%;
+}
 .header{
 	padding: 50px;
 }
@@ -32,6 +38,8 @@
 }
 .box .text{
 	font-size: 50px;
+	border: none;
+	width: 100%;
 }
 .box .img{
 	width: 80px;
@@ -43,14 +51,23 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: black;
 	width: 100%;
 }
 .box .box-in .img2{
 	width: 80px;
 	height: 80px;
+	cursor: pointer;
 }
 .box .box-in .text2{
-	color: #a1a1a1;
+	width: 40%;
+	text-align: right;
+	border: none;
+}
+.box .box-in .text3{
+	width: 40%;
+	margin-left: 25px;
+	border: none;
 }
 .footer{
 	width: 100%;
