@@ -19,4 +19,4 @@
 		$query = mysqli_query($conn,$sql);
 	}
 	header("location:shopproduct.php");
-?>
+?>	
