@@ -15,7 +15,7 @@
 	$submit = $_POST['submit'];
 
 	if($submit == 'save'){
-		$sql = "insert into products values('$kode_product','$nama_product','$kategori','$harga','$stok','$shop','$rating','$description','$image')";
+		$sql = "insert into products(kode_product,nama_product,kategori,harga,stok,shop,rating,description,image) values('$kode_product','$nama_product','$kategori','$harga','$stok','$shop','$rating','$description','$image')";
 		$query = mysqli_query($conn,$sql);
 	}
 	header("location:shopproduct.php");
