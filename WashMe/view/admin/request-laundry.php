@@ -110,7 +110,7 @@
 		<div class="footer">
 			<a href="washme-user.php">
 				<div class="box4">
-					<img src="../../asset/images/profile.png" class="img2">
+					<img src="../../asset/images/profile2.png" class="img2">
 					<div class="text1">User</div>
 				</div>
 			</a>
@@ -122,7 +122,7 @@
 			</a>
 			<a href="washmeshop.php">
 				<div class="box4">
-					<img src="../../asset/images/shopping-list2.png" class="img2">
+					<img src="../../asset/images/shopping-list.png" class="img2">
 					<div class="text">Request</div>
 				</div>
 			</a>
