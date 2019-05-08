@@ -246,7 +246,7 @@
 		</div>
 		<div class="modal fade" id="openlaundry" role="dialog">
 			<div class="modal-dialog modal-xl">
-				<div class="modal-content" style="height: 1100px; width: 700px; margin-left: -100px;">
+				<div class="modal-content" style="height: 1200px; width: 700px; margin-left: -100px;">
 					<div class="modal-header">
 						<h4 class="modal-title" style="font-size: 50px;">Request Laundry</h4>
 						<button type="button" class="close" data-dismiss="modal" style="font-size: 80px;">&times;</button>
@@ -254,23 +254,23 @@
 					<div class="modal-body">
 						<div class="form-group">
 							<label class="label" style="font-size: 40px;">Text Request :</label><br>
-							<textarea name="req" id="req" autocomplete="off" class="form-control" rows="3"></textarea>
+							<textarea name="req" id="req" autocomplete="off" class="form-control" rows="3" style="font-size: 40px"></textarea>
 						</div>
 						<div class="form-group">
 							<label class="label" style="font-size: 40px;">Laundry Name :</label><br>
-							<input type="text" name="laundryname" id="laundryname" autocomplete="off" class="form-control" style="height: 80px;">
+							<input type="text" name="laundryname" id="laundryname" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
 						</div>
 						<div class="form-group">
 							<label class="label" style="font-size: 40px;">Address :</label><br>
-							<input type="text" name="alamat" id="alamat" autocomplete="off" class="form-control" style="height: 80px;">
+							<input type="text" name="alamat" id="alamat" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
 						</div>
 						<div class="form-group">
 							<label class="label" style="font-size: 40px;">City :</label><br>
-							<input type="text" name="kota" id="kota" autocomplete="off" class="form-control" style="height: 80px;">
+							<input type="text" name="kota" id="kota" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
 						</div>
 						<div class="form-group">
 							<label class="label" style="font-size: 40px;">Phone Number :</label><br>
-							<input type="text" name="nohp" id="nohp" autocomplete="off" class="form-control" style="height: 80px;">
+							<input type="text" name="nohp" id="nohp" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
 						</div>
 					</div>
 					<div class="modal-footer">
