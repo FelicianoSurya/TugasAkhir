@@ -28,13 +28,16 @@
 				$sql = "select * from laundrys where id='$id'";
 				$query = mysqli_query($conn,$sql);
 				$num = mysqli_num_rows($query);
-				$tgl = date('Y-m-d');
-				$angka = $num + 1;
-				$notransaksi = "TL-$angka";
 				$res = mysqli_fetch_array($query);
 				$id = $res['id'];
 				$time_open = $res['time_open'];
 				$time_close = $res['time_close'];
+				$sql1 = "select * from transaksi";
+				$query1 = mysqli_query($conn,$sql1);
+				$num1 = mysqli_num_rows($query1);
+				$tgl = date('Y-m-d');
+				$angka = $num1 + 1;
+				$notransaksi = "TL-$angka";
 			?>
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">

@@ -38,10 +38,11 @@
 					$alamat = $re['alamat'];
 					$tgl = $re['tgl'];
 			?>
-		<a href="myorders-2.php">
+		<a onclick="save_Order(<?php echo "'$id'";?>)">
 		<div class="background-in flex">
 			
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
 			<img src="../asset/images/washing-machine2.png" class="img">
 			<div class="left">
 				<div class="text"><?php echo $name;?> - <?php echo $alamat;?></div>
@@ -83,5 +84,6 @@
 	</div>
 </div>
 </form>
+<script src="../js/userorder3.js"></script>
 </body>
 </html>

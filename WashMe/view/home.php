@@ -10,7 +10,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
 	<div class="container-fluid-screen">
 		<?php
 		session_start();
@@ -239,11 +238,51 @@
 				<div class="text1">Have a laundry? Open your online branch in WashMe</div>
 				<div class="text2">Easy to use and trusted. FREE!</div>
 				<div class="flex">
-					<button class="button"><a href="openyourlaundry.php">Open your Laundry</a></button>
+					<button class="button" data-toggle="modal" data-target="#openlaundry">Open your Laundry</button>
 					<div class="text3"><u>Learn more</u></div>
 				</div>
 			</div>
 			<div class="col-sm-4"><img src="../asset/images/laundry3.png" class="img"></div>
+		</div>
+		<div class="modal fade" id="openlaundry" role="dialog">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Request Laundry</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label class="label">Text Request :</label><br>
+							<textarea name="req" id="req" autocomplete="off" class="form-control" rows="3"></textarea>
+						</div>
+						<div class="form-group">
+							<label class="label">Laundry Name :</label><br>
+							<input type="text" name="laundryname" id="laundryname" autocomplete="off" class="form-control">
+						</div>
+						<div class="form-group">
+							<label class="label">Address :</label><br>
+							<input type="text" name="alamat" id="alamat" autocomplete="off" class="form-control">
+						</div>
+						<div class="form-group">
+							<label class="label">City :</label><br>
+							<input type="text" name="kota" id="kota" autocomplete="off" class="form-control">
+						</div>
+						<div class="form-group">
+							<label class="label">Phone Number :</label><br>
+							<input type="text" name="nohp" id="nohp" autocomplete="off" class="form-control">
+						</div>
+					</div>
+					<div class="modal-footer">
+						<?php
+							$username = $_SESSION['username'];
+							$date = date('Y-m-d H:i:s');
+						?>
+						<button type="button" class="btn btn-info" data-dismiss="modal" onclick="request(<?php echo "'$username','$date'" ?>)">Submit</button>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<hr class="hr2">
 	</div>
@@ -297,6 +336,7 @@
 				</div>
 			</a>
 		</div>
-</form>
+		
 </body>
 </html>
+<script src="../js/home1.js"></script>

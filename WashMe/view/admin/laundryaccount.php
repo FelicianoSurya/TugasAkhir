@@ -30,96 +30,52 @@
 				<option>Pontianak, Kalimantan barat</option>
 				<option>#</option>
 			</select>
-			<div class="box top">
-				<div class="flex">
-					<div class="text1">ID</div>
-					<div class="text2">:</div>
-					<div class="text3">LW1000</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Laundry</div>
-					<div class="text2">:</div>
-					<div class="text3">Mega Laundry</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Phone</div>
-					<div class="text2">:</div>
-					<div class="text3">0561730685</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Location</div>
-					<div class="text2">:</div>
-					<div class="text3">Jln Budi Karya No. 15</div>
-				</div>
-				<div class="button">
-					<button>Block</button>
-				</div>
-			</div>
-			<div class="box">
-				<div class="flex">
-					<div class="text1">ID</div>
-					<div class="text2">:</div>
-					<div class="text3">LW1000</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Laundry</div>
-					<div class="text2">:</div>
-					<div class="text3">Mega Laundry</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Phone</div>
-					<div class="text2">:</div>
-					<div class="text3">0561730685</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Location</div>
-					<div class="text2">:</div>
-					<div class="text3">Jln Budi Karya No. 15</div>
-				</div>
-				<div class="button">
-					<button>Block</button>
-				</div>
-			</div>
-			<div class="box">
-				<div class="flex">
-					<div class="text1">ID</div>
-					<div class="text2">:</div>
-					<div class="text3">LW1000</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Laundry</div>
-					<div class="text2">:</div>
-					<div class="text3">Mega Laundry</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Phone</div>
-					<div class="text2">:</div>
-					<div class="text3">0561730685</div>
-				</div>
-				<div class="flex">
-					<div class="text1">Location</div>
-					<div class="text2">:</div>
-					<div class="text3">Jln Budi Karya No. 15</div>
-				</div>
-				<div class="button">
-					<button>Block</button>
-				</div>
-			</div>
+			<table border="1" class="table table-responsive" style="font-size: 33px; margin-top: 50px;">
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Action</th>
+					</tr>
+					<?php 
+					include "../../php/connection.php";
+					$sql = "select * from users";
+					$query = mysqli_query($conn,$sql);
+					$num = mysqli_num_rows($query);
+
+					for($x=1;$x<=$num;$x++){
+						$re = mysqli_fetch_array($query);
+						if($re['status'] == 'laundry'){
+						$id = $re['id'];
+						$username = $re['username'];
+						$email = $re['email'];
+					 ?>
+					
+					<tr>
+						<td><?php echo $id ?></td>
+						<td><?php echo $username ?></td>
+						<td><?php echo $email ?></td>
+						<td>
+							<input type="submit" class="btn btn-danger" style="font-size: 28px;" id="delete" name="delete" value="Delete" onclick="deleteData(<?php echo "'$id'"; ?>)">
+						</td>
+					</tr>
+					<?php }  }?>
+				</table>
 		</div>
 		<div class="footer">
-			<a href="useraccount.php">
+			<a href="washme-user.php">
 				<div class="box4">
 					<img src="../../asset/images/profile2.png" class="img2">
 					<div class="text1">User</div>
 				</div>
 			</a>
-			<a href="laundryaccount.php">
+			<a href="washme-laundry.php">
 				<div class="box4">
 					<img src="../../asset/images/washing-machine4.png" class="img2">
 					<div class="text">Laundry</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="request-laundry.php">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Request</div>

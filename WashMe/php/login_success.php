@@ -21,7 +21,7 @@ if($cek > 0){
 	$_SESSION['status'] = $status1;
 	header('location:../view/home.php');
 	}elseif($status1 == 'laundry'){
-	header('location:../view/laundry/laundryhome.php');
+	header('location:../view/laundry/home.php');
 	}
 	elseif($status1 == 'admin'){
 		$_SESSION['username'] = $username;

@@ -34,13 +34,16 @@
 			$sql = "select * from laundrys where id='$id'";
 			$query = mysqli_query($conn,$sql);
 			$num = mysqli_num_rows($query);
-			$tgl = date('Y-m-d');
-			$angka = $num + 1;
-			$notransaksi = "TL-$angka";
 			$res = mysqli_fetch_array($query);
 			$id = $res['id'];
 			$service = $res['service'];
 			$harga = $res['harga'];
+				$sql1 = "select * from transaksi";
+				$query1 = mysqli_query($conn,$sql1);
+				$num1 = mysqli_num_rows($query1);
+				$tgl = date('Y-m-d');
+				$angka = $num1 + 1;
+				$notransaksi = "TL-$angka";
 		?>
 	<div class="box">
 		<div class="box1">
@@ -76,6 +79,6 @@
 	</div>
 	</form>
 </div>
-<script src="../js/userorder2.js"></script>
+<script src="../js/userorder3.js"></script>
 </body>
 </html>

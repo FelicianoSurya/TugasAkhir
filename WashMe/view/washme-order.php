@@ -47,6 +47,6 @@
 		</div>
 	</div>
 </form>
-<script src="../js/userorder2.js"></script>
+<script src="../js/userorder3.js"></script>
 </body>
 </html>

@@ -95,7 +95,7 @@
 	display: flex;
 	justify-content: flex-end;
 }
-.content .box button{
+.content .box input{
 	background-color: #ed145b;
 	border: none;
 	border-radius: 40px;

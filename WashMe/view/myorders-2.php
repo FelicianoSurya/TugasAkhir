@@ -40,7 +40,6 @@
 						$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
 						$query = mysqli_query($conn,$sql);
 						$re = mysqli_fetch_array($query);
-						$id = $re['id'];
 						$notransaksi = $re['no'];
 						$name = $re['name'];
 						$alamat = $re['alamat'];
@@ -48,6 +47,7 @@
 						$tgl = $re['tgl'];
 					?>
 					<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+					<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
 					<div class="flex">
 						<div class="top1">Pick Up</div>
 						<div class="top2">Order <?php echo $tgl;?></div>
