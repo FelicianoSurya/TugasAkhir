@@ -53,30 +53,30 @@
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<img style="width:35px;" src="../../asset/images/boy.png" alt="boy">
-								<h3 style="padding-left:10px;"><?php echo $username ?></h3>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<img style="width:100px;" src="../../asset/images/boy.png" alt="boy">
+								<h3 style="padding-left:10px; font-size: 60px;"><?php echo $username ?></h3>
+								<button type="button" class="close" data-dismiss="modal" style="font-size: 80px;">&times;</button>
 							</div>
 							<div class="modal-body" style="padding:20px;">
-								<p style="margin:0">Text Request : <?php echo $text ?></p>
-								<p style="margin:0">Laundry Name : <?php echo $laundryname ?></p>
-								<p style="margin:0">Address : <?php echo $alamat ?></p>
-								<p style="margin:0">City : <?php echo $kota ?></p>
-								<p style="margin:0">Phone Number : <?php echo $nohp ?></p>
+								<p style="margin:0; font-size: 40px;">Text Request : <?php echo $text ?></p>
+								<p style="margin:0; font-size: 40px;">Laundry Name : <?php echo $laundryname ?></p>
+								<p style="margin:0; font-size: 40px;">Address : <?php echo $alamat ?></p>
+								<p style="margin:0; font-size: 40px;">City : <?php echo $kota ?></p>
+								<p style="margin:0; font-size: 40px;">Phone Number : <?php echo $nohp ?></p>
 							</div>
 							<div class="modal-footer">
-								<button class="btn btn-md btn-success" data-toggle='modal' data-target="#accept" data-dismiss="modal">Accept</button>
-								<button class="btn btn-md btn-danger" data-dismiss="modal">Close</button>
+								<button class="btn btn-md btn-success" data-toggle='modal' data-target="#accept" data-dismiss="modal" style="font-size: 40px;">Accept</button>
+								<button class="btn btn-md btn-danger" data-dismiss="modal" style="font-size: 40px;">Close</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="modal fade" id="accept" role='dialog'>
 					<div class="modal-dialog">
-						<div class="modal-content">
+						<div class="modal-content" style="height: 350px; width: 700px; margin-left: -100px;">
 							<div class="modal-header">
-								<p style="font-size: 20px;margin:0px;">Make Laundry For <?php echo $username; ?></p>
-								<button type="button" class="close" data-dismiss='modal'>&times;</button>
+								<p style="font-size: 50px;margin:0px;">Make Laundry For <?php echo $username; ?></p>
+								<button type="button" class="close" data-dismiss='modal' style="font-size: 80px;">&times;</button>
 							</div>
 							<form action="../../php/adminaccept.php" method="post">
 							<div class="modal-body" style="padding:20px;">
@@ -86,7 +86,7 @@
 								<input type="hidden" name="kota" id="kota" value="<?php echo $kota?>">
 								<input type="hidden" name="nohp" id="nohp" value="<?php echo $nohp?>">
 								<div class="form-group">
-									<select name="status" id="status" class="form-control">
+									<select name="status" id="status" class="form-control" style="font-size: 40px;">
 										<option value="-">Status</option>
 										<option value="laundry">Laundry</option>
 									</select>
@@ -94,8 +94,8 @@
 								<input type="hidden" id="id" name="id" value="<?php echo $id ?>">
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#openmore">Back</button>
-								<input type="submit" id="submit" name="submit" class="btn btn-info" value="Send">
+								<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#openmore" style="font-size: 40px;">Back</button>
+								<input type="submit" id="submit" name="submit" class="btn btn-info" value="Send" style="font-size: 40px;">
 							</div>
 							</form>
 						</div>
