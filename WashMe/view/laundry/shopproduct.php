@@ -15,10 +15,14 @@
 	<div class="body">
 		<div class="flex header">
 			<div class="title">Add Product</div>
-			<input type="button" name="submit" id="submit" value="submit" class="submit">
+			<input type="submit" name="submit" id="submit" value="submit" class="submit">
 		</div>
 		<div class="box">
 			<input type="file" name="image" id="image" class="img1">
+		</div>
+		<hr class="hr">
+		<div class="box">
+			<input type="text" name="kode_product" id="kode_product" placeholder="Product Code" class="text">
 		</div>
 		<hr class="hr">
 		<div class="box">
@@ -63,25 +67,7 @@
 				<input type="number" name="stok" id="stok" placeholder="Set Stock" class="text2">
 			</div>
 		</div>
-		<hr class="hr">
-		<div class="box flex">
-			<img src="../../asset/images/scale.png" class="img">
-			<div class="box-in">
-				<p>Weight</p>
-				<input type="number" name="berat" id="berat" placeholder="Set Weight" class="text2">
-			</div>
-		</div>
-		<hr class="hr">
-		<div class="box flex">
-			<img src="../../asset/images/parking.png" class="img">
-			<div class="box-in">
-				<p>Shipping Fee</p>
-				<div class="flex-end">
-					<p>Rp</p>
-					<input type="number" name="fee" id="fee" placeholder="" class="text3">
-				</div>
-			</div>
-		</div>
+</form>
 		<hr class="hr">
 		<div class="footer">
 			<a href="home.php">
@@ -111,6 +97,5 @@
 		</div>
 	</div>
 	</div>
-</form>
 </body>
 </html>

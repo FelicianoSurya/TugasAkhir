@@ -1,5 +1,5 @@
 <?php
-	include "connection.php";
+	include "../../php/connection.php";
 	$sql = "select * from products";
 	$query = mysqli_query($conn,$sql);
 
@@ -8,14 +8,20 @@
 	$kategori = $_POST['kategori'];
 	$harga = $_POST['harga'];
 	$stok = $_POST['stok'];
-	$shop = $_POST['shop'];
-	$rating = $_POST['rating'];
 	$description = $_POST['description'];
 	$image = $_POST['image'];
+	$targetDir = "../asset/images/";
+	$targetFilePath = $targetDir . basename($image);
+	$fileType = strtolower(pathinfo($targetFilePath,PATHINFO_EXTENSION));
 	$submit = $_POST['submit'];
 
-	if($submit == 'save'){
-		$sql = "insert into products(kode_product,nama_product,kategori,harga,stok,shop,rating,description,image) values('$kode_product','$nama_product','$kategori','$harga','$stok','$shop','$rating','$description','$image')";
+	$extensi = array('jpg','png','jpeg');
+
+	if(in_array($fileType, $extensi)){
+		move_uploaded_file($_POST['image'], $targetDir . $image);
+	}
+	if($submit == 'submit'){
+		$sql = "insert into products(kode_product,nama_product,kategori,harga,stok,description,image) values('$kode_product','$nama_product','$kategori','$harga','$stok','$description','$targetFilePath')";
 		$query = mysqli_query($conn,$sql);
 	}
 	header("location:shopproduct.php");

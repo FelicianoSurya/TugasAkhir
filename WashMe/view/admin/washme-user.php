@@ -26,7 +26,7 @@
 			</div>
 			<div class="box">
 				<div class="text">User's Report</div>
-				<img src="../../asset/images/diagram.png">
+				<a href="usersreport.php"><img src="../../asset/images/diagram.png"></a>
 			</div>
 		</div>
 		<div class="footer">

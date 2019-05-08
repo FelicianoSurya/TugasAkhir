@@ -26,10 +26,12 @@
 				<img src="../../asset/images/clothes2.png">
 			</div>
 			</a>
+			<a href="laundrysreport.php">
 			<div class="box">
 				<div class="text">Laundry's Report</div>
 				<img src="../../asset/images/diagram.png">
 			</div>
+			</a>
 		</div>
 		<div class="footer">
 			<a href="washme-user.php">

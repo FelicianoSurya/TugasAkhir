@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop1.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop.css">
 	<title></title>
 </head>
 <body>
@@ -63,8 +63,8 @@
 						$rating = $re['rating'];
 						$image = $re['image'];
 					 ?>
-				<div class="border-bot">
-					<a href="washme-shopproduct.php"><img src="<?php echo "$image" ?>" class="img"></a>
+				<div class="border-bot col-sm-4">
+					<a href="washme-shopproduct.php"><img src="<?php echo "$image" ?>" class="img" alt="images"></a>
 					<div class="text"><?php echo $nama ?></div>
 					<div class="harga"><?php echo $harga ?></div>
 					<?php if($rating <= 20){
@@ -154,7 +154,7 @@
 			</a>
 		</div>
 	</div>
-	<script src="../js/washmeshop.js"></script>
+	<script src="../js/washmeshop1.js"></script>
 </form>
 </body>
 </html>

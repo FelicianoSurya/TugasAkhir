@@ -36,6 +36,7 @@
 
 	$cancel = $_POST['cancel'];
 	$notransaksi = $_POST['notransaksi'];
+	$id = $_POST['id'];
 	if($cancel == 'Cancel'){
 		$sql8 = "delete from transaksidetil where no='$notransaksi'";
 		$query8 = mysqli_query($conn,$sql8) or die("error $sql8");

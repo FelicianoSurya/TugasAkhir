@@ -188,6 +188,7 @@ form{
 }
 .box3{
 	padding: 30px;
+	margin-bottom:210px;
 }
 .box3 .text1{
 	color: #6dcff6;
@@ -201,15 +202,11 @@ form{
 	background-color: #ed145b;
 	margin-top:10px;
 	color: white;
-	text-decoration: none;
 	font-size: 40px;
 	border-radius: 10px;
 	cursor: pointer;
 	border : none;
 	padding: 10px 20px;
-}
-.box3 .button a{
-	color: white;
 }
 .box3 .text3{
 	color: #ed145b;
@@ -238,44 +235,6 @@ form{
 .flex1 a:hover{
 	color: black;
 	text-decoration: none;
-}
-.height{
-	height: 550px;
-}
-.foot{
-	background-color: #6dcff6;
-	padding: 20px 60px;
-	width: 100%;
-}
-.foot .text{
-	color: white;
-	font-size: 50px;
-	text-align: center;
-}
-.foot .box{
-	color: white;
-	font-size: 40px;
-	display: flex;
-	align-items: center;
-	line-height: 40px;
-	text-align: center;
-}
-.foot .box .box-in{
-	display: flex;
-	width: 100%;
-}
-.foot .box .kelas{
-	font-size: 40px;
-	color: black;
-	width: 100%;
-}
-.foot .box .box-in1{
-	margin-left: 80px;
-}
-.foot .flex1 .img{
-	width: 180px;
-	height: 180px;
-	margin-left: 20px;
 }
 .footer{
 	width: 100%;

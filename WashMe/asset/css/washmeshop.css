@@ -85,6 +85,10 @@
 	margin-top: 1px;
 	padding: 10px 20px;
 }
+.border-bot{
+	display: flex;
+	flex-direction: column;
+}
 .background3 .background-in .border-bot .text{
 	font-size: 40px;
 	color: black;

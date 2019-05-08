@@ -1,5 +1,5 @@
 <?php error_reporting(0) ?>
-<script src="../js/washmeshop.js"></script>
+<script src="../js/washmeshop1.js"></script>
 <div class="background-in flex">
 	<?php
 		include "../php/connection.php";
