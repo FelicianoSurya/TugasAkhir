@@ -10,7 +10,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
 	<div class="container-fluid-screen">
 		<div class="header">
 			<a href="washme-laundry.php"><img src="../../asset/images/logo.png" class="logo"></a>
@@ -81,15 +80,14 @@
 					<div class="text1">Request</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="../logout.php">
 				<div class="box4">
 					<img src="../../asset/images/settings3.png" class="img2">
-					<div class="text1">Setting</div>
+					<div class="text1">Logout</div>
 				</div>
 			</a>
 		</div>
 	</div>
-</form>
 </body>
 </html>
-<script src="../../js/admin.js"></script>
+<script src="../../js/admin1.js"></script>

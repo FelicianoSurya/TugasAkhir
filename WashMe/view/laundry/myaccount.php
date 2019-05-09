@@ -12,26 +12,41 @@
 <body>
 <form>
 	<div class="container-fluid-screen">
-		<div class="header">My Account</div>
+		<?php
+			session_start();
+			include "../../php/connection.php";
+			$sql = "select * from laundrys";
+			$query = mysqli_query($conn,$sql);
+			$re = mysqli_fetch_array($query);
+			$image = $re['image'];
+			$name = $re['name'];
+			$owner = $re['owner'];
+			$alamat = $re['alamat'];
+			$nohp = $re['nohp'];
+		?>
+		<div class="header">
+			My Account
+			<input type="submit" name="update" id="update" value="Update" class="submit">
+		</div>
 		<div class="box">
-			<img src="../../asset/images/laundry-ateng.jpg">
+			<img src="../<?php echo $image?>">
 			<p>Select Picture</p>
 		</div>
 		<div class="box1">
 			<div class="flex">
 				<div class="text">Laundry Name</div>
 				<div class="text1">:</div>
-				<div class="text2">Mega Laundry</div>
+				<div class="text2"><?php echo $name?></div>
 			</div>
 			<div class="flex">
-				<div class="text">Password</div>
+				<div class="text">Owner Laundry</div>
 				<div class="text1">:</div>
-				<div class="text2">*********</div>
+				<div class="text2"><?php echo $owner?></div>
 			</div>
 			<div class="flex">
 				<div class="text">Location</div>
 				<div class="text1">:</div>
-				<div class="text2">Jln Budi Karya No.15</div>
+				<div class="text2"><?php echo $alamat?></div>
 			</div>
 			<div class="flex">
 				<div class="text">Email</div>
@@ -41,17 +56,10 @@
 			<div class="flex">
 				<div class="text">Phone</div>
 				<div class="text1">:</div>
-				<div class="text2">0561 123456</div>
+				<div class="text2"><?php echo $nohp?></div>
 			</div>
 			<div class="flex">
-				<div class="text">Facebook</div>
-				<div class="text1">:</div>
-				<div class="text2">mega_laundry</div>
-			</div>
-			<div class="flex">
-				<div class="text">Instagram</div>
-				<div class="text1">:</div>
-				<div class="text2">@mega_laundry</div>
+				<a href="../logout.php"><button type="button" class="btn btn-danger" id="logout">Logout</button></a>
 			</div>
 		</div>
 		<div class="footer">

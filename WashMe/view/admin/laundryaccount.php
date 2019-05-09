@@ -56,7 +56,7 @@
 						<td><?php echo $username ?></td>
 						<td><?php echo $email ?></td>
 						<td>
-							<input type="submit" class="btn btn-danger" style="font-size: 28px;" id="delete" name="delete" value="Delete" onclick="deleteData(<?php echo "'$id'"; ?>)">
+							<input type="submit" class="btn btn-danger" style="font-size: 28px;" id="delete" name="delete" value="Delete" onclick="deleteLaundry(<?php echo "'$id'"; ?>)">
 						</td>
 					</tr>
 					<?php }  }?>
@@ -81,10 +81,10 @@
 					<div class="text1">Request</div>
 				</div>
 			</a>
-			<a href="#">
+			<a href="../logout.php">
 				<div class="box4">
 					<img src="../../asset/images/settings3.png" class="img2">
-					<div class="text1">Setting</div>
+					<div class="text1">Logout</div>
 				</div>
 			</a>
 		</div>
@@ -92,3 +92,4 @@
 </form>
 </body>
 </html>
+<script src="../../js/admin1.js"></script>

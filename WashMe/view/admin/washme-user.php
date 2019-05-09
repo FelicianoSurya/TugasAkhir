@@ -48,10 +48,10 @@
 					<div class="text1">Request</div>
 				</div>
 			</a>
-			<a href="myaccount.php">
+			<a href="../logout.php">
 				<div class="box4">
 					<img src="../../asset/images/settings3.png" class="img2">
-					<div class="text1">Setting</div>
+					<div class="text1">Logout</div>
 				</div>
 			</a>
 		</div>

@@ -1,3 +1,6 @@
+<?php
+	error_reporting(0);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,27 +15,43 @@
 <body>
 <form>
 	<div class="container-fluid-screen">
+		<?php
+		session_start();
+
+		$username = $_SESSION['username'];
+			include "../../php/connection.php";
+			$sql = "select * from laundrys";
+			$query = mysqli_query($conn,$sql);
+			$re = mysqli_fetch_array($query);
+			$id = $re['id'];
+			$name = $re['name'];
+			$alamat = $re['alamat'];
+			$rating = $re['rating'];
+			$kota = $re['kota'];
+			$time_open = $re['time_open'];
+			$time_close = $re['time_close'];
+			$status = $re['status'];
+			$service = $re['service'];
+			$harga = $re['harga'];
+			$image = $re['image'];
+		?>
 		<div class="header">
-			<img src="../../asset/images/laundry-ateng.jpg" class="img">
+			<img src="../<?php echo $image?>" class="img">
 			<div class="border1">
-				<p class="text">Mega Laundry</p>
-				<p class="text1">Jln Budi Karya No 15</p>
+				<p class="text"><?php echo $name?></p>
+				<p class="text1"><?php echo $alamat?></p>
 				<div class="flex">
 					<img src="../../asset/images/location-mark-blue.png" class="star">
-					<p class="text1">Pontianak</p>
+					<p class="text1"><?php echo $kota?></p>
 				</div>
 				<div class="flex">
 					<img src="../../asset/images/star1.png" class="star">
-					<img src="../../asset/images/star1.png" class="star">
-					<img src="../../asset/images/star1.png" class="star">
-					<img src="../../asset/images/star1.png" class="star">
-					<img src="../../asset/images/star1.png" class="star">
+					<p class="text1">Rating <?php echo $rating?></p>
 				</div>
-				<p class="text1">Rating 4,7</p>
 			</div>
 			<div class="border2">
-				<p class="text">08:00 - 21:00</p>
-				<p class="text1">Open</p>
+				<p class="text"><?php echo $time_open?> - <?php echo $time_close?></p>
+				<p class="text1"><?php echo $status?></p>
 				<div class="flex">
 					<div class="open">Open</div>
 					<div class="closed">Closed</div>

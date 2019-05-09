@@ -17,12 +17,13 @@
 			<div class="title">Frequently Ask Questions</div>
 		</div>
 		<hr class="hr">
+		<a href="help2.php">
 		<div class="body">
 			<div class="flex1">
-				<p class="text">How do I find out if you serve my neighborhood?</p>
-				<a href="help2.php"><img src="../asset/images/right-arrow.png" class="img"></a>
+				<p class="text">How do I find out if you serve my neighborhood?</p><img src="../asset/images/right-arrow.png" class="img">
 			</div>
 		</div>
+		</a>
 		<hr class="hr">
 		<div class="body">
 			<div class="flex1">

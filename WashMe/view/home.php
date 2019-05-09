@@ -21,7 +21,7 @@
 		$re = mysqli_fetch_array($query);
 		$name = $re['name'];
 		$coin = $re['coin'];
-		 ?>
+		?>
 		<div class="flex">
 			<div><img src="../asset/images/logo.png" class="logo"></div>
 			<div class="search">
@@ -113,10 +113,13 @@
 						$close = $re['time_close'];
 						$harga = $re['harga'];
 						$kota = $re['kota'];
+						$image = $re['image'];
+						$id = $re['id'];
 				?>
+				<form onclick="saveUser(<?php echo "'$id'";?>)">
 				<div class="box-place">
 					<div class="image-place">
-						<img src="../asset/images/laundry-ateng.jpg" alt="laundry-ateng">
+						<img src="<?php echo $image?>" alt="laundry-ateng">
 					</div>
 					<div class="info-place">
 						<p class="date"><?php echo $nama ?></p>
@@ -139,6 +142,7 @@
 						</div>
 					</div>
 				</div>
+				</form>
 				<?php } ?>
 			</div>
 		</div>
@@ -148,7 +152,7 @@
 		<div class="border-mid2 ">
 			<div class="flex">
 				<div class="text-mid1">Shop</div>
-				<div class="text-mid3">See All</div>
+				<div class="text-mid3"><a href="washmeshop.php">See All</a></div>
 			</div>
 			<div>
 				<div class="flex al">
@@ -166,9 +170,10 @@
 						$stok = $re['stok'];
 						$shop = $re['shop'];
 						$rating = $re['rating'];
+						$image = $re['image'];
 					 ?>
 				<div class="box2">
-					<img src="../asset/images/setrika1.png" class="img">
+					<img src="<?php echo $image?>" class="img">
 					<div class="text5"><?php echo $nama ?></div>
 					<div class="harga">Rp <?php echo $harga ?></div>
 					<?php if($rating <= 20){
@@ -340,3 +345,4 @@
 </body>
 </html>
 <script src="../js/home1.js"></script>
+<script src="../js/userorder3.js"></script>

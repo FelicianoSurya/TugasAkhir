@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,25 +13,36 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
-	<div class="container-fluid-screen">
+	<div class="container-fluid-screen">	
+		<form action="../php/edituser.php" method="POST">
+		<?php
+			$username = $_SESSION['username'];
+			include "../php/connection.php";
+			$sql = "select * from user where username='$username'";
+			$query = mysqli_query($conn,$sql);
+			$re = mysqli_fetch_array($query);
+			$name = $re['name'];
+			$email = $re['email'];
+			$nohp = $re['nohp'];
+		?>
 		<div class="header">
 			<a href="myaccount.php"><img src="../asset/images/left-arrow1.png" class="img"></a>
 			<div class="flex1">
 				<p class="title">Edit your account</p>
-				<button class="button">Save</button>
+				<input type="submit" class="button" value="Update" name="update" id="update">
 			</div>
 		</div>
 		<hr class="hr">
 		<div class="body">
+			<input type="hidden" name="username" id="username" value="<?php echo $username?>">
 			<div class="border1">
 				<p class="text">Full Name</p>
-				<input type="text" name="name" id="name" value="fleren picestelia" class="input">
+				<input type="text" name="name" id="name" class="input" value="<?php echo $name?>">
 				<hr class="hr">
 			</div>
 			<div class="border1">
 				<p class="text">Email</p>
-				<input type="email" name="email" id="email" value="flerenpicestelia05@gmail.com" class="input">
+				<input type="email" name="email" id="email" class="input" value="<?php echo $email?>">
 				<hr class="hr">
 			</div>
 			<div class="border1">
@@ -36,16 +50,15 @@
 				<div class="flex top">
 					<div class="flex border-in">
 						<img src="../asset/images/indonesia.png" class="img">
-						<p>+62</p>
 					</div>
 					<div class="left">
-						<input type="text" name="nohp" id="nohp" value="8992959698" class="input">
+						<input type="text" name="nohp" id="nohp" class="input" value="<?php echo $nohp?>">
 						<hr class="hr">
 					</div>
 				</div>
 			</div>
 		</div>
+		</form>
 	</div>
-</form>
 </body>
 </html>

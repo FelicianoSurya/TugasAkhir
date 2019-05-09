@@ -13,7 +13,7 @@
 <form>
 	<div class="container-fluid-screen">
 		 <div class="header">
-			<img src="../asset/images/left-arrow1.png" class="img">
+			<a href="myaccount.php"><img src="../asset/images/left-arrow1.png" class="img"></a>
 			<div class="title">My Voucher</div>
 		</div>
 		<hr class="hr">

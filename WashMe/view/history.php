@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,13 +26,17 @@
 		$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
 		$query = mysqli_query($conn,$sql);
 		$num = mysqli_num_rows($query);
-		for($x=1 ; $x<=$num ; $x++){
-			$re = mysqli_fetch_array($query);
-			$id = $re['id'];
-			$name = $re['name'];
-			$alamat = $re['alamat'];
-			$tgl_ambil = $re['tgl_ambil'];
-			$tgl_deliv = $re['tgl_deliv'];
+		if($num == 0){
+			echo "No History!!";
+		}
+		else{
+			for($x=1 ; $x<=$num ; $x++){
+				$re = mysqli_fetch_array($query);
+				$id = $re['id'];
+				$name = $re['name'];
+				$alamat = $re['alamat'];
+				$tgl_ambil = $re['tgl_ambil'];
+				$tgl_deliv = $re['tgl_deliv'];
 	?>
 <div class="body flex jarak">
 	<img src="../asset/images/delivery-truck.png" class="img">
@@ -42,6 +47,7 @@
 	</div>
 </div>
 	<?php
+			}
 		}
 	?>
 </body>

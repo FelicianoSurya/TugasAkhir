@@ -5,14 +5,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/washmeshop1.css">
 	<title></title>
 </head>
 <body>
 <form>
 	<div class="container-fluid-screen">
 		<div class="row">
-			<div class="col-sm-12 header" >WashMe Shop</div>
+			<div class="col-sm-12 header">WashMe Shop</div>
 		</div>
 		<hr class="hr1">
 		<div class="background flex1">
@@ -62,66 +62,43 @@
 						$shop = $re['shop'];
 						$rating = $re['rating'];
 						$image = $re['image'];
-					 ?>
-				<div class="border-bot col-sm-4">
-					<a href="washme-shopproduct.php"><img src="<?php echo "$image" ?>" class="img" alt="images"></a>
-					<div class="text"><?php echo $nama ?></div>
-					<div class="harga"><?php echo $harga ?></div>
-					<?php if($rating <= 20){
-					 ?>
-					<div class="flex2">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(<?php echo $rating ?>)</div>
+				?>
+				<div class="border-big">
+					<div class="border-bot">
+						<img src="<?php echo "$image" ?>" class="img" alt="images">
+						<div class="text"><?php echo $nama ?></div>
+						<div class="harga">Rp <?php echo $harga ?></div>
+						<?php if($rating <= 20){
+						 ?>
+						<div class="flex2">
+							<img src="../asset/images/star1.png" class="star"><?php echo $rating ?>
+						</div>
+						<?php } ?>
+						<?php if($rating <= 40 && $rating > 20){
+						 ?>
+						<div class="flex2">
+							<img src="../asset/images/star1.png" class="star"><?php echo $rating ?>
+						</div>
+						<?php } ?>
+						<?php if($rating <= 60 && $rating > 40){
+						 ?>
+						<div class="flex2">
+							<img src="../asset/images/star1.png" class="star"><?php echo $rating ?>
+						</div>
+						<?php } ?>
+						<?php if($rating <= 80 && $rating > 60){
+						 ?>
+						<div class="flex2">
+							<img src="../asset/images/star1.png" class="star"><?php echo $rating ?>
+						</div>
+						<?php } ?>
+						<?php if($rating <= 100 && $rating > 80){
+						 ?>
+						<div class="flex2">
+							<img src="../asset/images/star1.png" class="star"><?php echo $rating ?>
+						</div>
+						<?php } ?>
 					</div>
-					<?php } ?>
-					<?php if($rating <= 40 && $rating > 20){
-					 ?>
-					 <div class="flex2">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(<?php echo $rating ?>)</div>
-					</div>
-					<?php } ?>
-					<?php if($rating <= 60 && $rating > 40){
-					 ?>
-					 <div class="flex2">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(<?php echo $rating ?>)</div>
-					</div>
-					<?php } ?>
-					<?php if($rating <= 80 && $rating > 60){
-					 ?>
-					 <div class="flex2">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(<?php echo $rating ?>)</div>
-					</div>
-					<?php } ?>
-					<?php if($rating <= 100 && $rating > 80){
-					 ?>
-					 <div class="flex2">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<img src="../asset/images/star1.png" class="star">
-						<div class="text2">(<?php echo $rating ?>)</div>
-					</div>
-					<?php } ?>
 				</div>
 				<?php } ?>
 			</div>

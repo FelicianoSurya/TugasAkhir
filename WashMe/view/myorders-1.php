@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,13 +31,17 @@
 				$sql = "select * from laundrys inner join transaksi on laundrys.id = transaksi.id inner join transaksidetil on laundrys.id = transaksidetil.id";
 				$query = mysqli_query($conn,$sql);
 				$num = mysqli_num_rows($query);
-				for($x=1 ; $x<=$num ; $x++){
-					$re = mysqli_fetch_array($query);
-					$id = $re['id'];
-					$notransaksi = $re['no'];
-					$name = $re['name'];
-					$alamat = $re['alamat'];
-					$tgl = $re['tgl'];
+				if($num == 0){
+						echo "No Orders!!";
+				}
+				else{
+					for($x=1 ; $x<=$num ; $x++){
+						$re = mysqli_fetch_array($query);
+						$id = $re['id'];
+						$notransaksi = $re['no'];
+						$name = $re['name'];
+						$alamat = $re['alamat'];
+						$tgl = $re['tgl'];
 			?>
 		<a onclick="save_Order(<?php echo "'$id'";?>)">
 		<div class="background-in flex">
@@ -52,6 +57,7 @@
 		</div>
 		</a>
 			<?php
+					}
 				}
 			?>
 	</div>

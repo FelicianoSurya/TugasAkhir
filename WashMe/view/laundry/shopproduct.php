@@ -18,7 +18,8 @@
 			<input type="submit" name="submit" id="submit" value="submit" class="submit">
 		</div>
 		<div class="box">
-			<input type="file" name="image" id="image" class="img1">
+			<img src="#" id="img" style="width: 400px; border: 1px solid;" alt="Preview Gambar">
+			<input type="file" name="image" id="preview" class="img1">
 		</div>
 		<hr class="hr">
 		<div class="box">
@@ -97,5 +98,6 @@
 		</div>
 	</div>
 	</div>
+<script src="../../js/shop.js"></script>
 </body>
 </html>

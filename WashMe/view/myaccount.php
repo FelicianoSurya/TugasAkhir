@@ -26,7 +26,7 @@
 	<hr class="hr1">
 	<div class="content">
 		<div class="content-in">
-			<?php 
+			<?php
 			$username = $_SESSION['username'];
 			include "../php/connection.php";
 			$sql = "select * from user where username='$username'";
@@ -35,7 +35,7 @@
 			$name = $re['name'];
 			$email = $re['email'];
 			$nohp = $re['nohp'];
-			 ?>
+			?>
 			<div class="picture">
 				<img src="../asset/images/boy.png">
 			</div>
@@ -58,19 +58,19 @@
 			</div>
 		</div>
 		<hr class="hr1">
-		<a href="#">
+		<a href="enterpromocode.php">
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/tag.png">
 					<p class="promo-in">Enter Promo Code</p>
 				</div>
 				<div class="panah">
-					<a href="enterpromocode.php"><img src="../asset/images/right-arrow.png" class="arrow"></a>
+					<img src="../asset/images/right-arrow.png" class="arrow">
 				</div>
 			</div>
 		</a>
 		<hr class="hr1">
-		<a href="#">
+		<a href="myvoucher.php">
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/coupon.png">
@@ -94,7 +94,7 @@
 			</div>
 		</a>
 		<hr class="hr1">
-		<a href="#">
+		<a href="help.php">
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/information.png">
@@ -106,7 +106,7 @@
 			</div>
 		</a>
 		<hr class="hr1">
-		<a href="#">
+		<a href="termsofservice.php">
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/writing.png">
@@ -118,17 +118,36 @@
 			</div>
 		</a>
 		<hr class="hr1">
-		<a href="#">
+		<a data-toggle="modal" data-target="#rating">
 			<div class="content-in2">
 				<div class="promo">
 					<img src="../asset/images/star.png">
 					<p class="promo-in">Rate WashMe App</p>
 				</div>
 				<div class="panah">
-					<p>3.20</p>
+					<span id="rav" name="rav" onclick="ratingApps()"></span>
 				</div>
 			</div>
 		</a>
+		<div class="modal fade" id="rating" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Rate This Apps</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h1>Apakah puas menggunakan aplikasi kami?</h1>
+					</div>
+					<div class="modal-footer">
+						<button type="button" onclick="ratingApps()" value="5" class="btn btn-success" data-dismiss="modal" id="puas">Puas</button>
+						<button type="button" onclick="ratingApps()" value="5" class="btn btn-info" data-dismiss="modal" id="lumayan">Lumayan</button>
+						<button type="button" onclick="ratingApps()" value="5" class="btn btn-danger" data-dismiss="modal" id="tidakpuas">Tidak Puas</button>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Not Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<hr class="hr1">
 		<div class="content-in3">
 			<div class="logout">
@@ -164,5 +183,6 @@
 			</a>
 		</div>
 </div>
+<script src="../js/rating.js"></script>
 </body>
 </html>

@@ -49,11 +49,12 @@
 				$status = $re['status'];
 				$service = $re['service'];
 				$harga = $re['harga'];
+				$image = $re['image'];
 			 ?>
 			 <form onclick="saveUser(<?php echo "'$id'";?>)">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
-						<img src="../asset/images/laundryfresco.jpg" alt="images">
+						<img src="<?php echo $image?>" alt="images">
 					</div>
 					<div class="kotak-kanan">
 						<div class="teks">
