@@ -15,68 +15,35 @@
 		<div class="header">My Orders</div>
 		<div class="body">
 			<div class="flex1">
+				<?php 
+
+				include "../../php/connection.php";
+
+				$sql = "select * from temptransaksi";
+				$query = mysqli_query($conn,$sql);
+				$num = mysqli_num_rows($query);
+				for($x = 1 ; $x <= $num; $x++){
+					$re = mysqli_fetch_array($query);
+					$alamat = $re['alamat_ambil'];
+					$tgl_ambil = $re['tgl_ambil'];
+					$tgl_deliv = $re['tgl_deliv'];
+				 ?>
 				<div class="box">
 					<div class="flex-end"><button class="button">Details</button></div>
 					<img src="../../asset/images/girl.png" class="img">
 					<div class="box-in">
 						<p class="text">Fleren Picestelia</p>
-						<p class="text">Jln Veteran gg syukur 1 no 50D</p>
-						<p class="text">Thursday, 2 May 2019</p>
+						<p class="text"><?php echo $alamat ?></p>
+						<p class="text"><?php echo $tgl_ambil ?></p>
 						<p class="text">-</p>
-						<p class="text">Friday, 3 May 2019</p>
+						<p class="text"><?php echo $tgl_deliv ?></p>
 					</div>
 					<div class="flex">
 						<button class="button1">Accept</button>
 						<button class="button2">Reject</button>
 					</div>
 				</div>
-				<div class="box">
-					<div class="flex-end"><button class="button">Details</button></div>
-					<img src="../../asset/images/girl.png" class="img">
-					<div class="box-in">
-						<p class="text">Fleren Picestelia</p>
-						<p class="text">Jln Veteran gg syukur 1 no 50D</p>
-						<p class="text">Thursday, 2 May 2019</p>
-						<p class="text">-</p>
-						<p class="text">Friday, 3 May 2019</p>
-					</div>
-					<div class="flex">
-						<button class="button1">Accept</button>
-						<button class="button2">Reject</button>
-					</div>
-				</div>
-			</div>
-			<div class="flex1 top">
-				<div class="box">
-					<div class="flex-end"><button class="button">Details</button></div>
-					<img src="../../asset/images/girl.png" class="img">
-					<div class="box-in">
-						<p class="text">Fleren Picestelia</p>
-						<p class="text">Jln Veteran gg syukur 1 no 50D</p>
-						<p class="text">Thursday, 2 May 2019</p>
-						<p class="text">-</p>
-						<p class="text">Friday, 3 May 2019</p>
-					</div>
-					<div class="flex">
-						<button class="button1">Accept</button>
-						<button class="button2">Reject</button>
-					</div>
-				</div>
-				<div class="box">
-					<div class="flex-end"><button class="button">Details</button></div>
-					<img src="../../asset/images/girl.png" class="img">
-					<div class="box-in">
-						<p class="text">Fleren Picestelia</p>
-						<p class="text">Jln Veteran gg syukur 1 no 50D</p>
-						<p class="text">Thursday, 2 May 2019</p>
-						<p class="text">-</p>
-						<p class="text">Friday, 3 May 2019</p>
-					</div>
-					<div class="flex">
-						<button class="button1">Accept</button>
-						<button class="button2">Reject</button>
-					</div>
-				</div>
+			<?php } ?>
 			</div>
 		</div>
 		<div class="footer">
