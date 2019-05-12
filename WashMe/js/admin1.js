@@ -1,9 +1,9 @@
 function deleteData(id){
-	location.href = "../php/admin_user.php?submit=Delete&id="+id;
+	location.href = "../../php/admin_user.php?id="+id+"&submit=Delete";
 }
 
 function deleteLaundry(id){
-	location.href = "../php/admin_laundry.php?submit=Delete&id="+id;
+	location.href = "../../php/admin_laundry.php?id="+id+"&submit=Delete";
 }
 
 // function del_req(id){
