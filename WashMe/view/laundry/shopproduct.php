@@ -41,7 +41,7 @@
 				<div style="display: flex; justify-content: flex-end; position: relative; width: 100%; margin-top: -100px;">
 					<select style="position: absolute; padding: 20px 40px; border: none; width: 65%;" id="kategori">
 						<option></option>
-						<option><img src="../../asset/images/boy.png"> Iron</option>
+						<option>Iron</option>
 						<option>Hanger</option>
 						<option>Clothes Line</option>
 					</select>

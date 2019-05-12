@@ -20,7 +20,6 @@
 <div class="content">
 	<div class="text1">User's Report</div>
 </div>
-<div>
 <div class="box">
 	<p class="text">Tanggal</p>
 	<input type="date" name="tgl" id="tgl" class="input">
@@ -35,7 +34,7 @@
 		<option>Dry Clean</option>
 	</select>
 </div>
-</div>
+<div class="button"><button>View</button></div>
 <div class="footer">
 	<a href="washme-user.php">
 		<div class="box4">
