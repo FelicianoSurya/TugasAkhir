@@ -20,7 +20,7 @@
 
 		$username = $_SESSION['username'];
 			include "../../php/connection.php";
-			$sql = "select * from laundrys";
+			$sql = "select * from laundrys where username = '$username'";
 			$query = mysqli_query($conn,$sql);
 			$re = mysqli_fetch_array($query);
 			$id = $re['id'];

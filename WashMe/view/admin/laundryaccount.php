@@ -32,7 +32,6 @@
 			</select>
 			<table border="1" class="table table-responsive" style="font-size: 33px; margin-top: 50px;">
 					<tr>
-						<th>Id</th>
 						<th>Name</th>
 						<th>Email</th>
 						<th>Action</th>
@@ -46,17 +45,15 @@
 					for($x=1;$x<=$num;$x++){
 						$re = mysqli_fetch_array($query);
 						if($re['status'] == 'laundry'){
-						$id = $re['id'];
 						$username = $re['username'];
 						$email = $re['email'];
 					 ?>
 					
 					<tr>
-						<td><?php echo $id ?></td>
 						<td><?php echo $username ?></td>
 						<td><?php echo $email ?></td>
 						<td>
-							<input type="submit" class="btn btn-danger" style="font-size: 28px;" id="delete" name="delete" value="Delete" onclick="deleteLaundry(<?php echo "'$id'"; ?>)">
+							<input type="button" class="btn btn-danger" style="font-size: 28px;" id="delete" name="delete" value="Delete" onclick="deleteLaundry(<?php echo "'$username'"; ?>)">
 						</td>
 					</tr>
 					<?php }  }?>
