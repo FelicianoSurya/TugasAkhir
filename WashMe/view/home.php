@@ -3,7 +3,7 @@
 <head>
 	<title>WashMe Mobile</title>
 	<link rel="icon" href="../asset/images/logo.png">
-	<link rel="stylesheet" type="text/css" href="../asset/css/home.css">
+	<link rel="stylesheet" type="text/css" href="../asset/css/home1.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -295,23 +295,23 @@
 		<div class="foot">
 			<div class="text">Created By :</div>
 			<div class="flex1" style="width: 100%;">
-				<div class="box">
-					<div>
-						<div class="box-in">
-							<div>
-								<p>David Leonardo</p>
-								<p>Fleren Picestelia</p>
-							</div>
-							<div class="box-in1">
-								<p>Feliciano Surya</p>
-								<p>Zauhiung Karyaten</p>
-							</div>
+				<div>
+					<div class="box-in">
+						<div>
+							<p>David Leonardo</p>
+							<p>Feliciano Surya Marcello</p>
 						</div>
-						<p class="kelas">XI TKJ 2</p>
-						<P class="kelas">SMK KRISTEN IMMANUEL PONTIANAK</P>
+						<div class="box-in1">
+							<p>Fleren Picestelia</p>
+							<p>Zauhiung Karyaten</p>
+						</div>
 					</div>
-				<img src="../asset/images/logo smk.png" class="img">
+					<div  class="kelas">
+						<p>XI TKJ 2</p>
+						<P>SMK KRISTEN IMMANUEL PONTIANAK</P>
+					</div>
 				</div>
+				<img src="../asset/images/logo smk.png" class="img">
 			</div>
 		</div>
 	</div>

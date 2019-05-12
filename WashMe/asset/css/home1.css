@@ -236,6 +236,41 @@ form{
 	color: black;
 	text-decoration: none;
 }
+.height{
+	height: 580px;
+	margin-top: -240px;
+}
+.foot{
+	background-color: #6dcff6;
+	padding: 10px 40px 30px 40px;
+}
+.foot .text{
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.foot .flex1 .box-in{
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+
+}
+.foot .flex1 .img{
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-top: -40px;
+}
+.foot .flex1 .kelas{
+	font-size: 35px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 20px;
+}
 .footer{
 	width: 100%;
 	background-color: white;
