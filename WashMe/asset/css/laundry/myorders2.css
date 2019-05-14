@@ -21,12 +21,11 @@
 	text-align: center;
 }
 .box p{
-	color: #a1a1a1;
-	font-size: 40px;
+	font-size: 50px;
 }
 .box img{
-	width: 170px;
-	height: 170px;
+	width: 200px;
+	height: 200px;
 	margin-top: 20px;
 }
 .box2{
@@ -40,7 +39,7 @@
 }
 .box2 .flex .text1{
 	font-size: 45px;
-	width: 45%;
+	width: 20%;
 }
 .box2 .flex .text2{
 	width: 5%;
@@ -54,18 +53,57 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-.box3{
+.box2 .box-in{
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	font-size: 60px;
-	padding: 20px 60px;
-	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
 }
-.box3 .text{
+.box2 .box-in .border1{
+	border: 1px solid;
+	padding: 20px 30px;
+	width: 48%;
+	text-align: center;
+	border-radius: 30px;
+}
+.box2 .box-in .border1 .title{
+	font-size: 50px;
+	color: #6dcff6;
+}
+.box2 .box-in .border1 .border-in{
+	margin-top: 40px;
+	line-height: 40px;
+}
+.box2 .box-in .border1 .border-in .text1{
+	font-size: 45px;
+}
+.box2 .box-in .border1 .border-in .text2{
+	font-size: 40px;
 	color: #a1a1a1;
 }
-.box3 .text1{
-	margin-left: 20px;
-	margin-right: 20px;
+.box2 .teks{
+	font-size: 50px;
+	color: #6dcff6;	
+}
+.box2 .content{
+	margin-top: 50px;
+	line-height: 45px;
+}
+.box2 .content .content-in{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.box2 .content .content-in p{
+	font-size: 50px;
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 60px;
+	padding: 20px 60px;
+	background-color: #6dcff6;
+	border-radius: 35px;
+	margin-top: -20px;
 }

@@ -22,55 +22,74 @@
 		</div>
 		<div class="box2">
 			<div class="flex">
-				<p class="text1">Pick Up Location</p>
+				<p class="text1">Name</p>
 				<p class="text2">:</p>
-				<p class="text3">Jln Veteran gg Syukur 1 no 50D</p>
+				<p class="text3">Fleren Picestelia</p>
 			</div>
 			<div class="flex">
-				<p class="text1">Delivery Location</p>
+				<p class="text1">Phone</p>
 				<p class="text2">:</p>
-				<p class="text3">Jln Veteran gg Syukur 1 no 50D</p>
+				<p class="text3">08992959698</p>
 			</div>
-			<div class="flex">
-				<p class="text1">Laundry</p>
-				<p class="text2">:</p>
-				<p class="text3">Mega Laundry</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Pick Up Time</p>
-				<p class="text2">:</p>
-				<p class="text3">Monday, 2 - 3 PM</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Delivery Time</p>
-				<p class="text2">:</p>
-				<p class="text3">Tuesday, 3 - 4 PM</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Care Instructions</p>
-				<p class="text2">:</p>
-				<p class="text3">-</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Laundry Weight</p>
-				<p class="text2">:</p>
-				<p class="text3">5 kg</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Pick Up & Delivery Fee</p>
-				<p class="text2">:</p>
-				<p class="text3">Rp 3000 + Rp 3000</p>
-			</div>
-			<div class="flex">
-				<p class="text1">Laundry Price</p>
-				<p class="text2">:</p>
-				<p class="text3">Rp 25.000</p>
+			<div class="box-in">
+				<div class="border1">
+					<p class="title">Pick Up</p>
+					<div class="border-in">
+						<p class="text1">Date</p>
+						<p class="text2">Sunday, 12 May 2019</p>
+					</div>
+					<div class="border-in">
+						<p class="text1">Time</p>
+						<p class="text2">10:00 AM - 11:00 AM</p>
+					</div>
+					<div class="border-in">
+						<p class="text1">Address</p>
+						<p class="text2">Jln Veteran gg Syukur 1 No 50D</p>
+					</div>
+				</div>
+				<div class="border1">
+					<p class="title">Delivery</p>
+					<div class="border-in">
+						<p class="text1">Date</p>
+						<p class="text2">Monday, 13 May 2019</p>
+					</div>
+					<div class="border-in">
+						<p class="text1">Time</p>
+						<p class="text2">1:00 PM - 2:00 PM</p>
+					</div>
+					<div class="border-in">
+						<p class="text1">Address</p>
+						<p class="text2">Jln Veteran gg Syukur 1 No 50D</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="box3">
-			<p>Total Price</p>
-			<p class="text1">:</p>
-			<p class="text">Rp 31.000</p>
+		<div class="box2">
+			<p class="teks">Laundry Detail</p>
+			<div class="content">
+				<div class="content-in">
+					<p>(3 Kg) Wash & Fold</p>
+					<p>Rp 15.000</p>
+				</div>
+				<div class="content-in">
+					<p>(2 Pcs) Dry Cleaning</p>
+					<p>Rp 25.000</p>
+				</div>
+				<div class="content-in">
+					<p>Extra</p>
+					<p>Rp 19.000</p>
+				</div>
+				<div class="content-in">
+					<p>Fee</p>
+					<p>Rp 3.000</p>
+				</div>
+			</div>
+		</div>
+		<div class="box2">
+			<div class="box3">
+				<p>Total Price</p>
+				<p>Rp 31.000</p>
+		</div>
 		</div>
 	</div>
 </form>
