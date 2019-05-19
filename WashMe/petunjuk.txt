@@ -1,0 +1,10 @@
+login user = username : feliciano
+	     password : feliciano123
+
+login admin = username : admin
+	      password : admin
+
+login laundry = username : fleren
+		password : fleren
+
+file wash me didalam folder view
