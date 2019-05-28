@@ -25,6 +25,8 @@
 				include "../php/connection.php";
 
 				$id = $_SESSION['id'];
+				$nama = $_SESSION['nama'];
+				$alamat = $_SESSION['alamat'];
 
 				$sql = "select * from laundrys where id='$id'";
 				$query = mysqli_query($conn,$sql);
@@ -42,6 +44,8 @@
 			?>
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
+			<input type="text" name="nama" id="nama" value="<?php echo $nama;?>">
+			<input type="text" name="alamat" id="alamat" value="<?php echo $alamat;?>">
 			<div class="text1">Set Pick Up Date</div>
 			<div>
 				<input type="date" name="tgl_ambil" id="tgl_ambil" class="select">

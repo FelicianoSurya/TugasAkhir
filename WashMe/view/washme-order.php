@@ -20,7 +20,7 @@
 		$sql = "select * from laundrys where id='$id'";
 		$query = mysqli_query($conn,$sql);
 		$re = mysqli_fetch_array($query);
-		$name = $re['name'];
+		$nama = $re['name'];
 		$alamat = $re['alamat'];
 		$status = $re['status'];
 		$time_close = $re['time_close'];
@@ -32,7 +32,7 @@
 		</div>
 		<div class="padding flex">
 			<input type="hidden" name="" value="<?php echo($id)?>">
-			<div class="text"><?php echo $name?>, <?php echo $alamat?></div>
+			<div class="text"><?php echo $nama?>, <?php echo $alamat?></div>
 			<div class="border-mid"><img src="../asset/images/map.png" class="img"></div>
 		</div>
 		<div class="padding jarak">0.94 Km</div>
@@ -43,7 +43,9 @@
 			<div class="text2">until <?php echo $time_close?> today</div>
 		</div>
 		<div class="background1">
-			<button class="button" type="button" name="order" id="order" onclick="save_User(<?php echo "'$id'";?>)">Fill Order Format</button>
+			<input type="hidden" name="nama" id="nama" value="<?php echo $nama;?>">
+			<input type="hidden" name="alamat" id="alamat" value="<?php echo $alamat;?>">
+			<button class="button" type="button" name="order" id="order" onclick="save_User(<?php echo "'$id','$nama','$alamat'";?>)">Fill Order Format</button>
 		</div>
 	</div>
 </form>
