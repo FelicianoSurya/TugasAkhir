@@ -97,6 +97,22 @@
 .box2 .content .content-in p{
 	font-size: 50px;
 }
+.box2 .box-in1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.box2 .box-in1 button{
+	background-color: #ed145b;
+	font-size: 45px;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+
+}
 .box3{
 	display: flex;
 	justify-content: space-between;

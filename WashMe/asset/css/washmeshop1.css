@@ -112,6 +112,9 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+.top{
+	margin-top: -450px;
+}
 .border-bot .harga{
 	font-size: 45px;
 	color: #ed145b;

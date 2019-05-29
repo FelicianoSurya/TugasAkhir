@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
--- https://www.phpmyadmin.net/
+-- version 4.5.1
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 09, 2019 at 07:04 PM
--- Server version: 10.1.36-MariaDB
--- PHP Version: 7.2.11
+-- Generation Time: May 19, 2019 at 05:07 PM
+-- Server version: 10.1.13-MariaDB
+-- PHP Version: 5.6.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -82,7 +80,8 @@ INSERT INTO `products` (`kode_product`, `nama_product`, `kategori`, `harga`, `st
 ('P-1', 'Setrika Listrik Silver Star ES300 R20', 'Iron', 515000, 20, 'ChitozAno', 50, 'Barang Mahal. Yang beli harus orang kaya!!!', '../asset/images/setrika.jpg'),
 ('P-2', 'Mesin Cuci RZ-2000', 'Washing Machine', 2000000, 20, 'Fleren Laundry', 80, 'Mesin Cuci Kualitas terbaik. Harga terjangkau. Silahkan beli!!!', '../asset/images/mesincuci.png'),
 ('P-3', 'Rinso', '', 100000, 39, '', 0, 'rinso terbaik di bumi', '../asset/images/rinso.PNG'),
-('P-4', 'Detergen Cair', '', 50000, 100, '', 0, 'detergen molto', '../asset/images/detergencair.PNG');
+('P-4', 'Detergen Cair', '', 50000, 100, '', 0, 'detergen molto', '../asset/images/detergencair.PNG'),
+('P-6', 'boy', '', 123, 21, '', 0, '#boy', '../asset/images/boy.png');
 
 -- --------------------------------------------------------
 
@@ -100,6 +99,13 @@ CREATE TABLE `request_laundry` (
   `kota` varchar(100) NOT NULL,
   `nohp` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `request_laundry`
+--
+
+INSERT INTO `request_laundry` (`id`, `username`, `text_request`, `time_request`, `laundryname`, `alamat`, `kota`, `nohp`) VALUES
+(1, 'feliciano', 'j', '2019-05-14 19:13:19', 'j', 'j', 'j', 'j');
 
 -- --------------------------------------------------------
 
@@ -140,6 +146,14 @@ CREATE TABLE `transaksi` (
   `total` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `transaksi`
+--
+
+INSERT INTO `transaksi` (`no`, `id`, `tgl`, `total`) VALUES
+(1, 1, '2019-05-13', 60000),
+(2, 1, '2019-05-17', 60000);
+
 -- --------------------------------------------------------
 
 --
@@ -156,6 +170,14 @@ CREATE TABLE `transaksidetil` (
   `harga` double NOT NULL,
   `total` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `transaksidetil`
+--
+
+INSERT INTO `transaksidetil` (`no`, `id`, `tgl_deliv`, `tgl_ambil`, `alamat_ambil`, `jlh_kg`, `harga`, `total`) VALUES
+('TL-1', 1, '2019-05-15', '2019-05-13', 'jln', 12, 5000, 60000),
+('TL-2', 1, '2019-05-20', '2019-05-17', 'j', 12, 5000, 60000);
 
 -- --------------------------------------------------------
 
@@ -179,7 +201,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `name`, `email`, `alamat`, `jeniskelamin`, `nohp`, `coin`) VALUES
-(2, 'feliciano', 'Feliciano Surya Marcelo', 'suryamarcello@gmail.com', 'Jln Sungai Raya Dalam Komplek Villa Gading Raya 2 no D6', 'Laki-laki', '+62 822-5688-6020', 0),
+(2, 'feliciano', 'Feliciano Surya Marcelo', 'suryamarcello@gmail.com', 'Jln Sungai Raya Dalam Komplek Villa Gading Raya 2 no D6', 'Laki-laki', '+62 822-5688-6021', 0),
 (3, 'zauhiung', 'Zauhiung Karyaten', 'emmanuel.karyaten@gmail.com', 'Jln. Dr. Wahidin Sudirohusodo No.82', 'Laki-laki', '+62813-4644-4343', 10),
 (4, 'fleren', 'Fleren Picestelia', 'fleren@gmail.com', 'Jln. Veteran Gg. Syukur 1 No. 50D', 'Peremupuan', '089922773434', 0),
 (5, 'andre', 'Andre Kristanto', 'adnrekris@gmail.com', 'Jln. Purnama', 'Laki-laki', '081345229876', 3),
@@ -268,38 +290,31 @@ ALTER TABLE `users`
 --
 ALTER TABLE `laundrys`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
 --
 -- AUTO_INCREMENT for table `request_laundry`
 --
 ALTER TABLE `request_laundry`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `temptransaksi`
 --
 ALTER TABLE `temptransaksi`
-  MODIFY `notemp` int(11) NOT NULL AUTO_INCREMENT;
-
+  MODIFY `notemp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT;
-
+  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
-COMMIT;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
