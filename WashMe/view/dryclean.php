@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,13 +38,18 @@
 		<div class="content-in">
 			<?php 
 			include "../php/connection.php";
+			$username = $_SESSION['username'];
+			$sql1 = "select * from user where username='$username'";
+			$query1 = mysqli_query($conn,$sql1);
+			$re1 = mysqli_fetch_array($query1);
+			$name = $re1['name'];
 			$sql = "select * from laundrys where service = 'dryclean'";
 			$query = mysqli_query($conn,$sql);
 			$num = mysqli_num_rows($query);
 			for($x=1;$x <=$num;$x++){
 				$re = mysqli_fetch_array($query);
 				$id = $re['id'];
-				$name = $re['name'];
+				$nama = $re['name'];
 				$alamat = $re['alamat'];
 				$rating = $re['rating'];
 				$kota = $re['kota'];
@@ -51,14 +59,15 @@
 				$harga = $re['harga'];
 				$image = $re['image'];
 			 ?>
-			 <form onclick="saveUser(<?php echo "'$id'";?>)">
+			 <form onclick="saveUser(<?php echo "'$id','$name'";?>)">
+			 	<input type="text" name="nama" id="nama" value="<?php echo $name?>">
 				<div class="kotak-besar">
 					<div class="kotak-kiri">
 						<img src="<?php echo $image?>" alt="images">
 					</div>
 					<div class="kotak-kanan">
 						<div class="teks">
-							<p class="teks1" id="name" name="name"><?php echo $name ?></p>
+							<p class="teks1" id="name" name="name"><?php echo $nama ?></p>
 							<p class="kota" id="kota" name="kota"><?php echo $kota ?></p>
 						</div>
 						<p class="naik" id="alamat" name="alamat"><span style="font-size: 40px;"><?php echo $alamat ?></span></p>
@@ -74,6 +83,6 @@
 		</div>
 	</div>
 </div>
-<script src="../js/userorder3.js"></script>
+<script src="../js/userorder5.js"></script>
 </body>
 </html>

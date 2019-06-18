@@ -33,6 +33,12 @@ if($cek > 0){
 		$_SESSION['status'] = $status1;
 		header('location:../view/admin/washme-user.php');
 	}
+	elseif($status1 == 'driver'){
+		$_SESSION['username'] = $username;
+		$_SESSION['password'] = $password;
+		$_SESSION['status'] = $status1;
+		header('location:../view/driver/driver.php');
+	}
 }else{
 	header('location:../view/login.php?pesan=gagal');
 }

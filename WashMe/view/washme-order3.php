@@ -30,6 +30,7 @@
 			include "../php/connection.php";
 
 			$id = $_SESSION['id'];
+			$user = $_SESSION['user'];
 
 			$sql = "select * from laundrys where id='$id'";
 			$query = mysqli_query($conn,$sql);
@@ -38,16 +39,14 @@
 			$id = $res['id'];
 			$service = $res['service'];
 			$harga = $res['harga'];
-				$sql1 = "select * from transaksi";
-				$query1 = mysqli_query($conn,$sql1);
-				$num1 = mysqli_num_rows($query1);
-				$tgl = date('Y-m-d');
-				$angka = $num1 + 1;
-				$notransaksi = "TL-$angka";
+			$sql1 = "select * from temptransaksi where user='$user'";
+			$query1 = mysqli_query($conn,$sql1);
+			$res1 = mysqli_fetch_array($query1);
+			$notransaksi = $res1['no'];
 		?>
 	<div class="box">
 		<div class="box1">
-			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="text" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo($id)?>">
 			<div class="flex">
 				<div class="box-in1">
@@ -79,6 +78,6 @@
 	</div>
 	</form>
 </div>
-<script src="../js/userorder3.js"></script>
+<script src="../js/userorder5.js"></script>
 </body>
 </html>

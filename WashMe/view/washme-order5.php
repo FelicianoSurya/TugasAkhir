@@ -32,12 +32,10 @@
 				$id = $res['id'];
 				$time_open = $res['time_open'];
 				$time_close = $res['time_close'];
-				$sql1 = "select * from transaksi";
+				$sql1 = "select * from temptransaksi";
 				$query1 = mysqli_query($conn,$sql1);
-				$num1 = mysqli_num_rows($query1);
-				$tgl = date('Y-m-d');
-				$angka = $num1 + 1;
-				$notransaksi = "TL-$angka";
+				$res1 = mysqli_fetch_array($query1);
+				$notransaksi = $res1['no'];
 			?>
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">

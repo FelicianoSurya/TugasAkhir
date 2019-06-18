@@ -101,4 +101,4 @@
 	</div>
 </body>
 </html>
-<script type="text/javascript" src="../../js/admin/admin.js">	</script>
+<script type="text/javascript" src="../../js/admin/admin.js"></script>

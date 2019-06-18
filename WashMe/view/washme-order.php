@@ -16,6 +16,13 @@
 		include "../php/connection.php";
 
 		$id = $_SESSION['id'];
+		$name = $_SESSION['name'];
+		$username = $_SESSION['username'];
+
+		$sql1 = "select * from user where username='$username'";
+		$query1 = mysqli_query($conn,$sql1);
+		$re1 = mysqli_fetch_array($query1);
+		$name = $re1['name'];
 
 		$sql = "select * from laundrys where id='$id'";
 		$query = mysqli_query($conn,$sql);
@@ -31,7 +38,8 @@
 			<div class="back"><a href="home.php"><img src="../asset/images/left-arrow.png" class="img"></a></div>
 		</div>
 		<div class="padding flex">
-			<input type="hidden" name="" value="<?php echo($id)?>">
+			<input type="hidden" name="id" value="<?php echo($id)?>">
+			<input type="text" name="name" value="<?php echo($name)?>">
 			<div class="text"><?php echo $nama?>, <?php echo $alamat?></div>
 			<div class="border-mid"><img src="../asset/images/map.png" class="img"></div>
 		</div>
@@ -43,12 +51,12 @@
 			<div class="text2">until <?php echo $time_close?> today</div>
 		</div>
 		<div class="background1">
-			<input type="hidden" name="nama" id="nama" value="<?php echo $nama;?>">
+			<input type="hidden" name="name" id="name" value="<?php echo $nama;?>">
 			<input type="hidden" name="alamat" id="alamat" value="<?php echo $alamat;?>">
-			<button class="button" type="button" name="order" id="order" onclick="save_User(<?php echo "'$id','$nama','$alamat'";?>)">Fill Order Format</button>
+			<button class="button" type="button" name="order" id="order" onclick="save_User(<?php echo "'$id','$name','$nama','$alamat'";?>)">Fill Order Format</button>
 		</div>
 	</div>
 </form>
-<script src="../js/userorder3.js"></script>
+<script src="../js/userorder5.js"></script>
 </body>
 </html>

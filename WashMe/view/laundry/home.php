@@ -73,7 +73,7 @@
 					<img src="../../asset/images/laundry-ateng.jpg" class="img">
 					<div class="left">
 						<div class="flex2">
-							<p class="text2">Mega Laundry</p>
+							<p class="text2"><?php echo $name?></p>
 							<button class="button">Send</button>
 						</div>
 						<input type="text" name="comment" id="comment" placeholder="Type your comment here" class="input">
@@ -124,7 +124,7 @@
 					<div class="text">Home</div>
 				</div>
 			</a>
-			<a href="myorders.php">
+			<a href="menu-order.php">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Orders</div>

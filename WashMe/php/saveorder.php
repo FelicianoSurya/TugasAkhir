@@ -17,12 +17,13 @@
 	$batas_deliv = $_POST['batas_deliv'];
 	$alamat_deliv = $_POST['alamat_deliv'];
 	$note_deliv = $_POST['note_deliv'];
+	$user = $_POST['user'];
 	$submit = $_POST['submit'];
 	$submit1 = $_POST['submit1'];
 	$next = $_POST['next'];
 
 	if($submit == 'submit'){
-		$sql = "insert into temptransaksi(no,id,tgl_ambil,jam_ambil,batas_ambil,alamat_ambil,note_ambil) values('$notransaksi','$id','$tgl_ambil','$jam_ambil','$batas_ambil','$alamat_ambil','$note_ambil')";
+		$sql = "insert into temptransaksi(no,id,tgl_ambil,jam_ambil,batas_ambil,alamat_ambil,note_ambil,user) values('$notransaksi','$id','$tgl_ambil','$jam_ambil','$batas_ambil','$alamat_ambil','$note_ambil','$user')";
 		$query = mysqli_query($conn,$sql);
 		header("location:../view/washme-order3.php");
 	}

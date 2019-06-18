@@ -1,10 +1,11 @@
-login user = username : feliciano
-	     password : feliciano123
+login user = username : fleren
+	     password : fleren16
 
 login admin = username : admin
 	      password : admin
 
-login laundry = username : fleren
-		password : fleren
+login laundry = username : flyring111
+		password : hacked12
 
 file wash me didalam folder view
+yang web tidak berfungsi

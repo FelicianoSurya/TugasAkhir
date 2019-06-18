@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +14,14 @@
 </head>
 <body>
 <form action="save.php" method="POST">
+	<?php
+		$name = $_SESSION['name'];
+		include "../../php/connection.php";
+		$sql = "select * from laundrys where name='$name'";
+		$query = mysqli_query($conn,$sql);
+		$re = mysqli_fetch_array($query);
+	?>
+	<input type="text" name="name" id="name" value="<?php echo $name?>">
 	<div class="container-fluid-screen">
 	<div class="body">
 		<div class="flex header">
@@ -77,7 +88,7 @@
 					<div class="text1">Home</div>
 				</div>
 			</a>
-			<a href="myorders.php">
+			<a href="menu-order.php">
 				<div class="box4">
 					<img src="../../asset/images/shopping-list2.png" class="img2">
 					<div class="text1">Orders</div>

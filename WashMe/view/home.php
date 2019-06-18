@@ -19,7 +19,6 @@
 		$sql = "select * from user where username='$username'";
 		$query = mysqli_query($conn,$sql);
 		$re = mysqli_fetch_array($query);
-		$name = $re['name'];
 		$coin = $re['coin'];
 		?>
 		<div class="flex">
@@ -99,7 +98,12 @@
 			</div>
 			<div class="flex border1">
 				<?php
+					$username = $_SESSION['username'];
 					include "../php/connection.php";
+					$sql1 = "select * from user where username='$username'";
+					$query1 = mysqli_query($conn,$sql1);
+					$re1 = mysqli_fetch_array($query1);
+					$name = $re1['name'];
 					$sql = "select * from laundrys";
 					$query = mysqli_query($conn,$sql);
 					$num = mysqli_num_rows($query);
@@ -116,7 +120,8 @@
 						$image = $re['image'];
 						$id = $re['id'];
 				?>
-				<form onclick="saveUser(<?php echo "'$id'";?>)">
+				<input type="hidden" name="name" id="name" value="<?php echo $name?>">
+				<form onclick="saveUser(<?php echo "'$id','$name'";?>)">
 				<div class="box-place">
 					<div class="image-place">
 						<img src="<?php echo $image?>" alt="laundry-ateng">
@@ -244,7 +249,7 @@
 				<div class="text2">Easy to use and trusted. FREE!</div>
 				<div class="flex">
 					<button class="button" data-toggle="modal" data-target="#openlaundry">Open your Laundry</button>
-					<div class="text3"><u>Learn more</u></div>
+					<button class="button" data-toggle="modal" data-target="#beDriver">Be a Driver</button>
 				</div>
 			</div>
 			<div class="col-sm-4"><img src="../asset/images/laundry3.png" class="img"></div>
@@ -258,24 +263,28 @@
 					</div>
 					<div class="modal-body">
 						<div class="form-group">
-							<label class="label" style="font-size: 40px;">Text Request :</label><br>
-							<textarea name="req" id="req" autocomplete="off" class="form-control" rows="3" style="font-size: 40px"></textarea>
+							<label class="label" style="font-size: 35px;">Text Request :</label><br>
+							<textarea name="req" id="req" autocomplete="off" class="form-control" rows="3" style="font-size: 35px"></textarea>
 						</div>
 						<div class="form-group">
-							<label class="label" style="font-size: 40px;">Laundry Name :</label><br>
-							<input type="text" name="laundryname" id="laundryname" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
+							<label class="label" style="font-size: 35px;">Owner :</label><br>
+							<input type="text" name="owner" id="owner" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
 						</div>
 						<div class="form-group">
-							<label class="label" style="font-size: 40px;">Address :</label><br>
-							<input type="text" name="alamat" id="alamat" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
+							<label class="label" style="font-size: 35px;">Laundry Name :</label><br>
+							<input type="text" name="laundryname" id="laundryname" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
 						</div>
 						<div class="form-group">
-							<label class="label" style="font-size: 40px;">City :</label><br>
-							<input type="text" name="kota" id="kota" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
+							<label class="label" style="font-size: 35px;">Address :</label><br>
+							<input type="text" name="alamat" id="alamat" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
 						</div>
 						<div class="form-group">
-							<label class="label" style="font-size: 40px;">Phone Number :</label><br>
-							<input type="text" name="nohp" id="nohp" autocomplete="off" class="form-control" style="height: 80px; font-size: 40px;">
+							<label class="label" style="font-size: 35px;">City :</label><br>
+							<input type="text" name="kota" id="kota" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
+						</div>
+						<div class="form-group">
+							<label class="label" style="font-size: 35px;">Phone Number :</label><br>
+							<input type="text" name="nohp" id="nohp" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
 						</div>
 					</div>
 					<div class="modal-footer">
@@ -283,8 +292,44 @@
 							$username = $_SESSION['username'];
 							$date = date('Y-m-d H:i:s');
 						?>
-						<button type="button" style="font-size: 50px;" class="btn btn-info" data-dismiss="modal" onclick="request(<?php echo "'$username','$date'" ?>)">Submit</button>
-						<button type="button" style="font-size: 50px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+						<button type="button" style="font-size: 40px;" class="btn btn-info" data-dismiss="modal" onclick="requestLaundry(<?php echo "'$username','$date'" ?>)">Submit</button>
+						<button type="button" style="font-size: 40px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="beDriver" role="dialog">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content" style="height: 1200px; width: 700px; margin-left: -100px;">
+					<div class="modal-header">
+						<h4 class="modal-title" style="font-size: 50px;">Request Driver</h4>
+						<button type="button" class="close" data-dismiss="modal" style="font-size: 80px;">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label class="label" style="font-size: 35px;">Text Request :</label><br>
+							<textarea name="req" id="req1" autocomplete="off" class="form-control" rows="3" style="font-size: 35px"></textarea>
+						</div>
+						<div class="form-group">
+							<label class="label" style="font-size: 35px;">Name :</label><br>
+							<input type="text" name="nama" id="nama" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
+						</div>
+						<div class="form-group">
+							<label class="label" style="font-size: 35px;">Address :</label><br>
+							<input type="text" name="alamat" id="alamat1" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
+						</div>
+						<div class="form-group">
+							<label class="label" style="font-size: 35px;">Phone Number :</label><br>
+							<input type="text" name="nohp" id="nohp1" autocomplete="off" class="form-control" style="height: 80px; font-size: 35px;">
+						</div>
+					</div>
+					<div class="modal-footer">
+						<?php
+							$username = $_SESSION['username'];
+							$date = date('Y-m-d H:i:s');
+						?>
+						<button type="button" style="font-size: 40px;" class="btn btn-info" data-dismiss="modal" onclick="requestDriver(<?php echo "'$username','$date'" ?>)">Submit</button>
+						<button type="button" style="font-size: 40px;" class="btn btn-danger" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -344,5 +389,5 @@
 		
 </body>
 </html>
-<script src="../js/home1.js"></script>
-<script src="../js/userorder3.js"></script>
+<script src="../js/home3.js"></script>
+<script src="../js/userorder5.js"></script>

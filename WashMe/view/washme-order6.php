@@ -41,12 +41,6 @@
 				$total = $res['total'];
 				$name = $res['name'];
 				$tgl_deliv = $res['tgl_deliv'];
-				$sql1 = "select * from transaksi";
-				$query1 = mysqli_query($conn,$sql1);
-				$num1 = mysqli_num_rows($query1);
-				$tgl = date('Y-m-d');
-				$angka = $num1 + 1;
-				$notransaksi = "TL-$angka";
 			?>
 			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">

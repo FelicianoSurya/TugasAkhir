@@ -25,6 +25,7 @@
 				include "../php/connection.php";
 
 				$id = $_SESSION['id'];
+				$name = $_SESSION['name'];
 				$nama = $_SESSION['nama'];
 				$alamat = $_SESSION['alamat'];
 
@@ -35,17 +36,18 @@
 				$id = $res['id'];
 				$time_open = $res['time_open'];
 				$time_close = $res['time_close'];
-				$sql1 = "select * from transaksi";
+				$sql1 = "select * from temptransaksi";
 				$query1 = mysqli_query($conn,$sql1);
 				$num1 = mysqli_num_rows($query1);
 				$tgl = date('Y-m-d');
 				$angka = $num1 + 1;
 				$notransaksi = "TL-$angka";
 			?>
-			<input type="hidden" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
+			<input type="text" name="notransaksi" id="notransaksi" value="<?php echo $notransaksi;?>">
 			<input type="hidden" name="id" id="id" value="<?php echo $id;?>">
-			<input type="text" name="nama" id="nama" value="<?php echo $nama;?>">
-			<input type="text" name="alamat" id="alamat" value="<?php echo $alamat;?>">
+			<input type="hidden" name="user" id="user" value="<?php echo $name;?>">
+			<input type="hidden" name="nama" id="nama" value="<?php echo $nama;?>">
+			<input type="hidden" name="alamat" id="alamat" value="<?php echo $alamat;?>">
 			<div class="text1">Set Pick Up Date</div>
 			<div>
 				<input type="date" name="tgl_ambil" id="tgl_ambil" class="select">
